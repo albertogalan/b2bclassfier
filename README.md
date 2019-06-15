@@ -18,7 +18,12 @@ B2B Classifier
 - We create a solution to validate potential customers base on the domain
 - We use Web scraping and NLP classificaiton techniques to resolve the problem massively
 
-### How to use
+## How to install
+
+
+Install
+`ip install -r requirements.txt`
+
 
 
 Company A has 200 customers , 
