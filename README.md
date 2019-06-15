@@ -2,25 +2,41 @@ B2B Classifier
 
 
 # What is this tool?
-##Marketing tool segmentation of potential Customers  for B2B companies 
+## Marketing tool segmentation of potential Customers  for B2B companies 
+
+
+
 
 # Problem to resolve
 
-Small and Medium size companies  don't have the necessary human resource to find new leads
+## Small and Medium size companies  don't have the necessary human resource to find new leads
 
-The Solution: 
+# Solution 
 
-A Massive Lead Classification 
+## A Massive Lead Classification 
 
-We create a solution to validate potential customers base on the domain
-We use Web scraping and NLP classificaiton techniques to resolve the problem massively
+- We create a solution to validate potential customers base on the domain
+- We use Web scraping and NLP classificaiton techniques to resolve the problem massively
 
-For example
+### How to use
+
 
 Company A has 200 customers , 
 
-he provides us the domain of each customer in to our service
-he provides us some keywords
+- Provides us the domain of each customer in to our service
+
+domain01.org
+
+domain02.org
+
+domain03.org
+
+Provides us some relevant keywords about their customers and products
+
+
+he provides a list of domains 
+
+We check every domain
 
 
 domain1 
