@@ -1,4 +1,4 @@
-
+B2B Classifier 
 
 
 What is this tool?
@@ -9,7 +9,9 @@ Problem to resolve
 
 Small and Medium size companies  don't have the necessary human resource to find new leads
 
-The Solution: A Massive Lead Classification 
+The Solution: 
+
+A Massive Lead Classification 
 
 We create a solution to validate potential customers base on the domain
 We use Web scraping and NLP classificaiton techniques to resolve the problem massively
