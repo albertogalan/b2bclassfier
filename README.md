@@ -1,11 +1,10 @@
 B2B Classifier 
 
 
-What is this tool?
- Marketing tool segmentation of potential Customers
- for B2B companies 
+# What is this tool?
+##Marketing tool segmentation of potential Customers  for B2B companies 
 
-Problem to resolve
+# Problem to resolve
 
 Small and Medium size companies  don't have the necessary human resource to find new leads
 
