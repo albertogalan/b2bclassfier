@@ -8,12 +8,23 @@ A B2B domain Classifier
 
 ## Small and Medium size companies  don't have the necessary human resource to find new leads
 
+
 # Solution 
 
 ## A Massive Lead Classification 
 
 - We create a solution to validate potential customers base on the domain
 - We use Web scraping and NLP classification techniques to resolve the problem massively
+
+## Features
+
+- Validate domains across different countries
+- Validate domains in different languages
+- Automatic testing if samples are good
+- Output the domains are potential customers
+- Scalable 
+- Multiplatform ( Linux, Windows, Mac )
+
 
 ## How to install
 
