@@ -2,18 +2,17 @@ A B2B domain Classifier
 
 
 # What is this tool?
-## Marketing tool to validate domains if they are potential Customers for B2B companies 
+## Marketing tool to validate company domains if they are potential Customers 
 
 # Problem to resolve
 
 ## Small and Medium size companies  don't have the necessary human resource to find new leads
 
-
 # Solution 
 
 ## A Massive Lead Classification 
 
-- We create a solution to validate potential customers base on the domain
+- Validation potential customers base on the domain
 - We use Web scraping and NLP classification techniques to resolve the problem massively
 
 ## Features
@@ -49,16 +48,22 @@ Create Selenium headless services on port 4444
 company01.txt is a file containing the information to scrap 
 
 ### company01 format
-outputfile  false list.md "keyword1;keyword2;.."  "keysearch1;keysear2;keysearch3"
+> freqcustomers  false customers.md "keyword1;keyword2;.."  "keysearch1;keysear2;keysearch3"
+> freqdomaintovalidate  false domainstocheck.md "keyword1;keyword2;.."  "keysearch1;keysear2;keysearch3"
 
-outputfile  is the output filename
+freqcustomers  is the output filename
+
+freqdomaintovalidate  is the output filename
+
+customers.md  list of customers domains
+
+domainstocheck.md list of domains to check if they are potential leads
 
 keyword1 ... are the keywords we want to find in the search engine something like:
    
    "site:domain.org  keyword"
     
 keysearch1 ... are the keywords we want to check the frequency
-
 
 list of domains that are actual customers
 
