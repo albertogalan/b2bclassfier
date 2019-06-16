@@ -56,7 +56,7 @@ keysearch1 ... are the keywords we want to check the frequency
 
 list of domains that are actual customers
 
-### Validate domains
+## Validate domains
 
 `cd analysis`
 
@@ -69,6 +69,3 @@ execute to analysis of customers
 customers.csv is the frequency file of the existing customers
 
 >  Check leads if they are in cluster:  <16-06-19, agalan> > 
-
-
-
