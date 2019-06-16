@@ -1,14 +1,98 @@
 A B2B domain Classifier 
 
 
-# What is this tool?
-## Marketing tool to validate company domains if they are potential Customers 
 
-# Problem to resolve
+# Problem
 
-## Small and Medium size companies  don't have the necessary human resource to find new leads
+You want to find customers, but where are they?
 
-# Solution 
+==== 
+
+
+What do you do ?
+
+- Find a in a database
+- Search in google
+
+======
+
+
+This is half of your time
+
+=====
+
+
+# Solution The Anteater
+
+- Find a customer is hard, as find ants
+
+    =========
+
+
+- You can do it yourself 
+           
+           or 
+
+- you can get an Anteater
+
+
+=====  ======
+
+Demo(video):
+
+= =  = == =  = = =
+
+- Give me 10 customers, I give you 50 customers
+
+- Or give 1000 leads and I give you the top 10th 
+
+====  =======
+
+How do we make money? 
+
+PaaS  Pay as a Service
+
+- Basic  -- Freelancers   50$/month 100 results
+- Business  -- Small medium Size Companies  399$/month  1000 results
+- Cooporate  -- Corporate    1200$/month 4000 results
+
+100 customers = 20.000 $/month
+
+===========
+
+One company in Chemical industry 200 employees in China , 
+want to search international customers
+
+6000 $ for a database
+4 months of salary for a marketing guy.
+
+Our solution
+
+We give Better results, cheaper results, faster results
+
+============
+
+
+Our vision
+
+This is a unique service non-given by other suppliers
+Scale up in China, Europe and USA
+
+=============
+
+Automatically give pick up 
+
+what are the keywords
+Provide the domains
+
+
+===============
+
+
+
+
+
+
 
 ## A Massive Lead Classification 
 
@@ -23,6 +107,7 @@ A B2B domain Classifier
 - Output the domains are potential customers
 - Scalable 
 - Multiplatform ( Linux, Windows, Mac )
+
 
 
 ## How to install

@@ -1,0 +1,17 @@
+site:ee.xjtu.edu.cn
+site:www.dikai.com.cn
+site:www.shbst.com
+site:www.rstchina.com
+site:rstchina.com
+site:www.rogy.cn
+site:www.airborne-em.com
+site:ahspd.com
+site:cn.sungrowpower.com
+site:www.cqscdqc.com
+site:www.lyspd.com
+site:bjxh.crsc.cn
+site:www.dehn.cn
+site:www.xihari.com
+site:www.spd-th.com
+site:www.chint.net
+site:www.yz-telecom.com

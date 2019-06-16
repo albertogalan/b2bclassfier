@@ -1,0 +1,9 @@
+site:www.tecnalia.com
+site:www.inmr.com
+site:www.precise.co.th
+site:www.vangem.com
+site:www.jsdgme.com
+site:www.lzdcrs.com
+site:kingbow.com
+site:www.crcc.org.cn
+site:xdblq.xd.com.cn

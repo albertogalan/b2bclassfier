@@ -16,8 +16,8 @@ import random
 from time import sleep
 
 # prevent detected by google
-DELAY_FROM=4
-DELAY_TO=10
+DELAY_FROM=0
+DELAY_TO=0
 
 parser = argparse.ArgumentParser(description='Test in Websites use selenium ')
 parser.add_argument('--file',default="output", help='file name without extension')
@@ -75,7 +75,7 @@ class Browsertest (unittest.TestCase):
     def readhtml_test(self,file):
         # read html from a file
         # for fast testing and have a clear test framework
-        print('reading file '+ file)
+        #print('reading file '+ file)
         f = open(file, "r")
         html=f.read() 
         return html
@@ -238,7 +238,7 @@ def generate_data_google(br,search,searchkeys,keyword):
            html=br.readhtml_test('./tests/html-alberto.html')
        else:
            name=br.identifier+"-"+sky+"-"+ky
-           print(name)
+           print(ky)
            filehtml='./.tmp/'+str(hash64(name)) +".html"
            filehtml='./.tmp/'+name +".html"
            os.makedirs(os.path.dirname(filehtml), exist_ok=True)
@@ -290,7 +290,10 @@ def one_test_google(identifier,uniqsearch):
 
     br1 = Browsertest(test)
 
-    print("uniq search is " +uniqsearch)
+    print("   " )
+    print("   " )
+    print("Scraping ...  " +uniqsearch)
+    print("..   " )
     line=[]
     line.append(identifier+" ") # adding a space to to see more clear the file
     line.append(uniqsearch)
