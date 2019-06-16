@@ -1,0 +1,1365 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /data/src/test/anteater
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 76
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 19
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 3083061
+    content: "git alias  gst,gl,gp,gpa,gd,ga,gcl,gc,gca,gbc,gba,gco  \r\ngit fzf  gf,gb,gt,gh,gr\r\nθ\e[31m62°\e[m\x0F \e[1m\e[34m[\e[m\x0Fagalan\e[m\x0F\e[32m:\e[m\x0F\e[1m/data … anteater\e[m\x0F\e[1m\e[34m]\e[m\x0F \e[31mmaster\e[m\x0F(\e[35m+2/-391\e[m\x0F)\e[31m\e[m\x0F \e[1m±\e[m\x0F "
+  - delay: 2313
+    content: l
+  - delay: 112
+    content: s
+  - delay: 144
+    content: "\r\n\e[0m\e[01;34manalysis\e[0m  \e[01;34mdata\e[0m  \e[01;34mdemo\e[0m  \e[01;32mdemo.sh\e[0m  \e[01;34menv\e[0m  README.md  requirements.txt  \e[01;34mscraping\e[0m\r\n"
+  - delay: 73
+    content: "θ\e[31m61°\e[m\x0F \e[1m\e[34m[\e[m\x0Fagalan\e[m\x0F\e[32m:\e[m\x0F\e[1m/data … anteater\e[m\x0F\e[1m\e[34m]\e[m\x0F \e[31mmaster\e[m\x0F(\e[35m+9/-100\e[m\x0F)\e[31m*\e[31m\e[m\x0F \e[1m±\e[m\x0F "
+  - delay: 4803
+    content: c
+  - delay: 176
+    content: d
+  - delay: 289
+    content: ' '
+  - delay: 167
+    content: a
+  - delay: 233
+    content: 'n'
+  - delay: 95
+    content: a
+  - delay: 220
+    content: lysis/
+  - delay: 459
+    content: "\r\n"
+  - delay: 78
+    content: "θ\e[31m60°\e[m\x0F \e[1m\e[34m[\e[m\x0Fagalan\e[m\x0F\e[32m:\e[m\x0F\e[1m/data … analysis\e[m\x0F\e[1m\e[34m]\e[m\x0F \e[31mmaster\e[m\x0F(\e[35m+9/-100\e[m\x0F)\e[31m*\e[31m\e[m\x0F \e[1m±\e[m\x0F "
+  - delay: 483
+    content: l
+  - delay: 80
+    content: s
+  - delay: 162
+    content: "\r\ncustomer.csv      data_cleaner.py   leads.csv\r\ndata_analysis.py  data_cleaner.pyc\r\n"
+  - delay: 82
+    content: "θ\e[31m60°\e[m\x0F \e[1m\e[34m[\e[m\x0Fagalan\e[m\x0F\e[32m:\e[m\x0F\e[1m/data … analysis\e[m\x0F\e[1m\e[34m]\e[m\x0F \e[31mmaster\e[m\x0F(\e[35m+9/-100\e[m\x0F)\e[31m*\e[31m\e[m\x0F \e[1m±\e[m\x0F "
+  - delay: 4299
+    content: r
+  - delay: 56
+    content: m
+  - delay: 136
+    content: ' '
+  - delay: 432
+    content: l
+  - delay: 64
+    content: e
+  - delay: 352
+    content: a
+  - delay: 254
+    content: 'ds.csv '
+  - delay: 2570
+    content: "\r\n"
+  - delay: 91
+    content: "θ\e[31m60°\e[m\x0F \e[1m\e[34m[\e[m\x0Fagalan\e[m\x0F\e[32m:\e[m\x0F\e[1m/data … analysis\e[m\x0F\e[1m\e[34m]\e[m\x0F \e[31mmaster\e[m\x0F(\e[35m+9/-100\e[m\x0F)\e[31m*\e[31m\e[m\x0F \e[1m±\e[m\x0F "
+  - delay: 421
+    content: c
+  - delay: 176
+    content: d
+  - delay: 64
+    content: ' '
+  - delay: 144
+    content: .
+  - delay: 120
+    content: .
+  - delay: 200
+    content: "\r\n"
+  - delay: 89
+    content: "θ\e[31m61°\e[m\x0F \e[1m\e[34m[\e[m\x0Fagalan\e[m\x0F\e[32m:\e[m\x0F\e[1m/data … anteater\e[m\x0F\e[1m\e[34m]\e[m\x0F \e[31mmaster\e[m\x0F(\e[35m+9/-100\e[m\x0F)\e[31m*\e[31m\e[m\x0F \e[1m±\e[m\x0F "
+  - delay: 183
+    content: l
+  - delay: 80
+    content: s
+  - delay: 136
+    content: "\r\n\e[0m\e[01;34manalysis\e[0m  \e[01;34mdata\e[0m  \e[01;34mdemo\e[0m  \e[01;32mdemo.sh\e[0m  \e[01;34menv\e[0m  README.md  requirements.txt  \e[01;34mscraping\e[0m\r\n"
+  - delay: 82
+    content: "θ\e[31m61°\e[m\x0F \e[1m\e[34m[\e[m\x0Fagalan\e[m\x0F\e[32m:\e[m\x0F\e[1m/data … anteater\e[m\x0F\e[1m\e[34m]\e[m\x0F \e[31mmaster\e[m\x0F(\e[35m+9/-100\e[m\x0F)\e[31m*\e[31m\e[m\x0F \e[1m±\e[m\x0F "
+  - delay: 8283
+    content: v
+  - delay: 56
+    content: i
+  - delay: 63
+    content: m
+  - delay: 137
+    content: ' '
+  - delay: 240
+    content: R
+  - delay: 88
+    content: E
+  - delay: 514
+    content: 'ADME.md '
+  - delay: 582
+    content: "\r\n"
+  - delay: 151
+    content: "\e[?1049h\e[?1h\e=\e[1;19r\e[23m\e[24m\e[0m\e[H\e[J\e[?25l\e[19;1H\"README.md\" 91L, 1976C"
+  - delay: 128
+    content: "\e[34h\e[?25h"
+  - delay: 24
+    content: "\r\e[?25l\e[1;1H\e[38;5;130m  1 \e[0m\e[4m#\e[24m\e[4m\e[35m Ant Eater \e[24m\e[0m\e[4m                                                            \e[24m\e[2;1H\e[38;5;130m  2 \r\n  3 \e[0m##\e[35m A Massive Lead Classification \e[0m\r\n\e[38;5;130m  4 \r\n  5 \e[0m\e[36m-\e[0m Validation potential customers base on the domain\r\n\e[38;5;130m  6 \e[0m\e[36m-\e[0m We use Web scraping and NLP classification techniques to resolve the pp\e[7;1H\e[38;5;130m    \e[0mroblem massively\r\n\e[38;5;130m  7 \r\n  8 \e[0m##\e[35m Features\e[0m\r\n\e[38;5;130m  9 \r\n 10 \e[0m\e[36m-\e[0m Validate domains across different countries\r\n\e[38;5;130m 11 \e[0m\e[36m-\e[0m Validate domains in different languages\r\n\e[38;5;130m 12 \e[0m\e[36m-\e[0m Automatic testing if samples are good\r\n\e[38;5;130m 13 \e[0m\e[36m-\e[0m Output the domains are potential customers\r\n\e[38;5;130m 14 \e[0m\e[36m-\e[0m Scalable\r\n\e[38;5;130m 15 \e[0m\e[36m-\e[0m Multiplatform ( Linux, Windows, Mac )\r\n\e[38;5;130m 16 \e[0m\r\n \e[1mN\e[0m  README.md\e[40Cmar…\e[18;60H268W  --1%-- \e[1m1\e[0m:1\e[1;5H\e[34h\e[?25h"
+  - delay: 12
+    content: "\e[?25l\b\b\e[38;5;130m  1 \e[0m\e[4m#\e[24m\e[4m\e[35m Ant Eater \e[24m\e[0m\e[2;3H\e[38;5;130m  2 \r\n    3 \e[0m##\e[1C\e[35mA Massive Lead Classification \e[0m\e[4;3H\e[38;5;130m  4 \r\n    5 \e[0m\e[36m-\e[0m Validation potential customers base on the domain\e[6;3H\e[38;5;130m  6 \e[0m\e[36m-\e[0m We use Web scraping and NLP classification techniques to resolve thee\e[7;1H\e[38;5;130m      \e[0m problem massively\e[8;3H\e[38;5;130m  7 \r\n    8 \e[0m##\e[35m Features\e[0m\e[10;3H\e[38;5;130m  9 \r\n   10 \e[0m\e[36m-\e[0m Validate domains across different countries\e[12;2H\e[38;5;130m  11 \e[0m\e[36m-\e[0m Validate domains in different languages\e[13;2H\e[38;5;130m  12 \e[0m\e[36m-\e[0m Automatic testing if samples are good\e[14;2H\e[38;5;130m  13 \e[0m\e[36m-\e[0m Output the domains are potential customers\e[15;2H\e[38;5;130m  14 \e[0m\e[36m-\e[0m Scalable\e[16;2H\e[38;5;130m  15 \e[0m\e[36m-\e[0m Multiplatform ( Linux, Windows, Mac )\e[17;2H\e[38;5;130m  16 \e[0m\e[1;1H~_\e[17;1H\e[94m_ \e[1;7H\e[34h\e[?25h"
+  - delay: 1012
+    content: "\e[?25l\e[0m\e[19;66H~@k\e[1;7H"
+  - delay: 11
+    content: "\e[19;66H   \e[2;7H\e[1;7H#\e[35m Ant Eater \e[0m\e[1;19H\e[K\e[2;7H\e[4m                                                                      \e[24m\e[18;68H2%-- \e[1m2\e[0m:0\e[2;7H\e[34h\e[?25h"
+  - delay: 114
+    content: "\e[?25l\e[19;66H~@k\e[2;7H\e[19;66H   \e[3;7H\e[2;7H\e[K\e[3;7H\e[4m##\e[24m\e[4m\e[35m A Massive Lead Classification \e[24m\e[0m\e[4m                                     \e[24m\e[18;68H3%-- \e[1m3\e[0m:1\e[3;7H\e[34h\e[?25h"
+  - delay: 125
+    content: "\e[?25l\e[19;66H~@k\e[3;7H\e[19;66H   \e[4;7H\e[3;7H##\e[35m A Massive Lead Classification \e[0m\e[3;40H\e[K\e[4;7H\e[4m                                                                      \e[24m\e[18;68H4%-- \e[1m4\e[0m:0\e[4;7H\e[34h\e[?25h"
+  - delay: 658
+    content: "\e[?25l\e[19;66H~@k\e[4;7H"
+  - delay: 12
+    content: "\e[19;66H   \e[5;7H\e[4;7H\e[K\e[5;7H\e[4m\e[36m-\e[24m\e[0m\e[4m Validation potential customers base on the domain                   \e[24m\e[18;68H5%-- \e[1m5\e[0m:1\e[5;7H\e[34h\e[?25h"
+  - delay: 53
+    content: "\e[?25l\e[19;66H~@k\e[5;7H\e[19;66H   \e[6;7H\e[5;7H\e[36m-\e[0m Validation potential customers base on the domain\e[5;58H\e[K\e[6;7H\e[4m\e[36m-\e[24m\e[0m\e[4m We use Web scraping and NLP classification techniques to resolve thee\e[24m\e[7;1H\e[38;5;130m \e[0m\e[5C\e[4m problem massively                                                    \e[24m\e[18;68H6%-- \e[1m6\e[6;7H\e[34h\e[?25h"
+  - delay: 28
+    content: "\e[?25l\e[0m\e[19;66H~@k\e[6;7H\e[19;66H   \e[8;7H\e[6;7H\e[36m-\e[0m We use Web scraping and NLP classification techniques to resolve thee\e[7;1H\e[38;5;130m \e[0m\e[5C problem massively\e[7;25H\e[K\e[8;7H\e[4m                                                                      \e[24m\e[18;68H7%-- \e[1m7\e[0m:0\e[8;7H\e[34h\e[?25h"
+  - delay: 24
+    content: "\e[?25l\e[19;66H~@k\e[8;7H\e[19;66H   \e[9;7H\e[8;7H\e[K\e[9;7H\e[4m##\e[24m\e[4m\e[35m Features\e[24m\e[0m\e[4m                                                           \e[24m\e[18;68H8%-- \e[1m8\e[0m:1\e[9;7H\e[34h\e[?25h"
+  - delay: 33
+    content: "\e[?25l\e[19;66H~@k\e[9;7H\e[19;66H   \e[10;7H\e[9;7H##\e[35m Features\e[0m\e[9;18H\e[K\e[10;7H\e[4m                                                                      \e[24m\e[18;68H9%-- \e[1m9\e[0m:0\e[10;7H\e[34h\e[?25h"
+  - delay: 38
+    content: "\e[?25l\e[19;66H~@k\e[10;7H"
+  - delay: 15
+    content: "\e[19;66H   \e[11;7H\e[10;7H\e[K\e[11;7H\e[4m\e[36m-\e[24m\e[0m\e[4m Validate domains across different countries                         \e[24m\e[18;52Hmar…\e[18;56H  268W  --10%-- \e[1m10\e[0m:1\e[11;7H\e[34h\e[?25h"
+  - delay: 34
+    content: "\e[?25l\e[19;66H~@k\e[11;7H\e[19;66H   \e[12;7H\e[11;7H\e[36m-\e[0m Validate domains across different countries\e[11;52H\e[K\e[12;7H\e[4m\e[36m-\e[24m\e[0m\e[4m Validate domains in different languages                             \e[24m\e[18;67H2\e[5C\e[1m1\e[12;7H\e[34h\e[?25h"
+  - delay: 25
+    content: "\e[?25l\e[0m\e[19;66H~@k\e[12;7H\e[19;66H   \e[13;7H\e[12;7H\e[36m-\e[0m Validate domains in different languages\e[12;48H\e[K\e[13;7H\e[4m\e[36m-\e[24m\e[0m\e[4m Automatic testing if samples are good                               \e[24m\e[18;67H3\e[5C\e[1m2\e[13;7H\e[34h\e[?25h"
+  - delay: 37
+    content: "\e[?25l\e[0m\e[19;66H~@k\e[13;7H\e[19;66H   \e[14;7H\e[13;7H\e[36m-\e[0m Automatic testing if samples are good\e[13;46H\e[K\e[14;7H\e[4m\e[36m-\e[24m\e[0m\e[4m Output the domains are potential customers                          \e[24m\e[18;67H4\e[5C\e[1m3\e[14;7H\e[34h\e[?25h"
+  - delay: 41
+    content: "\e[?25l\e[0m\e[19;66H~@k\e[14;7H\e[19;66H   \e[15;7H\e[14;7H\e[36m-\e[0m Output the domains are potential customers\e[14;51H\e[K\e[15;7H\e[4m\e[36m-\e[24m\e[0m\e[4m Scalable                                                            \e[24m\e[18;67H5\e[5C\e[1m4\e[15;7H\e[34h\e[?25h"
+  - delay: 31
+    content: "\e[?25l\e[0m\e[19;66H~@k\e[15;7H\e[19;66H   \e[16;7H\e[15;7H\e[36m-\e[0m Scalable \e[15;18H\e[K\e[16;7H\e[4m\e[36m-\e[24m\e[0m\e[4m Multiplatform ( Linux, Windows, Mac )                               \e[24m\e[18;67H6\e[5C\e[1m5\e[16;7H\e[34h\e[?25h"
+  - delay: 38
+    content: "\e[?25l\e[0m\e[19;66H~@k\e[16;7H\e[19;66H   \e[17;7H\e[16;7H\e[36m-\e[0m Multiplatform ( Linux, Windows, Mac )\e[16;46H\e[K\e[17;7H\e[4m                                                                      \e[24m\e[18;67H7\e[5C\e[1m6\e[0m:0\e[17;7H\e[34h\e[?25h"
+  - delay: 37
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[K\e[17;1H\e[38;5;130m   17 \e[0m\e[4m##\e[24m\e[4m\e[35m How to install\e[24m\e[0m\e[4m                                                     \e[24m\e[19;1H\e[K\e[18;67H8\e[5C\e[1m7\e[0m:1\e[17;7H\e[34h\e[?25h"
+  - delay: 36
+    content: "\e[?25l\e[19;66H~@k\e[17;7H"
+  - delay: 6
+    content: "\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H##\e[35m How to install\e[0m\e[16;24H\e[K\e[17;1H\e[38;5;130m   18 \e[0m\e[4m                                                                      \e[24m\e[18;67H9\e[5C\e[1m8\e[0m:0\e[17;7H\e[34h\e[?25h"
+  - delay: 49
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[K\e[17;1H~ \e[38;5;130m 19 \e[0m\e[4m\e[31m`git clone git@github.com:albertogalan/anteater.git`\e[24m\e[0m\e[4m                  \e[24m\e[18;66H20\e[5C\e[1m9\e[0m:1\e[17;7H\e[34h\e[?25h"
+  - delay: 34
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[31m`git clone git@github.com:albertogalan/anteater.git`\e[0m\e[16;59H\e[K\e[17;1H\e[38;5;130m   20 \e[0m\e[4m                                                                      \e[24m\e[18;67H1%-- \e[1m20\e[0m:0\e[17;7H\e[34h\e[?25h"
+  - delay: 28
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[K\e[17;1H\e[38;5;130m   21 \e[0m\e[4m\e[31m`pip3 install -r requirements.txt`\e[24m\e[0m\e[4m                                    \e[24m\e[18;67H3\e[5C\e[1m1\e[0m:1\e[17;7H\e[34h\e[?25h"
+  - delay: 34
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[16;7H\e[1;17r\e[1;1H\e[2M\e[1;19r\e[15;7H\e[31m`pip3 install -r requirements.txt`\e[0m\e[15;41H\e[K\e[16;1H\e[38;5;130m   22 \e[0m\e[4m                                                                      \e[24m\e[17;1H\e[38;5;130m   23 \e[0m\e[31m`cd scraping`\e[0m\e[18;67H4\e[5C\e[1m2\e[0m:0\e[16;7H\e[34h\e[?25h"
+  - delay: 37
+    content: "\e[?25l\e[19;66H~@k\e[16;7H\e[19;66H   \e[17;7H\e[16;7H\e[K\e[17;7H\e[4m\e[31m`cd scraping`\e[24m\e[0m\e[4m                                                         \e[24m\e[18;67H5\e[5C\e[1m3\e[0m:1\e[17;7H\e[34h\e[?25h"
+  - delay: 37
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[31m`cd scraping`\e[0m\e[16;20H\e[K\e[17;1H\e[38;5;130m   24 \e[0m\e[4m                                                                      \e[24m\e[18;67H6\e[5C\e[1m4\e[0m:0\e[17;7H\e[34h\e[?25h"
+  - delay: 40
+    content: "\e[?25l\e[19;66H~@k\e[17;7H"
+  - delay: 9
+    content: "\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[K\e[17;1H\e[38;5;130m   25 \e[0m\e[4mCreate Selenium headless services on port 4444                        \e[24m\e[18;67H7\e[5C\e[1m5\e[0m:1\e[17;7H\e[34h\e[?25h"
+  - delay: 29
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7HCreate Selenium headless services on port 4444\e[16;53H\e[K\e[17;1H\e[38;5;130m   26 \e[0m\e[4m                                                                      \e[24m\e[18;67H8\e[5C\e[1m6\e[0m:0\e[17;7H\e[34h\e[?25h"
+  - delay: 37
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[K\e[17;1H\e[38;5;130m   27 \e[0m\e[4m\e[31m`docker-compose up -d`\e[24m\e[0m\e[4m                                                \e[24m\e[18;67H9\e[5C\e[1m7\e[0m:1\e[17;7H\e[34h\e[?25h"
+  - delay: 75
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[31m`docker-compose up -d`\e[0m\e[16;29H\e[K\e[17;1H\e[38;5;130m   28 \e[0m\e[4m                                                                      \e[24m\e[18;66H30\e[5C\e[1m8\e[0m:0\e[17;7H\e[34h\e[?25h\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[K\e[17;1H\e[38;5;130m   29 \e[0m\e[4m                                                                      \e[24m\e[18;67H1\e[5C\e[1m9\e[17;7H\e[34h\e[?25h"
+  - delay: 35
+    content: "\e[?25l\e[0m\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[K\e[17;1H\e[38;5;130m   30 \e[0m\e[4m##\e[24m\e[4m\e[35m How to use\e[24m\e[0m\e[4m                                                         \e[24m\e[18;67H2%-- \e[1m30\e[0m:1\e[17;7H\e[34h\e[?25h"
+  - delay: 54
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H##\e[35m How to use\e[0m\e[16;20H\e[K\e[17;1H\e[38;5;130m   31 \e[0m\e[4m                                                                      \e[24m\e[18;67H4\e[5C\e[1m1\e[0m:0\e[17;7H\e[34h\e[?25h"
+  - delay: 23
+    content: "\e[?25l\e[19;66H~@k\e[17;7H"
+  - delay: 6
+    content: "\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[K\e[17;1H\e[38;5;130m   32 \e[0m\e[4m                                                                      \e[24m\e[18;67H5\e[5C\e[1m2\e[17;7H\e[34h\e[?25h"
+  - delay: 67
+    content: "\e[?25l\e[0m\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[K\e[17;1H\e[38;5;130m   33 \e[0m\e[4m###\e[24m\e[4m\e[35m Scraping words frequency\e[24m\e[0m\e[4m                                          \e[24m\e[18;67H6\e[5C\e[1m3\e[0m:1\e[17;7H\e[34h\e[?25h\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H###\e[35m Scraping words frequency\e[0m\e[16;35H\e[K\e[17;1H\e[38;5;130m   34 \e[0m\e[4m                                                                      \e[24m\e[18;67H7\e[5C\e[1m4\e[0m:0\e[17;7H\e[34h\e[?25h"
+  - delay: 38
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[K\e[17;1H\e[38;5;130m   35 \e[0m\e[4m\e[31m`./test-list.sh ../data/company01.txt`\e[24m\e[0m\e[4m                                \e[24m\e[18;67H8\e[5C\e[1m5\e[0m:1\e[17;7H\e[34h\e[?25h"
+  - delay: 37
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[31m`./test-list.sh ../data/company01.txt`\e[0m\e[16;45H\e[K\e[17;1H\e[38;5;130m   36 \e[0m\e[4m                                                                      \e[24m\e[18;67H9\e[5C\e[1m6\e[0m:0\e[17;7H\e[34h\e[?25h"
+  - delay: 39
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[K\e[17;1H\e[38;5;130m   37 \e[0m\e[4mcompany01.txt is a file containing the information to scrap           \e[24m\e[18;66H40\e[5C\e[1m7\e[0m:1\e[17;7H\e[34h\e[?25h"
+  - delay: 41
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7Hcompany01.txt is a file containing the information to scrap \e[16;67H\e[K\e[17;1H\e[38;5;130m   38 \e[0m\e[4m                                                                      \e[24m\e[18;67H1\e[5C\e[1m8\e[0m:0\e[17;7H\e[34h\e[?25h"
+  - delay: 33
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[K\e[17;1H\e[38;5;130m   39 \e[0m\e[4m###\e[24m\e[4m\e[35m company01 format\e[24m\e[0m\e[4m                                                  \e[24m\e[18;67H2\e[5C\e[1m9\e[0m:1\e[17;7H\e[34h\e[?25h"
+  - delay: 44
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[16;7H\e[1;17r\e[1;1H\e[2M\e[1;19r\e[15;7H###\e[35m company01 format\e[0m\e[15;27H\e[K\e[16;1H\e[38;5;130m   40 \e[0m\e[4m\e[34m> freqcustomers  false customers.md \"keyword1;keyword2;..\"  \"keysearchh\e[24m\e[0m\e[17;1H\e[38;5;130m      \e[0m\e[4m\e[34m1;keysear2;keysearch3\"\e[24m\e[0m\e[4m                                                \e[24m\e[18;67H3%-- \e[1m40\e[16;7H\e[34h\e[?25h"
+  - delay: 705
+    content: "\e[?25l\e[0m\e[19;66H~@k\e[16;7H"
+  - delay: 10
+    content: "\e[19;66H   \e[15;7H\e[4m###\e[24m\e[4m\e[35m company01 format\e[24m\e[0m\e[4m                                                  \e[24m\e[16;7H\e[34m> freqcustomers  false customers.md \"keyword1;keyword2;..\"  \"keysearchh\e[0m\e[17;1H\e[38;5;130m \e[0m\e[5C\e[34m1;keysear2;keysearch3\"\e[0m\e[17;29H\e[K\e[18;67H2%-- \e[1m39\e[15;7H\e[34h\e[?25h"
+  - delay: 650
+    content: "\e[?25l\e[0m\e[19;66H~@k\e[15;7H"
+  - delay: 8
+    content: "\e[19;66H   \e[14;7H\e[4m                                                                      \e[24m\e[15;7H###\e[35m company01 format\e[0m\e[15;27H\e[K\e[18;67H1\e[5C\e[1m8\e[0m:0\e[14;7H\e[34h\e[?25h"
+  - delay: 32
+    content: "\e[?25l\e[19;66H~@k\e[14;7H"
+  - delay: 12
+    content: "\e[19;66H   \e[13;7H\e[4mcompany01.txt is a file containing the information to scrap           \e[24m\e[14;7H\e[K\e[18;67H0\e[5C\e[1m7\e[0m:1\e[13;7H\e[34h\e[?25h"
+  - delay: 25
+    content: "\e[?25l\e[19;66H~@k\e[13;7H"
+  - delay: 5
+    content: "\e[19;66H   \e[12;7H\e[4m                                                                      \e[24m\e[13;7Hcompany01.txt is a file containing the information to scrap \e[13;67H\e[K\e[18;66H39\e[5C\e[1m6\e[0m:0\e[12;7H\e[34h\e[?25h"
+  - delay: 35
+    content: "\e[?25l\e[19;66H~@k\e[12;7H\e[19;66H   \e[11;7H\e[4m\e[31m`./test-list.sh ../data/company01.txt`\e[24m\e[0m\e[4m                                \e[24m\e[12;7H\e[K\e[18;67H8\e[5C\e[1m5\e[0m:1\e[11;7H\e[34h\e[?25h"
+  - delay: 38
+    content: "\e[?25l\e[19;66H~@k\e[11;7H\e[19;66H   \e[10;7H\e[4m                                                                      \e[24m\e[11;7H\e[31m`./test-list.sh ../data/company01.txt`\e[0m\e[11;45H\e[K\e[18;67H7\e[5C\e[1m4\e[0m:0\e[10;7H\e[34h\e[?25h"
+  - delay: 47
+    content: "\e[?25l\e[19;66H~@k\e[10;7H\e[19;66H   \e[9;7H\e[4m###\e[24m\e[4m\e[35m Scraping words frequency\e[24m\e[0m\e[4m                                          \e[24m\e[10;7H\e[K\e[18;67H6\e[5C\e[1m3\e[0m:1\e[9;7H\e[34h\e[?25h"
+  - delay: 26
+    content: "\e[?25l\e[19;66H~@k\e[9;7H\e[19;66H   \e[8;7H\e[4m                                                                      \e[24m\e[9;7H###\e[35m Scraping words frequency\e[0m\e[9;35H\e[K\e[18;67H5\e[5C\e[1m2\e[0m:0\e[8;7H\e[34h\e[?25h"
+  - delay: 53
+    content: "\e[?25l\e[19;66H~@k\e[8;7H\e[19;66H   \e[7;7H\e[4m                                                                      \e[24m\e[8;7H\e[K\e[18;67H4\e[5C\e[1m1\e[7;7H\e[34h\e[?25h"
+  - delay: 21
+    content: "\e[?25l\e[0m\e[19;66H~@k\e[7;7H\e[19;66H   \e[6;7H\e[4m##\e[24m\e[4m\e[35m How to use\e[24m\e[0m\e[4m                                                         \e[24m\e[7;7H\e[K\e[18;67H2\e[5C\e[1m0\e[0m:1\e[6;7H\e[34h\e[?25h"
+  - delay: 38
+    content: "\e[?25l\e[19;66H~@k\e[6;7H\e[19;66H   \e[5;7H\e[4m                                                                      \e[24m\e[6;7H##\e[35m How to use\e[0m\e[6;20H\e[K\e[18;67H1%-- \e[1m29\e[0m:0\e[5;7H\e[34h\e[?25h"
+  - delay: 50
+    content: "\e[?25l\e[19;66H~@k\e[5;7H\e[19;66H   \e[4;7H\e[4m                                                                      \e[24m\e[5;7H\e[K\e[18;67H0\e[5C\e[1m8\e[4;7H\e[34h\e[?25h"
+  - delay: 26
+    content: "\e[?25l\e[0m\e[19;66H~@k\e[4;7H"
+  - delay: 9
+    content: "\e[19;66H   \e[3;7H\e[4m\e[31m`docker-compose up -d`\e[24m\e[0m\e[4m                                                \e[24m\e[4;7H\e[K\e[18;66H29\e[5C\e[1m7\e[0m:1\e[3;7H\e[34h\e[?25h"
+  - delay: 34
+    content: "\e[?25l\e[19;66H~@k\e[3;7H\e[19;66H   \e[2;7H\e[4m                                                                      \e[24m\e[3;7H\e[31m`docker-compose up -d`\e[0m\e[3;29H\e[K\e[18;67H8\e[5C\e[1m6\e[0m:0\e[2;7H\e[34h\e[?25h"
+  - delay: 32
+    content: "\e[?25l\e[19;66H~@k\e[2;7H\e[19;66H   \e[1;7H\e[4mCreate Selenium headless services on port 4444                        \e[24m\e[2;7H\e[K\e[18;67H7\e[5C\e[1m5\e[0m:1\e[1;7H\e[34h\e[?25h"
+  - delay: 38
+    content: "\e[?25l\e[19;66H~@k\e[1;7H\e[19;66H   \e[1;7H\e[1;17r\e[1;1H\e[L\e[1;19r\e[1;1H\e[38;5;130m   24 \e[0m\e[4m                                                                      \e[24m\e[2;7HCreate Selenium headless services on port 4444\e[2;53H\e[K\e[17;3H\e[94m@                                                                         \e[0m\e[18;67H6\e[5C\e[1m4\e[0m:0\e[1;7H\e[34h\e[?25h"
+  - delay: 53
+    content: "\e[?25l\e[19;66H~@k\e[1;7H\e[19;66H   \e[1;7H\e[1;17r\e[1;1H\e[L\e[1;19r\e[1;1H\e[38;5;130m   23 \e[0m\e[4m\e[31m`cd scraping`\e[24m\e[0m\e[4m                                                         \e[24m\e[2;7H\e[K\e[18;67H5\e[5C\e[1m3\e[0m:1\e[1;7H\e[34h\e[?25h"
+  - delay: 21
+    content: "\e[?25l\e[19;66H~@k\e[1;7H\e[19;66H   \e[1;7H\e[1;17r\e[1;1H\e[L\e[1;19r\e[1;1H\e[38;5;130m   22 \e[0m\e[4m                                                                      \e[24m\e[2;7H\e[31m`cd scraping`\e[0m\e[2;20H\e[K\e[18;67H4\e[5C\e[1m2\e[0m:0\e[1;7H\e[34h\e[?25h"
+  - delay: 59
+    content: "\e[?25l\e[19;66H~@k\e[1;7H\e[19;66H   \e[1;7H\e[1;17r\e[1;1H\e[L\e[1;19r\e[1;1H\e[38;5;130m   21 \e[0m\e[4m\e[31m`pip3 install -r requirements.txt`\e[24m\e[0m\e[4m                                    \e[24m\e[2;7H\e[K\e[18;67H3\e[5C\e[1m1\e[0m:1\e[1;7H\e[34h\e[?25h"
+  - delay: 31
+    content: "\e[?25l\e[19;66H~@k\e[1;7H\e[19;66H   \e[1;7H\e[1;17r\e[1;1H\e[L\e[1;19r\e[1;1H\e[38;5;130m   20 \e[0m\e[4m                                                                      \e[24m\e[2;7H\e[31m`pip3 install -r requirements.txt`\e[0m\e[2;41H\e[K\e[18;67H1\e[5C\e[1m0\e[0m:0\e[1;7H\e[34h\e[?25h"
+  - delay: 150
+    content: "\e[?25l\e[19;66H~@k\e[1;7H"
+  - delay: 7
+    content: "\e[19;66H   \e[2;7H\e[1;7H\e[K\e[2;7H\e[4m\e[31m`pip3 install -r requirements.txt`\e[24m\e[0m\e[4m                                    \e[24m\e[18;67H3\e[5C\e[1m1\e[0m:1\e[2;7H\e[34h\e[?25h"
+  - delay: 653
+    content: "\e[?25l\e[19;66H~@k\e[2;7H"
+  - delay: 8
+    content: "\e[19;66H   \e[3;7H\e[2;7H\e[31m`pip3 install -r requirements.txt`\e[0m\e[2;41H\e[K\e[3;7H\e[4m                                                                      \e[24m\e[18;67H4\e[5C\e[1m2\e[0m:0\e[3;7H\e[34h\e[?25h"
+  - delay: 76
+    content: "\e[?25l\e[19;66H~@k\e[3;7H\e[19;66H   \e[4;7H\e[3;7H\e[K\e[4;7H\e[4m\e[31m`cd scraping`\e[24m\e[0m\e[4m                                                         \e[24m\e[18;67H5\e[5C\e[1m3\e[0m:1\e[4;7H\e[34h\e[?25h"
+  - delay: 58
+    content: "\e[?25l\e[19;66H~@k\e[4;7H\e[19;66H   \e[5;7H\e[4;7H\e[31m`cd scraping`\e[0m\e[4;20H\e[K\e[5;7H\e[4m                                                                      \e[24m\e[18;67H6\e[5C\e[1m4\e[0m:0\e[5;7H\e[34h\e[?25h"
+  - delay: 12
+    content: "\e[?25l\e[19;66H~@k\e[5;7H"
+  - delay: 5
+    content: "\e[19;66H   \e[6;7H\e[5;7H\e[K\e[6;7H\e[4mCreate Selenium headless services on port 4444                        \e[24m\e[18;67H7\e[5C\e[1m5\e[0m:1\e[6;7H\e[34h\e[?25h"
+  - delay: 55
+    content: "\e[?25l\e[19;66H~@k\e[6;7H\e[19;66H   \e[7;7H\e[6;7HCreate Selenium headless services on port 4444\e[6;53H\e[K\e[7;7H\e[4m                                                                      \e[24m\e[18;67H8\e[5C\e[1m6\e[0m:0\e[7;7H\e[34h\e[?25h"
+  - delay: 28
+    content: "\e[?25l\e[19;66H~@k\e[7;7H\e[19;66H   \e[8;7H\e[7;7H\e[K\e[8;7H\e[4m\e[31m`docker-compose up -d`\e[24m\e[0m\e[4m                                                \e[24m\e[18;67H9\e[5C\e[1m7\e[0m:1\e[8;7H\e[34h\e[?25h"
+  - delay: 30
+    content: "\e[?25l\e[19;66H~@k\e[8;7H\e[19;66H   \e[9;7H\e[8;7H\e[31m`docker-compose up -d`\e[0m\e[8;29H\e[K\e[9;7H\e[4m                                                                      \e[24m\e[18;66H30\e[5C\e[1m8\e[0m:0\e[9;7H\e[34h\e[?25h"
+  - delay: 44
+    content: "\e[?25l\e[19;66H~@k\e[9;7H\e[19;66H   \e[10;7H\e[9;7H\e[K\e[10;7H\e[4m                                                                      \e[24m\e[18;67H1\e[5C\e[1m9\e[10;7H\e[34h\e[?25h"
+  - delay: 25
+    content: "\e[?25l\e[0m\e[19;66H~@k\e[10;7H\e[19;66H   \e[11;7H\e[10;7H\e[K\e[11;7H\e[4m##\e[24m\e[4m\e[35m How to use\e[24m\e[0m\e[4m                                                         \e[24m\e[18;67H2%-- \e[1m30\e[0m:1\e[11;7H\e[34h\e[?25h"
+  - delay: 38
+    content: "\e[?25l\e[19;66H~@k\e[11;7H"
+  - delay: 5
+    content: "\e[19;66H   \e[12;7H\e[11;7H##\e[35m How to use\e[0m\e[11;20H\e[K\e[12;7H\e[4m                                                                      \e[24m\e[18;67H4\e[5C\e[1m1\e[0m:0\e[12;7H\e[34h\e[?25h"
+  - delay: 43
+    content: "\e[?25l\e[19;66H~@k\e[12;7H\e[19;66H   \e[13;7H\e[12;7H\e[K\e[13;7H\e[4m                                                                      \e[24m\e[18;67H5\e[5C\e[1m2\e[13;7H\e[34h\e[?25h"
+  - delay: 29
+    content: "\e[?25l\e[0m\e[19;66H~@k\e[13;7H\e[19;66H   \e[14;7H\e[13;7H\e[K\e[14;7H\e[4m###\e[24m\e[4m\e[35m Scraping words frequency\e[24m\e[0m\e[4m                                          \e[24m\e[18;67H6\e[5C\e[1m3\e[0m:1\e[14;7H\e[34h\e[?25h"
+  - delay: 39
+    content: "\e[?25l\e[19;66H~@k\e[14;7H\e[19;66H   \e[15;7H\e[14;7H###\e[35m Scraping words frequency\e[0m\e[14;35H\e[K\e[15;7H\e[4m                                                                      \e[24m\e[18;67H7\e[5C\e[1m4\e[0m:0\e[15;7H\e[34h\e[?25h"
+  - delay: 37
+    content: "\e[?25l\e[19;66H~@k\e[15;7H\e[19;66H   \e[16;7H\e[15;7H\e[K\e[16;7H\e[4m\e[31m`./test-list.sh ../data/company01.txt`\e[24m\e[0m\e[4m                                \e[24m\e[18;67H8\e[5C\e[1m5\e[0m:1\e[16;7H\e[34h\e[?25h"
+  - delay: 38
+    content: "\e[?25l\e[19;66H~@k\e[16;7H\e[19;66H   \e[17;7H\e[16;7H\e[31m`./test-list.sh ../data/company01.txt`\e[0m\e[16;45H\e[K\e[17;7H\e[4m                                                                      \e[24m\e[18;67H9\e[5C\e[1m6\e[0m:0\e[17;7H\e[34h\e[?25h"
+  - delay: 41
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[K\e[17;1H\e[38;5;130m   37 \e[0m\e[4mcompany01.txt is a file containing the information to scrap           \e[24m\e[18;66H40\e[5C\e[1m7\e[0m:1\e[17;7H\e[34h\e[?25h"
+  - delay: 33
+    content: "\e[?25l\e[19;66H~@k\e[17;7H"
+  - delay: 7
+    content: "\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7Hcompany01.txt is a file containing the information to scrap \e[16;67H\e[K\e[17;1H\e[38;5;130m   38 \e[0m\e[4m                                                                      \e[24m\e[18;67H1\e[5C\e[1m8\e[0m:0\e[17;7H\e[34h\e[?25h"
+  - delay: 41
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[K\e[17;1H\e[38;5;130m   39 \e[0m\e[4m###\e[24m\e[4m\e[35m company01 format\e[24m\e[0m\e[4m                                                  \e[24m\e[18;67H2\e[5C\e[1m9\e[0m:1\e[17;7H\e[34h\e[?25h"
+  - delay: 27
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[16;7H\e[1;17r\e[1;1H\e[2M\e[1;19r\e[15;7H###\e[35m company01 format\e[0m\e[15;27H\e[K\e[16;1H\e[38;5;130m   40 \e[0m\e[4m\e[34m> freqcustomers  false customers.md \"keyword1;keyword2;..\"  \"keysearchh\e[24m\e[0m\e[17;1H\e[38;5;130m      \e[0m\e[4m\e[34m1;keysear2;keysearch3\"\e[24m\e[0m\e[4m                                                \e[24m\e[18;67H3%-- \e[1m40\e[16;7H\e[34h\e[?25h"
+  - delay: 38
+    content: "\e[?25l\e[0m\e[19;66H~@k\e[16;7H\e[19;66H   \e[16;7H\e[1;17r\e[1;1H\e[2M\e[1;19r\e[14;7H\e[34m> freqcustomers  false customers.md \"keyword1;keyword2;..\"  \"keysearchh\e[0m\e[15;1H\e[38;5;130m \e[0m\e[5C\e[34m1;keysear2;keysearch3\"\e[0m\e[15;29H\e[K\e[16;1H\e[38;5;130m   41 \e[0m\e[4m\e[34m> freqdomaintovalidate  false domainstocheck.md \"keyword1;keyword2;..\"\"\e[24m\e[0m\e[17;1H\e[38;5;130m      \e[0m\e[4m\e[34m  \"keysearch1;keysear2;keysearch3\"\e[24m\e[0m\e[4m                                    \e[24m\e[18;67H5\e[5C\e[1m1\e[16;7H\e[34h\e[?25h"
+  - delay: 52
+    content: "\e[?25l\e[0m\e[19;66H~@k\e[16;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[15;7H\e[34m> freqdomaintovalidate  false domainstocheck.md \"keyword1;keyword2;..\"\"\e[0m\e[16;1H\e[38;5;130m \e[0m\e[5C\e[34m  \"keysearch1;keysear2;keysearch3\"\e[0m\e[16;41H\e[K\e[17;1H\e[38;5;130m   42 \e[0m\e[4m                                                                      \e[24m\e[18;67H6\e[5C\e[1m2\e[0m:0\e[17;7H\e[34h\e[?25h"
+  - delay: 22
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[K\e[17;1H\e[38;5;130m   43 \e[0m\e[4mfreqcustomers  is the output filename                                 \e[24m\e[18;67H7\e[5C\e[1m3\e[0m:1\e[17;7H\e[34h\e[?25h"
+  - delay: 67
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7Hfreqcustomers  is the output filename\e[16;44H\e[K\e[17;1H\e[38;5;130m   44 \e[0m\e[4m                                                                      \e[24m\e[18;67H8\e[5C\e[1m4\e[0m:0\e[17;7H\e[34h\e[?25h"
+  - delay: 7
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[K\e[17;1H\e[38;5;130m   45 \e[0m\e[4mfreqdomaintovalidate  is the output filename                          \e[24m\e[18;67H9\e[5C\e[1m5\e[0m:1\e[17;7H\e[34h\e[?25h"
+  - delay: 59
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7Hfreqdomaintovalidate  is the output filename\e[16;51H\e[K\e[17;1H\e[38;5;130m   46 \e[0m\e[4m                                                                      \e[24m\e[18;66H50\e[5C\e[1m6\e[0m:0\e[17;7H\e[34h\e[?25h"
+  - delay: 32
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[K\e[17;1H\e[38;5;130m   47 \e[0m\e[4mcustomers.md  list of customers domains                               \e[24m\e[18;67H1\e[5C\e[1m7\e[0m:1\e[17;7H\e[34h\e[?25h"
+  - delay: 22
+    content: "\e[?25l\e[19;66H~@k\e[17;7H"
+  - delay: 8
+    content: "\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7Hcustomers.md  list of customers domains\e[16;46H\e[K\e[17;1H\e[38;5;130m   48 \e[0m\e[4m                                                                      \e[24m\e[18;67H2\e[5C\e[1m8\e[0m:0\e[17;7H\e[34h\e[?25h"
+  - delay: 49
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[K\e[17;1H\e[38;5;130m   49 \e[0m\e[4mdomainstocheck.md list of domains to check if they are potential leads\e[24m\e[18;67H3\e[5C\e[1m9\e[0m:1\e[17;7H\e[34h\e[?25h"
+  - delay: 36
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7Hdomainstocheck.md list of domains to check if they are potential leads\e[17;1H\e[38;5;130m   50 \e[0m\e[4m                                                                      \e[24m\e[18;67H4%-- \e[1m50\e[0m:0\e[17;7H\e[34h\e[?25h"
+  - delay: 24
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[16;7H\e[1;17r\e[1;1H\e[2M\e[1;19r\e[15;7H\e[K\e[16;1H\e[38;5;130m   51 \e[0m\e[4mkeyword1 ... are the keywords we want to find in the search engine somm\e[24m\e[17;1H\e[38;5;130m      \e[0m\e[4mething like:                                                          \e[24m\e[18;67H6\e[5C\e[1m1\e[0m:1\e[16;7H\e[34h\e[?25h"
+  - delay: 47
+    content: "\e[?25l\e[19;66H~@k\e[16;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[15;7Hkeyword1 ... are the keywords we want to find in the search engine somm\e[16;1H\e[38;5;130m \e[0m\e[5Cething like:\e[16;19H\e[K\e[17;1H\e[38;5;130m   52 \e[0m\e[4m\e[47m   \e[24m\e[0m\e[4m                                                                   \e[24m\e[18;67H7\e[5C\e[1m2\e[17;7H\e[34h\e[?25h"
+  - delay: 30
+    content: "\e[?25l\e[0m\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[47m   \e[0m\e[16;10H\e[K\e[17;1H\e[38;5;130m   53 \e[0m\e[4m   \"site:domain.org  keyword\"                                         \e[24m\e[18;67H8\e[5C\e[1m3\e[17;7H\e[34h\e[?25h"
+  - delay: 801
+    content: "\e[?25l\e[0m\e[19;66H~@k\e[17;7H"
+  - delay: 10
+    content: "\e[19;66H   \e[16;7H\e[1;17r\e[1;1H\e[2M\e[1;19r\e[15;7H   \"site:domain.org  keyword\"\e[15;36H\e[K\e[16;1H\e[38;5;130m   54 \e[0m\e[4m\e[47m    \e[24m\e[0m\e[4m                                                                  \e[24m\e[17;1H\e[38;5;130m   55 \e[0mkeysearch1 ... are the keywords we want to check the frequency\e[18;67H9\e[5C\e[1m4\e[16;7H\e[34h\e[?25h"
+  - delay: 140
+    content: "\e[?25l\e[0m\e[19;66H~@k\e[16;7H\e[19;66H   \e[17;7H\e[16;7H\e[47m    \e[0m\e[16;11H\e[K\e[17;7H\e[4mkeysearch1 ... are the keywords we want to check the frequency        \e[24m\e[18;66H60\e[5C\e[1m5\e[17;7H\e[34h\e[?25h"
+  - delay: 526
+    content: "\e[?25l\e[0m\e[19;66H~@k\e[17;7H"
+  - delay: 10
+    content: "\e[19;66H   \e[16;7H\e[4m\e[47m    \e[24m\e[0m\e[4m                                                                  \e[24m\e[17;7Hkeysearch1 ... are the keywords we want to check the frequency\e[17;69H\e[K\e[18;66H59\e[5C\e[1m4\e[16;7H\e[34h\e[?25h"
+  - delay: 614
+    content: "\e[?25l\e[0m\e[19;66H~@k\e[16;7H"
+  - delay: 10
+    content: "\e[19;66H   \e[17;7H\e[16;7H\e[47m    \e[0m\e[16;11H\e[K\e[17;7H\e[4mkeysearch1 ... are the keywords we want to check the frequency        \e[24m\e[18;66H60\e[5C\e[1m5\e[17;7H\e[34h\e[?25h"
+  - delay: 202
+    content: "\e[?25l\e[0m\e[19;66H~@k\e[17;7H"
+  - delay: 5
+    content: "\e[19;66H   \e[16;7H\e[1;17r\e[1;1H\e[2M\e[1;19r\e[15;7Hkeysearch1 ... are the keywords we want to check the frequency\e[15;69H\e[K\e[16;1H\e[38;5;130m   56 \e[0m\e[4m                                                                      \e[24m\e[17;1H\e[38;5;130m   57 \e[0mlist of domains that are actual customers\e[18;67H1\e[5C\e[1m6\e[0m:0\e[16;7H\e[34h\e[?25h"
+  - delay: 166
+    content: "\e[?25l\e[19;66H~@k\e[16;7H"
+  - delay: 8
+    content: "\e[19;66H   \e[17;7H\e[16;7H\e[K\e[17;7H\e[4mlist of domains that are actual customers                             \e[24m\e[18;67H2\e[5C\e[1m7\e[0m:1\e[17;7H\e[34h\e[?25h"
+  - delay: 1637
+    content: "\e[?25l\e[19;66H/\e[17;7H\e[19;66H\e[K\e[19;1H/\e[34h\e[?25h"
+  - delay: 411
+    content: "a\e[?25l"
+  - delay: 10
+    content: "\e[2;41H\e[103ma\e[4;14Ha\e[0mintov\e[103ma\e[0mlid\e[103ma\e[23Ca\e[6;42Ha\e[8;10Ha\e[25Ca\e[21Ca\e[10Ca\e[0ml le\e[103ma\e[10;20Ha\e[20Ca\e[20Ca\e[0m\e[13Cmm\e[11;1H\e[38;5;130m \e[0m\e[13;19H\e[103ma\e[15;12Ha\e[9Ca\e[20Ca\e[0m\e[17;18H\e[4m\e[7ma\e[24m\e[0m\e[6C\e[4m\e[103ma\e[2Ca\e[3Ca\e[3Ca\e[24m\e[0m\r\n \e[1mC\e[0m\e[48Cmar…\e[18;55H  268W  --62%-- \e[1m57\e[0m:12\r\n/a\e[34h\e[?25h"
+  - delay: 60
+    content: "n\e[?25l"
+  - delay: 5
+    content: "\e[1;17r\e[1;1H\e[4M\e[1;19r\e[2;42Ha\e[4;10Ha\e[25Ca\e[21Ca\e[10Cal lea\e[6;20Ha\e[21C\e[103mn\e[0m\e[19Ca\e[13Cmm\e[7;1H\e[38;5;130m \e[0m\e[9;19Ha\e[11;12Ha\e[9Ca\e[21C\e[103mn\e[0m\e[13;7Hlist of domains that are actual customers\e[13;48H\e[K\e[14;1H\e[38;5;130m   58 \r\n   59 \e[0m###\e[35m Validate domains\e[0m\r\n\e[38;5;130m   60 \r\n   61 \e[0m\e[4m\e[31m`cd \e[24m\e[0m\e[4m\e[7m\e[31man\e[24m\e[0m\e[4m\e[31malysis`\e[24m\e[0m\e[4m                                                         \e[24m\e[18;51H mar…\e[18;57H 268W  --67%-- \e[1m61\e[0m:5\e[19;1H\e[K\e[19;1H/an\e[34h\e[?25h"
+  - delay: 123
+    content: "a\e[?25l\e[6;41Han\e[33Cmm\e[7;1H\e[38;5;130m \e[0m\e[11;43Han\e[17;13H\e[4m\e[7m\e[31ma\e[19;5H\e[34h\e[?25h"
+  - delay: 1816
+    content: "\e[24m\e[0ml\e[?25l"
+  - delay: 8
+    content: "\e[17;14H\e[4m\e[7m\e[31ml\e[19;6H\e[34h\e[?25h"
+  - delay: 128
+    content: "\e[24m\e[0my\e[?25l"
+  - delay: 8
+    content: "\e[17;15H\e[4m\e[7m\e[31my\e[19;7H\e[34h\e[?25h"
+  - delay: 407
+    content: "\r\e[?25l"
+  - delay: 26
+    content: "\e[17;11H\e[24m\e[0m\e[4m\e[31m\e[103manaly\e[24m\e[0m\r\n \e[1mN\e[17;11H\e[34h\e[?25h"
+  - delay: 678
+    content: "\e[?25l\e[0m\e[19;66H~@k\e[17;11H"
+  - delay: 9
+    content: "\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[31m`cd \e[0m\e[31m\e[103manaly\e[0m\e[31msis`\e[0m\e[16;20H\e[K\e[17;1H~ \e[38;5;130m 62 \e[0m\e[4m                                                                      \e[24m\e[19;1H\e[K\e[18;67H8\e[5C\e[1m2\e[0m:0\e[17;7H\e[34h\e[?25h"
+  - delay: 116
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[16;11H\e[1;17r\e[1;1H\e[2M\e[1;19r\e[15;7H\e[K\e[16;1H+ \e[38;5;130m 63 \e[0m\e[4mcopy the results of the scraping files in customers.csv and leads.csv  \e[24m\e[17;1H\e[38;5;130m      \e[0m\e[4mfolder \e[24m\e[4m\e[103manaly\e[24m\e[0m\e[4msis                                                       \e[24m\e[18;67H9\e[5C\e[1m3\e[0m:5\e[16;11H\e[34h\e[?25h"
+  - delay: 126
+    content: "\e[?25l\e[19;66H~@k\e[16;11H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[15;7Hcopy the results of the scraping files in customers.csv and leads.csv  \e[16;1H\e[38;5;130m \e[0m\e[5Cfolder \e[103manaly\e[0msis\e[16;22H\e[K\e[17;1H+ \e[38;5;130m 64 \e[0m\e[4m                                                                      \e[24m\e[18;66H70\e[5C\e[1m4\e[0m:0\e[17;7H\e[34h\e[?25h"
+  - delay: 100
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;11H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[K\e[17;1H+ \e[38;5;130m 65 \e[0m\e[4mexecute                                                               \e[24m\e[18;67H1\e[5C\e[1m5\e[0m:5\e[17;11H\e[34h\e[?25h"
+  - delay: 135
+    content: "\e[?25l\e[19;66H~@k\e[17;11H"
+  - delay: 8
+    content: "\e[19;66H   \e[16;7H\e[1;17r\e[1;1H\e[2M\e[1;19r\e[15;7Hexecute\e[15;14H\e[K\e[16;1H+ \e[38;5;130m 66 \e[0m\e[4m                                                                      \e[24m\e[17;1H+ \e[38;5;130m 67 \e[0m\e[31m`python3 data_\e[0m\e[31m\e[103manaly\e[0m\e[31msis.py `\e[0m\e[18;67H2\e[5C\e[1m6\e[0m:0\e[16;7H\e[34h\e[?25h"
+  - delay: 118
+    content: "\e[?25l\e[19;66H~@k\e[16;7H\e[19;66H   \e[17;11H\e[16;7H\e[K\e[17;7H\e[4m\e[31m`python3 data_\e[24m\e[0m\e[4m\e[31m\e[103manaly\e[24m\e[0m\e[4m\e[31msis.py `\e[24m\e[0m\e[4m                                           \e[24m\e[18;67H3\e[5C\e[1m7\e[0m:5\e[17;11H\e[34h\e[?25h"
+  - delay: 143
+    content: "\e[?25l\e[19;66H~@k\e[17;11H"
+  - delay: 8
+    content: "\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[31m`python3 data_\e[0m\e[31m\e[103manaly\e[0m\e[31msis.py `\e[0m \e[16;35H\e[K\e[17;1H\e[38;5;130m   68 \e[0m\e[4m                                                                      \e[24m\e[18;67H4\e[5C\e[1m8\e[0m:0\e[17;7H\e[34h\e[?25h"
+  - delay: 125
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;11H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[K\e[17;1H\e[38;5;130m   69 \e[0m\e[4mcustomers.csv is the frequency file of the existing customers         \e[24m\e[18;67H5\e[5C\e[1m9\e[0m:5\e[17;11H\e[34h\e[?25h"
+  - delay: 134
+    content: "\e[?25l\e[19;66H~@k\e[17;11H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7Hcustomers.csv is the frequency file of the existing customers\e[16;68H\e[K\e[17;1H\e[38;5;130m   70 \e[0m\e[4m                                                                      \e[24m\e[18;67H6%-- \e[1m70\e[0m:0\e[17;7H\e[34h\e[?25h"
+  - delay: 528
+    content: "\e[?25l\e[19;66H~@k\e[17;7H"
+  - delay: 8
+    content: "\e[19;66H   \e[17;11H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[K\e[17;1H\e[38;5;130m   71 \e[0m\e[4mleads.csv is the frequency file of the domains to be validated        \e[24m\e[18;67H8\e[5C\e[1m1\e[0m:5\e[17;11H\e[34h\e[?25h"
+  - delay: 448
+    content: "\e[?25l\e[19;66H~@k\e[17;11H"
+  - delay: 9
+    content: "\e[19;66H   \e[16;7H\e[4m                                                                      \e[24m\e[17;7Hleads.csv is the frequency file of the domains to be validated\e[17;69H\e[K\e[18;67H6\e[5C\e[1m0\e[0m:0\e[16;7H\e[34h\e[?25h"
+  - delay: 135
+    content: "\e[?25l\e[19;66H~@k\e[16;7H"
+  - delay: 8
+    content: "\e[19;66H   \e[15;11H\b\b\b\b\e[4mcustomers.csv is the frequency file of the existing customers         \e[24m\e[16;7H\e[K\e[18;67H5%-- \e[1m69\e[0m:5\e[15;11H\e[34h\e[?25h"
+  - delay: 128
+    content: "\e[?25l\e[19;66H~@k\e[15;11H"
+  - delay: 8
+    content: "\e[19;66H   \e[14;7H\e[4m                                                                      \e[24m\e[15;7Hcustomers.csv is the frequency file of the existing customers\e[15;68H\e[K\e[18;67H4\e[5C\e[1m8\e[0m:0\e[14;7H\e[34h\e[?25h"
+  - delay: 152
+    content: "\e[?25l\e[19;66H~@k\e[14;7H"
+  - delay: 8
+    content: "\e[19;66H   \e[13;11H\b\b\b\b\e[4m\e[31m`python3 data_\e[24m\e[0m\e[4m\e[31m\e[103manaly\e[24m\e[0m\e[4m\e[31msis.py `\e[24m\e[0m\e[4m                                           \e[24m\e[14;7H\e[K\e[18;67H3\e[5C\e[1m7\e[0m:5\e[13;11H\e[34h\e[?25h"
+  - delay: 7344
+    content: "\e[?25l\e[19;66H~@k\e[13;11H"
+  - delay: 8
+    content: "\e[19;66H   \e[14;7H\e[13;7H\e[31m`python3 data_\e[0m\e[31m\e[103manaly\e[0m\e[31msis.py `\e[0m \e[13;35H\e[K\e[14;7H\e[4m                                                                      \e[24m\e[18;67H4\e[5C\e[1m8\e[0m:0\e[14;7H\e[34h\e[?25h"
+  - delay: 232
+    content: "\e[?25l\e[19;66H~@k\e[14;7H"
+  - delay: 8
+    content: "\e[19;66H   \e[15;11H\e[14;7H\e[K\e[15;7H\e[4mcustomers.csv is the frequency file of the existing customers         \e[24m\e[18;67H5\e[5C\e[1m9\e[0m:5\e[15;11H\e[34h\e[?25h"
+  - delay: 199
+    content: "\e[?25l\e[19;66H~@k\e[15;11H"
+  - delay: 8
+    content: "\e[19;66H   \e[16;7H\e[15;7Hcustomers.csv is the frequency file of the existing customers\e[15;68H\e[K\e[16;7H\e[4m                                                                      \e[24m\e[18;67H6%-- \e[1m70\e[0m:0\e[16;7H\e[34h\e[?25h"
+  - delay: 185
+    content: "\e[?25l\e[19;66H~@k\e[16;7H"
+  - delay: 9
+    content: "\e[19;66H   \e[17;11H\e[16;7H\e[K\e[17;7H\e[4mleads.csv is the frequency file of the domains to be validated        \e[24m\e[18;67H8\e[5C\e[1m1\e[0m:5\e[17;11H\e[34h\e[?25h"
+  - delay: 711
+    content: "\e[?25l\e[19;66H~@k\e[17;11H"
+  - delay: 8
+    content: "\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7Hleads.csv is the frequency file of the domains to be validated\e[16;69H\e[K\e[17;1H\e[38;5;130m   72 \e[0m\e[4m                                                                      \e[24m\e[18;67H9\e[5C\e[1m2\e[0m:0\e[17;7H\e[34h\e[?25h"
+  - delay: 232
+    content: "\e[?25l\e[19;66H~@k\e[17;7H"
+  - delay: 8
+    content: "\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[K\e[17;1H\e[38;5;130m   73 \e[0m\e[4m                                                                      \e[24m\e[18;66H80\e[5C\e[1m3\e[17;7H\e[34h\e[?25h"
+  - delay: 505
+    content: "\e[?25l\e[0m\e[19;66H~@k\e[17;7H"
+  - delay: 8
+    content: "\e[19;66H   \e[16;7H\e[4m                                                                      \e[24m\e[17;7H\e[K\e[18;66H79\e[5C\e[1m2\e[16;7H\e[34h\e[?25h"
+  - delay: 650
+    content: "\e[?25l\e[0m\e[19;66H~@k\e[16;7H"
+  - delay: 10
+    content: "\e[19;66H   \e[15;11H\b\b\b\b\e[4mleads.csv is the frequency file of the domains to be validated        \e[24m\e[16;7H\e[K\e[18;67H8\e[5C\e[1m1\e[0m:5\e[15;11H\e[34h\e[?25h"
+  - delay: 55
+    content: "\e[?25l\e[19;66H~@k\e[15;11H"
+  - delay: 5
+    content: "\e[19;66H   \e[14;7H\e[4m                                                                      \e[24m\e[15;7Hleads.csv is the frequency file of the domains to be validated\e[15;69H\e[K\e[18;67H6\e[5C\e[1m0\e[0m:0\e[14;7H\e[34h\e[?25h"
+  - delay: 14
+    content: "\e[?25l\e[19;66H~@k\e[14;7H\e[19;66H   \e[13;11H\b\b\b\b\e[4mcustomers.csv is the frequency file of the existing customers         \e[24m\e[14;7H\e[K\e[18;67H5%-- \e[1m69\e[0m:5\e[13;11H\e[34h\e[?25h"
+  - delay: 30
+    content: "\e[?25l\e[19;66H~@k\e[13;11H\e[19;66H   \e[12;7H\e[4m                                                                      \e[24m\e[13;7Hcustomers.csv is the frequency file of the existing customers\e[13;68H\e[K\e[18;67H4\e[5C\e[1m8\e[0m:0\e[12;7H\e[34h\e[?25h"
+  - delay: 43
+    content: "\e[?25l\e[19;66H~@k\e[12;7H\e[19;66H   \e[11;11H\b\b\b\b\e[4m\e[31m`python3 data_\e[24m\e[0m\e[4m\e[31m\e[103manaly\e[24m\e[0m\e[4m\e[31msis.py `\e[24m\e[0m\e[4m                                           \e[24m\e[12;7H\e[K\e[18;67H3\e[5C\e[1m7\e[0m:5\e[11;11H\e[34h\e[?25h"
+  - delay: 31
+    content: "\e[?25l\e[19;66H~@k\e[11;11H\e[19;66H   \e[10;7H\e[4m                                                                      \e[24m\e[11;7H\e[31m`python3 data_\e[0m\e[31m\e[103manaly\e[0m\e[31msis.py `\e[0m \e[11;35H\e[K\e[18;67H2\e[5C\e[1m6\e[0m:0\e[10;7H\e[34h\e[?25h"
+  - delay: 38
+    content: "\e[?25l\e[19;66H~@k\e[10;7H\e[19;66H   \e[9;11H\b\b\b\b\e[4mexecute                                                               \e[24m\e[10;7H\e[K\e[18;67H1\e[5C\e[1m5\e[0m:5\e[9;11H\e[34h\e[?25h"
+  - delay: 37
+    content: "\e[?25l\e[19;66H~@k\e[9;11H\e[19;66H   \e[8;7H\e[4m                                                                      \e[24m\e[9;7Hexecute\e[9;14H\e[K\e[18;67H0\e[5C\e[1m4\e[0m:0\e[8;7H\e[34h\e[?25h"
+  - delay: 156
+    content: "\e[?25l\e[19;66H~@k\e[8;7H"
+  - delay: 8
+    content: "\e[19;66H   \e[6;11H\b\b\b\b\e[4mcopy the results of the scraping files in customers.csv and leads.csv  \e[24m\e[7;1H\e[38;5;130m \e[0m\e[5C\e[4mfolder \e[24m\e[4m\e[103manaly\e[24m\e[0m\e[4msis                                                       \e[24m\e[8;7H\e[K\e[18;66H69\e[5C\e[1m3\e[0m:5\e[6;11H\e[34h\e[?25h"
+  - delay: 293
+    content: "\e[?25l\e[19;66H~@k\e[6;11H\e[19;66H   \e[5;7H\e[4m                                                                      \e[24m\e[6;7Hcopy the results of the scraping files in customers.csv and leads.csv  \e[7;1H\e[38;5;130m \e[0m\e[5Cfolder \e[103manaly\e[0msis\e[7;22H\e[K\e[18;67H8\e[5C\e[1m2\e[0m:0\e[5;7H\e[34h\e[?25h"
+  - delay: 351
+    content: "\e[?25l\e[19;66H~@k\e[5;7H"
+  - delay: 7
+    content: "\e[19;66H   \e[6;11H\e[5;7H\e[K\e[6;7H\e[4mcopy the results of the scraping files in customers.csv and leads.csv  \e[24m\e[7;1H\e[38;5;130m \e[0m\e[5C\e[4mfolder \e[24m\e[4m\e[103manaly\e[24m\e[0m\e[4msis                                                       \e[24m\e[18;67H9\e[5C\e[1m3\e[0m:5\e[6;11H\e[34h\e[?25h"
+  - delay: 218
+    content: "\e[?25l\e[19;66H~@k\e[6;11H\e[19;66H   \e[6;12H\e[18;75H6\e[6;12H\e[34h\e[?25h"
+  - delay: 658
+    content: "\e[?25l\e[19;66H~@k\e[6;12H\e[19;66H   \e[6;13H\e[18;75H7\e[6;13H\e[34h\e[?25h"
+  - delay: 38
+    content: "\e[?25l\e[19;66H~@k\e[6;13H\e[19;66H   \e[6;14H\e[18;75H8\e[6;14H\e[34h\e[?25h"
+  - delay: 43
+    content: "\e[?25l\e[19;66H~@k\e[6;14H\e[19;66H   \e[6;15H\e[18;75H9\e[6;15H\e[34h\e[?25h"
+  - delay: 31
+    content: "\e[?25l\e[19;66H~@k\e[6;15H\e[19;66H   \e[6;16H\e[18;51Hmar…\e[18;55H  268W  --69%-- \e[1m63\e[0m:10\e[6;16H\e[34h\e[?25h"
+  - delay: 42
+    content: "\e[?25l\e[19;66H~@k\e[6;16H\e[19;66H   \e[6;17H\e[18;75H1\e[6;17H\e[34h\e[?25h"
+  - delay: 49
+    content: "\e[?25l\e[19;66H~@k\e[6;17H\e[19;66H   \e[6;18H\e[18;75H2\e[6;18H\e[34h\e[?25h"
+  - delay: 28
+    content: "\e[?25l\e[19;66H~@k\e[6;18H\e[19;66H   \e[6;19H\e[18;75H3\e[6;19H\e[34h\e[?25h"
+  - delay: 41
+    content: "\e[?25l\e[19;66H~@k\e[6;19H\e[19;66H   \e[6;20H\e[18;75H4\e[6;20H\e[34h\e[?25h"
+  - delay: 37
+    content: "\e[?25l\e[19;66H~@k\e[6;20H\e[19;66H   \e[6;21H\e[18;75H5\e[6;21H\e[34h\e[?25h"
+  - delay: 48
+    content: "\e[?25l\e[19;66H~@k\e[6;21H\e[19;66H   \e[6;22H\e[18;75H6\e[6;22H\e[34h\e[?25h"
+  - delay: 43
+    content: "\e[?25l\e[19;66H~@k\e[6;22H\e[19;66H   \e[6;23H\e[18;75H7\e[6;23H\e[34h\e[?25h"
+  - delay: 46
+    content: "\e[?25l\e[19;66H~@k\e[6;23H\e[19;66H   \e[6;24H\e[18;75H8\e[6;24H\e[34h\e[?25h"
+  - delay: 20
+    content: "\e[?25l\e[19;66H~@k\e[6;24H\e[19;66H   \e[6;25H\e[18;75H9\e[6;25H\e[34h\e[?25h"
+  - delay: 39
+    content: "\e[?25l\e[19;66H~@k\e[6;25H\e[19;66H   \e[6;26H\e[18;74H20\e[6;26H\e[34h\e[?25h"
+  - delay: 41
+    content: "\e[?25l\e[19;66H~@k\e[6;26H\e[19;66H   \e[6;27H\e[18;75H1\e[6;27H\e[34h\e[?25h"
+  - delay: 50
+    content: "\e[?25l\e[19;66H~@k\e[6;27H\e[19;66H   \e[6;28H\e[18;75H2\e[6;28H\e[34h\e[?25h"
+  - delay: 29
+    content: "\e[?25l\e[19;66H~@k\e[6;28H\e[19;66H   \e[6;29H\e[18;75H3\e[6;29H\e[34h\e[?25h"
+  - delay: 37
+    content: "\e[?25l\e[19;66H~@k\e[6;29H\e[19;66H   \e[6;30H\e[18;75H4\e[6;30H\e[34h\e[?25h"
+  - delay: 41
+    content: "\e[?25l\e[19;66H~@k\e[6;30H\e[19;66H   \e[6;31H\e[18;75H5\e[6;31H\e[34h\e[?25h"
+  - delay: 38
+    content: "\e[?25l\e[19;66H~@k\e[6;31H\e[19;66H   \e[6;32H\e[18;75H6\e[6;32H\e[34h\e[?25h"
+  - delay: 61
+    content: "\e[?25l\e[19;66H~@k\e[6;32H\e[19;66H   \e[6;33H\e[18;75H7\e[6;33H\e[34h\e[?25h"
+  - delay: 29
+    content: "\e[?25l\e[19;66H~@k\e[6;33H\e[19;66H   \e[6;34H\e[18;75H8\e[6;34H\e[34h\e[?25h"
+  - delay: 82
+    content: "\e[?25l\e[19;66H~@k\e[6;34H\e[19;66H   \e[6;35H\e[18;75H9\e[6;35H\e[34h\e[?25h"
+  - delay: 29
+    content: "\e[?25l\e[19;66H~@k\e[6;35H\e[19;66H   \e[6;36H\e[18;74H30\e[6;36H\e[34h\e[?25h"
+  - delay: 45
+    content: "\e[?25l\e[19;66H~@k\e[6;36H\e[19;66H   \e[6;37H\e[18;75H1\e[6;37H\e[34h\e[?25h"
+  - delay: 32
+    content: "\e[?25l\e[19;66H~@k\e[6;37H\e[19;66H   \e[6;38H\e[18;75H2\e[6;38H\e[34h\e[?25h"
+  - delay: 49
+    content: "\e[?25l\e[19;66H~@k\e[6;38H\e[19;66H   \e[6;39H\e[18;75H3\e[6;39H\e[34h\e[?25h"
+  - delay: 26
+    content: "\e[?25l\e[19;66H~@k\e[6;39H\e[19;66H   \e[6;40H\e[18;75H4\e[6;40H\e[34h\e[?25h"
+  - delay: 39
+    content: "\e[?25l\e[19;66H~@k\e[6;40H\e[19;66H   \e[6;41H\e[18;75H5\e[6;41H\e[34h\e[?25h"
+  - delay: 48
+    content: "\e[?25l\e[19;66H~@k\e[6;41H\e[19;66H   \e[6;42H\e[18;75H6\e[6;42H\e[34h\e[?25h"
+  - delay: 32
+    content: "\e[?25l\e[19;66H~@k\e[6;42H\e[19;66H   \e[6;43H\e[18;75H7\e[6;43H\e[34h\e[?25h"
+  - delay: 48
+    content: "\e[?25l\e[19;66H~@k\e[6;43H\e[19;66H   \e[6;44H\e[18;75H8\e[6;44H\e[34h\e[?25h"
+  - delay: 29
+    content: "\e[?25l\e[19;66H~@k\e[6;44H\e[19;66H   \e[6;45H\e[18;75H9\e[6;45H\e[34h\e[?25h"
+  - delay: 54
+    content: "\e[?25l\e[19;66H~@k\e[6;45H\e[19;66H   \e[6;46H\e[18;74H40\e[6;46H\e[34h\e[?25h"
+  - delay: 23
+    content: "\e[?25l\e[19;66H~@k\e[6;46H\e[19;66H   \e[6;47H\e[18;75H1\e[6;47H\e[34h\e[?25h"
+  - delay: 40
+    content: "\e[?25l\e[19;66H~@k\e[6;47H\e[19;66H   \e[6;48H\e[18;75H2\e[6;48H\e[34h\e[?25h"
+  - delay: 56
+    content: "\e[?25l\e[19;66H~@k\e[6;48H\e[19;66H   \e[6;49H\e[18;75H3\e[6;49H\e[34h\e[?25h"
+  - delay: 28
+    content: "\e[?25l\e[19;66H~@k\e[6;49H\e[19;66H   \e[6;50H\e[18;75H4\e[6;50H\e[34h\e[?25h"
+  - delay: 48
+    content: "\e[?25l\e[19;66H~@k\e[6;50H\e[19;66H   \e[6;51H\e[18;75H5\e[6;51H\e[34h\e[?25h"
+  - delay: 27
+    content: "\e[?25l\e[19;66H~@k\e[6;51H\e[19;66H   \e[6;52H\e[18;75H6\e[6;52H\e[34h\e[?25h"
+  - delay: 39
+    content: "\e[?25l\e[19;66H~@k\e[6;52H\e[19;66H   \e[6;53H\e[18;75H7\e[6;53H\e[34h\e[?25h"
+  - delay: 50
+    content: "\e[?25l\e[19;66H~@k\e[6;53H\e[19;66H   \e[6;54H\e[18;75H8\e[6;54H\e[34h\e[?25h"
+  - delay: 33
+    content: "\e[?25l\e[19;66H~@k\e[6;54H\e[19;66H   \e[6;55H\e[18;75H9\e[6;55H\e[34h\e[?25h"
+  - delay: 51
+    content: "\e[?25l\e[19;66H~@k\e[6;55H\e[19;66H   \e[6;56H\e[18;74H50\e[6;56H\e[34h\e[?25h"
+  - delay: 24
+    content: "\e[?25l\e[19;66H~@k\e[6;56H\e[19;66H   \e[6;57H\e[18;75H1\e[6;57H\e[34h\e[?25h"
+  - delay: 41
+    content: "\e[?25l\e[19;66H~@k\e[6;57H\e[19;66H   \e[6;58H\e[18;75H2\e[6;58H\e[34h\e[?25h"
+  - delay: 41
+    content: "\e[?25l\e[19;66H~@k\e[6;58H\e[19;66H   \e[6;59H\e[18;75H3\e[6;59H\e[34h\e[?25h"
+  - delay: 33
+    content: "\e[?25l\e[19;66H~@k\e[6;59H\e[19;66H   \e[6;60H\e[18;75H4\e[6;60H\e[34h\e[?25h"
+  - delay: 54
+    content: "\e[?25l\e[19;66H~@k\e[6;60H\e[19;66H   \e[6;61H\e[18;75H5\e[6;61H\e[34h\e[?25h"
+  - delay: 402
+    content: "\e[?25l\e[19;66H~@k\e[6;61H\e[19;66H   \e[6;62H\e[18;75H6\e[6;62H\e[34h\e[?25h"
+  - delay: 355
+    content: "\e[?25l\e[19;66H~@k\e[6;62H\e[19;66H   \e[6;63H\e[18;75H7\e[6;63H\e[34h\e[?25h"
+  - delay: 714
+    content: "\e[?25l\e[19;66H~@k\e[6;63H\e[19;66H   \e[6;63H\e[19;66Hdl\e[6;63H"
+  - delay: 27
+    content: "\e[19;66H  \e[6;63H\e[4mnd leads.csv ff\e[24m\e[7;1H\e[38;5;130m \e[0m\e[5C\e[4molder \e[24m\e[4m\e[103manaly\e[24m\e[0m\e[4msis \e[24m\e[18;14H[+]\e[6;63H\e[34h\e[?25h"
+  - delay: 99
+    content: "\e[?25l\e[19;66H~@k\e[6;63H\e[19;66H   \e[6;63H\e[19;66Hdl\e[6;63H\e[19;66H  \e[6;63H\e[4md leads.csv foo\e[24m\e[7;1H\e[38;5;130m \e[0m\e[5C\e[4mlder \e[24m\e[4m\e[103manaly\e[24m\e[0m\e[4msis \e[6;63H\e[34h\e[?25h"
+  - delay: 117
+    content: "\e[?25l\e[24m\e[19;66H~@k\e[6;63H\e[19;66H   \e[6;63H\e[19;66Hdl\e[6;63H\e[19;66H  \e[6;63H\e[4m leads.csv foll\e[24m\e[7;1H\e[38;5;130m \e[0m\e[5C\e[4mder \e[24m\e[4m\e[103manaly\e[24m\e[0m\e[4msis \e[24m\e[18;59H7\e[6;63H\e[34h\e[?25h"
+  - delay: 111
+    content: "\e[?25l\e[19;66H~@k\e[6;63H\e[19;66H   \e[6;63H\e[19;66Hdl\e[6;63H\e[19;66H  \e[6;63H\e[4mleads.csv foldd\e[24m\e[7;1H\e[38;5;130m \e[0m\e[5C\e[4mer \e[24m\e[4m\e[103manaly\e[24m\e[0m\e[4msis \e[6;63H\e[34h\e[?25h"
+  - delay: 119
+    content: "\e[?25l\e[24m\e[19;66H~@k\e[6;63H\e[19;66H   \e[6;63H\e[19;66Hdl\e[6;63H\e[19;66H  \e[6;63H\e[4meads.csv foldee\e[24m\e[7;1H\e[38;5;130m \e[0m\e[5C\e[4mr \e[24m\e[4m\e[103manaly\e[24m\e[0m\e[4msis \e[6;63H\e[34h\e[?25h"
+  - delay: 136
+    content: "\e[?25l\e[24m\e[19;66H~@k\e[6;63H\e[19;66H   \e[6;63H\e[19;66Hdl\e[6;63H\e[19;66H  \e[6;63H\e[4mads.csv folderr\e[24m\e[7;1H\e[38;5;130m \e[0m\e[5C\e[4m \e[24m\e[4m\e[103manaly\e[24m\e[0m\e[4msis \e[6;63H\e[34h\e[?25h"
+  - delay: 122
+    content: "\e[?25l\e[24m\e[19;66H~@k\e[6;63H\e[19;66H   \e[6;63H\e[19;66Hdl\e[6;63H\e[19;66H  \e[6;63H\e[4mds.csv folder  \e[24m\e[7;1H\e[38;5;130m \e[0m\e[5C\e[4m\e[103manaly\e[24m\e[0m\e[4msis \e[6;63H\e[34h\e[?25h"
+  - delay: 118
+    content: "\e[?25l\e[24m\e[19;66H~@k\e[6;63H\e[19;66H   \e[6;63H\e[19;66Hdl\e[6;63H\e[19;66H  \e[6;63H\e[4ms.csv folder \e[24m\e[4m\e[103maa\e[24m\e[0m\e[7;1H\e[38;5;130m \e[0m\e[5C\e[4m\e[103mnaly\e[24m\e[0m\e[4msis \e[6;63H\e[34h\e[?25h"
+  - delay: 124
+    content: "\e[?25l\e[24m\e[19;66H~@k\e[6;63H\e[19;66H   \e[6;63H\e[19;66Hdl\e[6;63H\e[19;66H  \e[6;63H\e[4m.csv folder \e[24m\e[4m\e[103mann\e[24m\e[0m\e[7;1H\e[38;5;130m \e[0m\e[5C\e[4m\e[103maly\e[24m\e[0m\e[4msis \e[6;63H\e[34h\e[?25h"
+  - delay: 111
+    content: "\e[?25l\e[24m\e[19;66H~@k\e[6;63H\e[19;66H   \e[6;63H\e[19;66Hdl\e[6;63H\e[19;66H  \e[6;63H\e[4mcsv folder \e[24m\e[4m\e[103manaa\e[24m\e[0m\e[7;1H\e[38;5;130m \e[0m\e[5C\e[4m\e[103mly\e[24m\e[0m\e[4msis \e[6;63H\e[34h\e[?25h"
+  - delay: 126
+    content: "\e[?25l\e[24m\e[19;66H~@k\e[6;63H\e[19;66H   \e[6;63H\e[19;66Hdl\e[6;63H\e[19;66H  \e[6;63H\e[4msv folder \e[24m\e[4m\e[103manall\e[24m\e[0m\e[7;1H\e[38;5;130m \e[0m\e[5C\e[4m\e[103my\e[24m\e[0m\e[4msis \e[6;63H\e[34h\e[?25h"
+  - delay: 143
+    content: "\e[?25l\e[24m\e[19;66H~@k\e[6;63H\e[19;66H   \e[6;63H\e[19;66Hdl\e[6;63H\e[19;66H  \e[6;63H\e[4mv folder \e[24m\e[4m\e[103manalyy\e[24m\e[0m\e[7;1H\e[38;5;130m \e[0m\e[5C\e[4msis \e[6;63H\e[34h\e[?25h"
+  - delay: 133
+    content: "\e[?25l\e[24m\e[19;66H~@k\e[6;63H\e[19;66H   \e[6;63H\e[19;66Hdl\e[6;63H\e[19;66H  \e[6;63H\e[4m folder \e[24m\e[4m\e[103manaly\e[24m\e[0m\e[4mss\e[24m\e[7;1H\e[38;5;130m \e[0m\e[5C\e[4mis \e[24m\e[18;59H6\e[6;63H\e[34h\e[?25h"
+  - delay: 7903
+    content: "\e[?25l\e[19;66H~@k\e[6;63H"
+  - delay: 9
+    content: "\e[19;66H   \e[8;7H\e[6;7Hcopy the results of the scraping files in customers.csv  folder \e[103manaly\e[0mss\e[7;1H\e[38;5;130m \e[0m\e[5Cis\e[7;9H\e[K\e[8;7H\e[4m                                                                      \e[24m\e[18;51H mar…\e[18;57H 266W  --70%-- \e[1m64\e[0m:0\e[8;7H\e[34h\e[?25h"
+  - delay: 172
+    content: "\e[?25l\e[19;66H~@k\e[8;7H"
+  - delay: 7
+    content: "\e[19;66H   \e[9;13H\e[8;7H\e[K\e[9;7H\e[4mexecute                                                               \e[24m\e[18;67H1\e[5C\e[1m5\e[0m:7\e[9;13H\e[34h\e[?25h"
+  - delay: 182
+    content: "\e[?25l\e[19;66H~@k\e[9;13H\e[19;66H   \e[10;7H\e[9;7Hexecute\e[9;14H\e[K\e[10;7H\e[4m                                                                      \e[24m\e[18;67H2\e[5C\e[1m6\e[0m:0\e[10;7H\e[34h\e[?25h"
+  - delay: 486
+    content: "\e[?25l\e[19;66H~@k\e[10;7H"
+  - delay: 7
+    content: "\e[19;66H   \e[11;34H\e[10;7H\e[K\e[11;7H\e[4m\e[31m`python3 data_\e[24m\e[0m\e[4m\e[31m\e[103manaly\e[24m\e[0m\e[4m\e[31msis.py `\e[24m\e[0m\e[4m                                           \e[24m\e[18;51Hmar…\e[18;55H  266W  --73%-- \e[1m67\e[0m:28\e[11;34H\e[34h\e[?25h"
+  - delay: 441
+    content: "\e[?25l\e[19;66H~@k\e[11;34H"
+  - delay: 8
+    content: "\e[19;66H   \e[10;7H\e[4m                                                                      \e[24m\e[11;7H\e[31m`python3 data_\e[0m\e[31m\e[103manaly\e[0m\e[31msis.py `\e[0m \e[11;35H\e[K\e[18;51H mar…\e[18;57H 266W  --72%-- \e[1m66\e[0m:0\e[10;7H\e[34h\e[?25h"
+  - delay: 840
+    content: "\e[?25l\e[19;66H~@k\e[10;7H"
+  - delay: 8
+    content: "\e[19;66H   \e[9;13H\b\b\b\b\b\b\e[4mexecute                                                               \e[24m\e[10;7H\e[K\e[18;67H1\e[5C\e[1m5\e[0m:7\e[9;13H\e[34h\e[?25h"
+  - delay: 648
+    content: "\e[?25l\e[19;66H~@k\e[9;13H\a\e[19;66H   \e[9;13H\e[34h\e[?25h"
+  - delay: 695
+    content: "\e[?25l\e[19;66H~@k\e[9;13H"
+  - delay: 8
+    content: "\e[19;66H   \e[10;7H\e[9;7Hexecute\e[9;14H\e[K\e[10;7H\e[4m                                                                      \e[24m\e[18;67H2\e[5C\e[1m6\e[0m:0\e[10;7H\e[34h\e[?25h"
+  - delay: 432
+    content: "\e[?25l\e[19;66H~@k\e[10;7H"
+  - delay: 7
+    content: "\e[19;66H   \e[9;13H\b\b\b\b\b\b\e[4mexecute                                                               \e[24m\e[10;7H\e[K\e[18;67H1\e[5C\e[1m5\e[0m:7\e[9;13H\e[34h\e[?25h"
+  - delay: 681
+    content: "\e[?25l\e[19;66Hi\e[9;13H\e[19;66H \e[9;13H\e[19;1H\e[1m-- INSERT --"
+  - delay: 34
+    content: "\e[0m\e[18;1H\e[42m \e[0m\e[1m\e[42mI\e[0m\e[42m \e[0m\e[32m README.md[+]                                   mar…\e[18;56H \e[0m\e[42m 266W  --71%-- \e[0m\e[1m\e[42m65\e[0m\e[42m:7 \e[9;13H\e[34h\e[?25h"
+  - delay: 319
+    content: "\e[18;75H8\e[9;14H"
+  - delay: 460
+    content: "\e[?25l\e[18;75H9\e[9;15H\e[34h\e[?25h"
+  - delay: 135
+    content: "\e[?25l\e[0m\e[4mt\e[24m\e[18;51H\e[32mmar…\e[18;55H \e[0m\e[42m 267W  --71%-- \e[0m\e[1m\e[42m65\e[0m\e[42m:10\e[9;16H\e[34h\e[?25h"
+  - delay: 99
+    content: "\e[?25l\e[0m\e[4mo\e[24m\e[18;75H\e[42m1\e[9;17H\e[34h\e[?25h"
+  - delay: 98
+    content: "\e[?25l\e[18;75H2\e[9;18H\e[34h\e[?25h"
+  - delay: 195
+    content: "\e[?25l\e[0m\e[4ma\e[24m\e[18;59H\e[42m8\e[15C3\e[9;19H\e[34h\e[?25h"
+  - delay: 64
+    content: "\e[?25l\e[0m\e[4mn\e[24m\e[18;75H\e[42m4\e[9;20H\e[34h\e[?25h"
+  - delay: 106
+    content: "\e[?25l\e[0m\e[4ma\e[24m\e[18;75H\e[42m5\e[9;21H\e[34h\e[?25h"
+  - delay: 142
+    content: "\e[?25l\e[0m\e[4ml\e[24m\e[18;75H\e[42m6\e[9;22H\e[34h\e[?25h"
+  - delay: 160
+    content: "\e[?25l\e[0m\b\b\b\b\e[4m\e[103manaly\e[24m\e[0m\e[18;75H\e[42m7\e[9;23H\e[34h\e[?25h"
+  - delay: 815
+    content: "\e[?25l\e[0m\b\b\b\b\b\e[4manal \e[24m\e[18;75H\e[42m6\e[9;22H\e[34h\e[?25h"
+  - delay: 1513
+    content: "\e[?25l\e[0m\e[4ma\e[24m\e[18;75H\e[42m7\e[9;23H\e[34h\e[?25h"
+  - delay: 649
+    content: "\e[?25l\e[0m\e[4ml\e[24m\e[18;75H\e[42m8\e[9;24H\e[34h\e[?25h"
+  - delay: 919
+    content: "\e[?25l\e[0m\b\e[4m \e[24m\e[18;75H\e[42m7\e[9;23H\e[34h\e[?25h"
+  - delay: 328
+    content: "\e[?25l\e[0m\b\e[4m \e[24m\e[18;75H\e[42m6\e[9;22H\e[34h\e[?25h"
+  - delay: 275
+    content: "\e[?25l\e[0m\b\e[4m \e[24m\e[18;75H\e[42m5\e[9;21H\e[34h\e[?25h"
+  - delay: 901
+    content: "\e[?25l\e[0m\e[4ml\e[24m\e[18;75H\e[42m6\e[9;22H\e[34h\e[?25h"
+  - delay: 152
+    content: "\e[?25l\e[0m\e[4ma\e[24m\e[18;75H\e[42m7\e[9;23H\e[34h\e[?25h"
+  - delay: 313
+    content: "\e[?25l\e[0m\e[4ms\e[24m\e[18;75H\e[42m8\e[9;24H\e[34h\e[?25h"
+  - delay: 74
+    content: "\e[?25l\e[0m\e[4my\e[24m\e[18;75H\e[42m9\e[9;25H\e[34h\e[?25h"
+  - delay: 1061
+    content: "\e[?25l\e[0m\b\e[4m \e[24m\e[18;75H\e[42m8\e[9;24H\e[34h\e[?25h"
+  - delay: 133
+    content: "\e[?25l\e[0m\b\e[4m \e[24m\e[18;75H\e[42m7\e[9;23H\e[34h\e[?25h"
+  - delay: 138
+    content: "\e[?25l\e[0m\b\e[4m \e[24m\e[18;75H\e[42m6\e[9;22H\e[34h\e[?25h"
+  - delay: 994
+    content: "\e[?25l\e[0m\b\b\b\b\e[4m\e[103manaly\e[24m\e[0m\e[18;75H\e[42m7\e[9;23H\e[34h\e[?25h"
+  - delay: 183
+    content: "\e[?25l\e[0m\e[4ms\e[24m\e[18;75H\e[42m8\e[9;24H\e[34h\e[?25h"
+  - delay: 144
+    content: "\e[?25l\e[0m\e[4mi\e[24m\e[18;75H\e[42m9\e[9;25H\e[34h\e[?25h"
+  - delay: 83
+    content: "\e[?25l\e[0m\e[4ms\e[24m\e[18;74H\e[42m20\e[9;26H\e[34h\e[?25h"
+  - delay: 391
+    content: "\e[?25l\e[18;75H1\e[9;27H\e[34h\e[?25h"
+  - delay: 247
+    content: "\e[?25l\e[0m\e[4mo\e[24m\e[18;59H\e[42m9\e[15C2\e[9;28H\e[34h\e[?25h"
+  - delay: 67
+    content: "\e[?25l\e[0m\e[4mf\e[24m\e[18;75H\e[42m3\e[9;29H\e[34h\e[?25h"
+  - delay: 108
+    content: "\e[?25l\e[18;75H4\e[9;30H\e[34h\e[?25h"
+  - delay: 432
+    content: "\e[?25l\e[0m\e[4mc\e[24m\e[18;58H\e[42m70\e[15C5\e[9;31H\e[34h\e[?25h"
+  - delay: 59
+    content: "\e[?25l\e[0m\e[4mu\e[24m\e[18;75H\e[42m6\e[9;32H\e[34h\e[?25h"
+  - delay: 132
+    content: "\e[?25l\e[0m\e[4ms\e[24m\e[18;75H\e[42m7\e[9;33H\e[34h\e[?25h"
+  - delay: 64
+    content: "\e[?25l\e[0m\e[4mo\e[24m\e[18;75H\e[42m8\e[9;34H\e[34h\e[?25h"
+  - delay: 177
+    content: "\e[?25l\e[0m\e[4mt\e[24m\e[18;75H\e[42m9\e[9;35H\e[34h\e[?25h"
+  - delay: 91
+    content: "\e[?25l\e[0m\e[4mm\e[24m\e[18;74H\e[42m30\e[9;36H\e[34h\e[?25h"
+  - delay: 181
+    content: "\e[?25l\e[0m\e[4me\e[24m\e[18;75H\e[42m1\e[9;37H\e[34h\e[?25h"
+  - delay: 69
+    content: "\e[?25l\e[0m\e[4mr\e[24m\e[18;75H\e[42m2\e[9;38H\e[34h\e[?25h"
+  - delay: 317
+    content: "\e[?25l\e[0m\b\e[4m \e[24m\e[18;75H\e[42m1\e[9;37H\e[34h\e[?25h"
+  - delay: 105
+    content: "\e[?25l\e[0m\b\e[4m \e[24m\e[18;75H\e[42m0\e[9;36H\e[34h\e[?25h"
+  - delay: 112
+    content: "\e[?25l\e[0m\b\e[4m \e[24m\e[18;74H\e[42m29\e[9;35H\e[34h\e[?25h"
+  - delay: 125
+    content: "\e[?25l\e[0m\b\e[4m \e[24m\e[18;75H\e[42m8\e[9;34H\e[34h\e[?25h"
+  - delay: 83
+    content: "\e[?25l\e[0m\b\e[4m \e[24m\e[18;75H\e[42m7\e[9;33H\e[34h\e[?25h"
+  - delay: 710
+    content: "\e[?25l\e[0m\e[4mt\e[24m\e[18;75H\e[42m8\e[9;34H\e[34h\e[?25h"
+  - delay: 74
+    content: "\e[?25l\e[0m\e[4mo\e[24m\e[18;75H\e[42m9\e[9;35H\e[34h\e[?25h"
+  - delay: 101
+    content: "\e[?25l\e[0m\e[4mm\e[24m\e[18;74H\e[42m30\e[9;36H\e[34h\e[?25h"
+  - delay: 92
+    content: "\e[?25l\e[0m\e[4me\e[24m\e[18;75H\e[42m1\e[9;37H\e[34h\e[?25h"
+  - delay: 65
+    content: "\e[?25l\e[0m\e[4mr\e[24m\e[18;75H\e[42m2\e[9;38H\e[34h\e[?25h"
+  - delay: 227
+    content: "\e[?25l\e[0m\e[4ms\e[24m\e[18;75H\e[42m3\e[9;39H\e[34h\e[?25h"
+  - delay: 484
+    content: "\e[?25l\e[0m\e[9;7Hexecute to \e[103manaly\e[0msis of customers\e[9;39H\e[K\e[10;7H\e[4m                                                                      \e[24m\e[18;51H\e[32m mar…\e[18;56H \e[0m\e[42m 270W  --72%-- \e[0m\e[1m\e[42m66\e[0m\e[42m:1\e[10;7H\e[34h\e[?25h"
+  - delay: 151
+    content: "\e[?25l\e[0m\e[10;7H\e[K\e[11;7H\e[4m\e[31m`python3 data_\e[24m\e[0m\e[4m\e[31m\e[103manaly\e[24m\e[0m\e[4m\e[31msis.py `\e[24m\e[0m\e[4m                                           \e[24m\e[18;51H\e[32mmar…\e[18;55H \e[0m\e[42m 270W  --73%-- \e[0m\e[1m\e[42m67\e[0m\e[42m:29\e[11;35H\e[34h\e[?25h"
+  - delay: 274
+    content: "\e[?25l\e[0m\e[11;7H\e[31m`python3 data_\e[0m\e[31m\e[103manaly\e[0m\e[31msis.py `\e[0m \e[11;35H\e[K\e[12;7H\e[4m                                                                      \e[24m\e[18;51H\e[32m mar…\e[18;56H \e[0m\e[42m 270W  --74%-- \e[0m\e[1m\e[42m68\e[0m\e[42m:1\e[12;7H\e[34h\e[?25h"
+  - delay: 691
+    content: "\e[?25l\e[0m\e[12;7H\e[K\e[13;7H\e[4m                                                                      \e[24m\e[14;7Hcustomers.csv is the frequency file of the existing customers\e[15;7H\e[K\e[16;7Hleads.csv is the frequency file of the domains to be validated\e[18;67H\e[42m5\e[0m\e[5C\e[1m\e[42m9\e[13;7H\e[34h\e[?25h"
+  - delay: 158
+    content: "\e[?25l\e[0m\e[13;7H\e[K\e[14;7H\e[4m                                                                      \e[24m\e[15;7Hcustomers.csv is the frequency file of the existing customers\e[16;7H\e[K\e[17;7Hleads.csv is the frequency file of the domains to be validated\e[18;72H\e[1m\e[42m70\e[14;7H\e[34h\e[?25h"
+  - delay: 688
+    content: "\e[?25l\e[0m\e[13;7H\e[4m                                                                      \e[24m\e[14;7H\e[K\e[18;67H\e[42m4\e[0m\e[4C\e[1m\e[42m69\e[13;7H\e[34h\e[?25h"
+  - delay: 1076
+    content: "\e[?25l\e[0m\e[14;7Hcustomers.csv is the frequency file of the existing customers\e[15;7H\e[K\e[16;7Hleads.csv is the frequency file of the domains to be validated\e[17;7H\e[K\e[18;67H\e[42m5\e[13;7H\e[34h\e[?25h"
+  - delay: 155
+    content: "\e[?25l\e[0m\e[4mcustomers.csv is the frequency file of the existing customers\e[24m\e[14;7H\e[K\e[15;7Hleads.csv is the frequency file of the domains to be validated\e[16;7H\e[K\e[13;7H\e[34h\e[?25h"
+  - delay: 1079
+    content: "\e[?25lcustomers.csv is the frequency file of the existing customers\e[13;68H\e[K\e[14;7H\e[4m                                                                      \e[24m\e[18;67H\e[42m6\e[0m\e[4C\e[1m\e[42m70\e[14;7H\e[34h\e[?25h"
+  - delay: 207
+    content: "\e[?25l\e[0m\e[14;7H\e[K\e[15;7H\e[4mleads.csv is the frequency file of the domains to be validated        \e[24m\e[18;67H\e[42m8\e[0m\e[5C\e[1m\e[42m1\e[15;7H\e[34h\e[?25h"
+  - delay: 381
+    content: "\e[0m\e[19;1H\e[K\e[15;7H\e[?25l\e[19;66H^[\e[15;7H\e[34h\e[?25h"
+  - delay: 541
+    content: "\e[?25l\e[19;66H  \e[15;7H"
+  - delay: 29
+    content: "\r\n\r\n\r\n \e[1mN\e[0m  README.md[+]                                   mar…\e[18;56H  270W  --78%-- \e[1m71\e[0m:1 \e[15;7H\e[34h\e[?25h\e[?25l\e[19;66H~@k\e[15;7H"
+  - delay: 7
+    content: "\e[19;66H   \e[16;7H\e[15;7Hleads.csv is the frequency file of the domains to be validated\e[15;69H\e[K\e[16;7H\e[4m                                                                      \e[24m\e[18;67H9\e[5C\e[1m2\e[0m:0\e[16;7H\e[34h\e[?25h"
+  - delay: 124
+    content: "\e[?25l\e[19;66H~@k\e[16;7H"
+  - delay: 7
+    content: "\e[19;66H   \e[17;7H\e[16;7H\e[K\e[17;7H\e[4m                                                                      \e[24m\e[18;66H80\e[5C\e[1m3\e[17;7H\e[34h\e[?25h"
+  - delay: 136
+    content: "\e[?25l\e[0m\e[19;66H~@k\e[17;7H"
+  - delay: 8
+    content: "\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[K\e[17;1H\e[38;5;130m   74 \e[0m\e[4mCompany A has 200 customers ,                                         \e[24m\e[18;67H1\e[5C\e[1m4\e[0m:1\e[17;7H\e[34h\e[?25h"
+  - delay: 125
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7HCompany A has 200 customers , \e[16;37H\e[K\e[17;1H\e[38;5;130m   75 \e[0m\e[4m                                                                      \e[24m\e[18;67H2\e[5C\e[1m5\e[0m:0\e[17;7H\e[34h\e[?25h"
+  - delay: 141
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[K\e[17;1H\e[38;5;130m   76 \e[0m\e[4m\e[36m-\e[24m\e[0m\e[4m Provides us the domain of each customer in to our service           \e[24m\e[18;67H3\e[5C\e[1m6\e[0m:1\e[17;7H\e[34h\e[?25h"
+  - delay: 133
+    content: "\e[?25l\e[19;66H~@k\e[17;7H"
+  - delay: 7
+    content: "\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[36m-\e[0m Provides us the domain of each customer in to our service\e[16;66H\e[K\e[17;1H\e[38;5;130m   77 \e[0m\e[4m                                                                      \e[24m\e[18;67H4\e[5C\e[1m7\e[0m:0\e[17;7H\e[34h\e[?25h"
+  - delay: 144
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[K\e[17;1H\e[38;5;130m   78 \e[0m\e[4mdomain01.org                                                          \e[24m\e[18;67H5\e[5C\e[1m8\e[0m:1\e[17;7H\e[34h\e[?25h"
+  - delay: 166
+    content: "\e[?25l\e[19;66H~@k\e[17;7H"
+  - delay: 8
+    content: "\e[19;66H   \e[16;7H\e[1;17r\e[1;1H\e[2M\e[1;19r\e[15;7Hdomain01.org\e[15;19H\e[K\e[16;1H\e[38;5;130m   79 \e[0m\e[4m                                                                      \e[24m\e[17;1H\e[38;5;130m   80 \e[0mdomain02.org\e[18;67H6\e[5C\e[1m9\e[0m:0\e[16;7H\e[34h\e[?25h"
+  - delay: 409
+    content: "\e[?25l\e[19;66H~@k\e[16;7H"
+  - delay: 8
+    content: "\e[19;66H   \e[15;7H\e[4mdomain01.org                                                          \e[24m\e[16;7H\e[K\e[18;67H5\e[5C\e[1m8\e[0m:1\e[15;7H\e[34h\e[?25h"
+  - delay: 151
+    content: "\e[?25l\e[19;66H~@k\e[15;7H"
+  - delay: 9
+    content: "\e[19;66H   \e[14;7H\e[4m                                                                      \e[24m\e[15;7Hdomain01.org\e[15;19H\e[K\e[18;67H4\e[5C\e[1m7\e[0m:0\e[14;7H\e[34h\e[?25h"
+  - delay: 143
+    content: "\e[?25l\e[19;66H~@k\e[14;7H"
+  - delay: 9
+    content: "\e[19;66H   \e[13;7H\e[4m\e[36m-\e[24m\e[0m\e[4m Provides us the domain of each customer in to our service           \e[24m\e[14;7H\e[K\e[18;67H3\e[5C\e[1m6\e[0m:1\e[13;7H\e[34h\e[?25h"
+  - delay: 144
+    content: "\e[?25l\e[19;66H~@k\e[13;7H"
+  - delay: 8
+    content: "\e[19;66H   \e[12;7H\e[4m                                                                      \e[24m\e[13;7H\e[36m-\e[0m Provides us the domain of each customer in to our service\e[13;66H\e[K\e[18;67H2\e[5C\e[1m5\e[0m:0\e[12;7H\e[34h\e[?25h"
+  - delay: 143
+    content: "\e[?25l\e[19;66H~@k\e[12;7H"
+  - delay: 8
+    content: "\e[19;66H   \e[11;7H\e[4mCompany A has 200 customers ,                                         \e[24m\e[12;7H\e[K\e[18;67H1\e[5C\e[1m4\e[0m:1\e[11;7H\e[34h\e[?25h"
+  - delay: 128
+    content: "\e[?25l\e[19;66H~@k\e[11;7H"
+  - delay: 8
+    content: "\e[19;66H   \e[10;7H\e[4m                                                                      \e[24m\e[11;7HCompany A has 200 customers , \e[11;37H\e[K\e[18;67H0\e[5C\e[1m3\e[0m:0\e[10;7H\e[34h\e[?25h"
+  - delay: 120
+    content: "\e[?25l\e[19;66H~@k\e[10;7H"
+  - delay: 8
+    content: "\e[19;66H   \e[9;7H\e[4m                                                                      \e[24m\e[10;7H\e[K\e[18;66H79\e[5C\e[1m2\e[9;7H\e[34h\e[?25h"
+  - delay: 112
+    content: "\e[?25l\e[0m\e[19;66H~@k\e[9;7H"
+  - delay: 9
+    content: "\e[19;66H   \e[8;7H\e[4mleads.csv is the frequency file of the domains to be validated        \e[24m\e[9;7H\e[K\e[18;67H8\e[5C\e[1m1\e[0m:1\e[8;7H\e[34h\e[?25h"
+  - delay: 403
+    content: "\e[?25l\e[19;66Hd\e[8;7H\e[34h\e[?25h"
+  - delay: 193
+    content: "\e[?25l\e[19;67Hd\e[8;7H\e[19;66H  \e[8;7H\e[4m                                                              \e[24m\e[10;7HCompany A has 200 customers ,\e[11;7H\e[K\e[12;7H\e[36m-\e[0m Provides us the domain of each customer in to our service\e[13;7H\e[K\e[14;7Hdomain01.org\e[15;7H\e[K\e[16;7Hdomain02.org\e[17;7H\e[K\e[18;59H59\e[14C0\e[8;7H\e[34h\e[?25h"
+  - delay: 482
+    content: "\e[?25l\e[19;66H~@k\e[8;7H"
+  - delay: 7
+    content: "\e[19;66H   \e[9;7H\e[8;7H\e[K\e[9;7H\e[4m                                                                      \e[24m\e[18;66H80\e[5C\e[1m2\e[9;7H\e[34h\e[?25h"
+  - delay: 913
+    content: "\e[?25l\e[0m\e[19;66H~@k\e[9;7H"
+  - delay: 8
+    content: "\e[19;66H   \e[10;7H\e[9;7H\e[K\e[10;7H\e[4mCompany A has 200 customers ,                                         \e[24m\e[18;67H1\e[5C\e[1m3\e[0m:1\e[10;7H\e[34h\e[?25h"
+  - delay: 160
+    content: "\e[?25l\e[19;66H~@k\e[10;7H"
+  - delay: 7
+    content: "\e[19;66H   \e[11;7H\e[10;7HCompany A has 200 customers , \e[10;37H\e[K\e[11;7H\e[4m                                                                      \e[24m\e[18;67H2\e[5C\e[1m4\e[0m:0\e[11;7H\e[34h\e[?25h"
+  - delay: 176
+    content: "\e[?25l\e[19;66H~@k\e[11;7H"
+  - delay: 8
+    content: "\e[19;66H   \e[12;7H\e[11;7H\e[K\e[12;7H\e[4m\e[36m-\e[24m\e[0m\e[4m Provides us the domain of each customer in to our service           \e[24m\e[18;67H3\e[5C\e[1m5\e[0m:1\e[12;7H\e[34h\e[?25h"
+  - delay: 161
+    content: "\e[?25l\e[19;66H~@k\e[12;7H"
+  - delay: 8
+    content: "\e[19;66H   \e[13;7H\e[12;7H\e[36m-\e[0m Provides us the domain of each customer in to our service\e[12;66H\e[K\e[13;7H\e[4m                                                                      \e[24m\e[18;67H4\e[5C\e[1m6\e[0m:0\e[13;7H\e[34h\e[?25h"
+  - delay: 143
+    content: "\e[?25l\e[19;66H~@k\e[13;7H"
+  - delay: 8
+    content: "\e[19;66H   \e[14;7H\e[13;7H\e[K\e[14;7H\e[4mdomain01.org                                                          \e[24m\e[18;67H5\e[5C\e[1m7\e[0m:1\e[14;7H\e[34h\e[?25h"
+  - delay: 164
+    content: "\e[?25l\e[19;66H~@k\e[14;7H"
+  - delay: 7
+    content: "\e[19;66H   \e[15;7H\e[14;7Hdomain01.org\e[14;19H\e[K\e[15;7H\e[4m                                                                      \e[24m\e[18;67H6\e[5C\e[1m8\e[0m:0\e[15;7H\e[34h\e[?25h"
+  - delay: 133
+    content: "\e[?25l\e[19;66H~@k\e[15;7H"
+  - delay: 9
+    content: "\e[19;66H   \e[16;7H\e[15;7H\e[K\e[16;7H\e[4mdomain02.org                                                          \e[24m\e[18;67H7\e[5C\e[1m9\e[0m:1\e[16;7H\e[34h\e[?25h"
+  - delay: 144
+    content: "\e[?25l\e[19;66H~@k\e[16;7H"
+  - delay: 7
+    content: "\e[19;66H   \e[17;7H\e[16;7Hdomain02.org\e[16;19H\e[K\e[17;7H\e[4m                                                                      \e[24m\e[18;67H8%-- \e[1m80\e[0m:0\e[17;7H\e[34h\e[?25h"
+  - delay: 145
+    content: "\e[?25l\e[19;66H~@k\e[17;7H"
+  - delay: 8
+    content: "\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[K\e[17;1H\e[38;5;130m   81 \e[0m\e[4mdomain03.org                                                          \e[24m\e[18;66H90\e[5C\e[1m1\e[0m:1\e[17;7H\e[34h\e[?25h"
+  - delay: 127
+    content: "\e[?25l\e[19;66H~@k\e[17;7H"
+  - delay: 8
+    content: "\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7Hdomain03.org\e[16;19H\e[K\e[17;1H\e[38;5;130m   82 \e[0m\e[4m                                                                      \e[24m\e[18;67H1\e[5C\e[1m2\e[0m:0\e[17;7H\e[34h\e[?25h"
+  - delay: 135
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[K\e[17;1H\e[38;5;130m   83 \e[0m\e[4mProvides us some relevant keywords about their customers and products \e[24m\e[18;67H2\e[5C\e[1m3\e[0m:1\e[17;7H\e[34h\e[?25h"
+  - delay: 152
+    content: "\e[?25l\e[19;66H~@k\e[17;7H"
+  - delay: 8
+    content: "\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7HProvides us some relevant keywords about their customers and products\e[16;76H\e[K\e[17;1H\e[38;5;130m   84 \e[0m\e[4m                                                                      \e[24m\e[18;67H3\e[5C\e[1m4\e[0m:0\e[17;7H\e[34h\e[?25h"
+  - delay: 141
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[K\e[17;1H\e[38;5;130m   85 \e[0m\e[4m                                                                      \e[24m\e[18;67H4\e[5C\e[1m5\e[17;7H\e[34h\e[?25h"
+  - delay: 133
+    content: "\e[?25l\e[0m\e[19;66H~@k\e[17;7H"
+  - delay: 5
+    content: "\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[K\e[17;1H\e[38;5;130m   86 \e[0m\e[4mHe provides a list of domains                                         \e[24m\e[18;67H5\e[5C\e[1m6\e[0m:1\e[17;7H\e[34h\e[?25h"
+  - delay: 138
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7HHe provides a list of domains \e[16;37H\e[K\e[17;1H\e[38;5;130m   87 \e[0m\e[4m                                                                      \e[24m\e[18;67H6\e[5C\e[1m7\e[0m:0\e[17;7H\e[34h\e[?25h"
+  - delay: 133
+    content: "\e[?25l\e[19;66H~@k\e[17;7H"
+  - delay: 6
+    content: "\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[K\e[17;1H\e[38;5;130m   88 \e[0m\e[4mWe check every domain                                                 \e[24m\e[18;67H7\e[5C\e[1m8\e[0m:1\e[17;7H\e[34h\e[?25h"
+  - delay: 113
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7HWe check every domain\e[16;28H\e[K\e[17;1H\e[38;5;130m   89 \e[0m\e[4m                                                                      \e[24m\e[18;67H8\e[5C\e[1m9\e[0m:0\e[17;7H\e[34h\e[?25h"
+  - delay: 140
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[1;17r\e[17;1H\r\n\e[1;19r\e[16;7H\e[K\e[17;1H\e[38;5;130m   90 \e[0m\e[4m                                                                      \e[24m\e[18;51Hmar…\e[18;55H  259W  --100%-- \e[1m90\e[17;7H\e[34h\e[?25h"
+  - delay: 132
+    content: "\e[?25l\e[0m\e[19;66H~@k\e[17;7H\a\e[19;66H   \e[17;7H\e[34h\e[?25h"
+  - delay: 146
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[34h\e[?25h"
+  - delay: 159
+    content: "\e[?25l\e[19;66H~@k\e[17;7H\e[19;66H   \e[17;7H\e[34h\e[?25h"
+  - delay: 278
+    content: "\e[?25l\e[19;66H~@k\e[17;7H"
+  - delay: 8
+    content: "\e[19;66H   \e[16;7H\e[4m                                                                      \e[24m\e[17;7H\e[K\e[18;51H mar…\e[18;57H 259W  --98%-- \e[1m89\e[16;7H\e[34h\e[?25h"
+  - delay: 652
+    content: "\e[?25l\e[0m\e[19;66H~@k\e[16;7H"
+  - delay: 8
+    content: "\e[19;66H   \e[15;7H\e[4mWe check every domain                                                 \e[24m\e[16;7H\e[K\e[18;67H7\e[5C\e[1m8\e[0m:1\e[15;7H\e[34h\e[?25h"
+  - delay: 62
+    content: "\e[?25l\e[19;66H~@k\e[15;7H"
+  - delay: 5
+    content: "\e[19;66H   \e[14;7H\e[4m                                                                      \e[24m\e[15;7HWe check every domain\e[15;28H\e[K\e[18;67H6\e[5C\e[1m7\e[0m:0\e[14;7H\e[34h\e[?25h\e[?25l\e[19;66H~@k\e[14;7H\e[19;66H   \e[13;7H\e[4mHe provides a list of domains                                         \e[24m\e[14;7H\e[K\e[18;67H5\e[5C\e[1m6\e[0m:1\e[13;7H\e[34h\e[?25h"
+  - delay: 39
+    content: "\e[?25l\e[19;66H~@k\e[13;7H\e[19;66H   \e[12;7H\e[4m                                                                      \e[24m\e[13;7HHe provides a list of domains \e[13;37H\e[K\e[18;67H4\e[5C\e[1m5\e[0m:0\e[12;7H\e[34h\e[?25h"
+  - delay: 40
+    content: "\e[?25l\e[19;66H~@k\e[12;7H\e[19;66H   \e[11;7H\e[4m                                                                      \e[24m\e[12;7H\e[K\e[18;67H3\e[5C\e[1m4\e[11;7H\e[34h\e[?25h"
+  - delay: 31
+    content: "\e[?25l\e[0m\e[19;66H~@k\e[11;7H\e[19;66H   \e[10;7H\e[4mProvides us some relevant keywords about their customers and products \e[24m\e[11;7H\e[K\e[18;67H2\e[5C\e[1m3\e[0m:1\e[10;7H\e[34h\e[?25h"
+  - delay: 37
+    content: "\e[?25l\e[19;66H~@k\e[10;7H\e[19;66H   \e[9;7H\e[4m                                                                      \e[24m\e[10;7HProvides us some relevant keywords about their customers and products\e[10;76H\e[K\e[18;67H1\e[5C\e[1m2\e[0m:0\e[9;7H\e[34h\e[?25h"
+  - delay: 39
+    content: "\e[?25l\e[19;66H~@k\e[9;7H\e[19;66H   \e[8;7H\e[4mdomain03.org                                                          \e[24m\e[9;7H\e[K\e[18;67H0\e[5C\e[1m1\e[0m:1\e[8;7H\e[34h\e[?25h"
+  - delay: 37
+    content: "\e[?25l\e[19;66H~@k\e[8;7H\e[19;66H   \e[7;7H\e[4m                                                                      \e[24m\e[8;7Hdomain03.org\e[8;19H\e[K\e[18;66H88\e[5C\e[1m0\e[0m:0\e[7;7H\e[34h\e[?25h"
+  - delay: 48
+    content: "\e[?25l\e[19;66H~@k\e[7;7H\e[19;66H   \e[6;7H\e[4mdomain02.org                                                          \e[24m\e[7;7H\e[K\e[18;67H7%-- \e[1m79\e[0m:1\e[6;7H\e[34h\e[?25h"
+  - delay: 27
+    content: "\e[?25l\e[19;66H~@k\e[6;7H\e[19;66H   \e[5;7H\e[4m                                                                      \e[24m\e[6;7Hdomain02.org\e[6;19H\e[K\e[18;67H6\e[5C\e[1m8\e[0m:0\e[5;7H\e[34h\e[?25h"
+  - delay: 37
+    content: "\e[?25l\e[19;66H~@k\e[5;7H\e[19;66H   \e[4;7H\e[4mdomain01.org                                                          \e[24m\e[5;7H\e[K\e[18;67H5\e[5C\e[1m7\e[0m:1\e[4;7H\e[34h\e[?25h"
+  - delay: 37
+    content: "\e[?25l\e[19;66H~@k\e[4;7H\e[19;66H   \e[3;7H\e[4m                                                                      \e[24m\e[4;7Hdomain01.org\e[4;19H\e[K\e[18;67H4\e[5C\e[1m6\e[0m:0\e[3;7H\e[34h\e[?25h"
+  - delay: 39
+    content: "\e[?25l\e[19;66H~@k\e[3;7H"
+  - delay: 12
+    content: "\e[19;66H   \e[2;7H\e[4m\e[36m-\e[24m\e[0m\e[4m Provides us the domain of each customer in to our service           \e[24m\e[3;7H\e[K\e[18;67H3\e[5C\e[1m5\e[0m:1\e[2;7H\e[34h\e[?25h"
+  - delay: 26
+    content: "\e[?25l\e[19;66H~@k\e[2;7H\e[19;66H   \e[1;7H\e[4m                                                                      \e[24m\e[2;7H\e[36m-\e[0m Provides us the domain of each customer in to our service\e[2;66H\e[K\e[18;67H2\e[5C\e[1m4\e[0m:0\e[1;7H\e[34h\e[?25h"
+  - delay: 38
+    content: "\e[?25l\e[19;66H~@k\e[1;7H\e[19;66H   \e[1;7H\e[1;17r\e[1;1H\e[L\e[1;19r\e[1;1H\e[38;5;130m   73 \e[0m\e[4mCompany A has 200 customers ,                                         \e[24m\e[2;7H\e[K\e[18;67H1\e[5C\e[1m3\e[0m:1\e[1;7H\e[34h\e[?25h"
+  - delay: 47
+    content: "\e[?25l\e[19;66H~@k\e[1;7H\e[19;66H   \e[1;7H\e[1;17r\e[1;1H\e[L\e[1;19r\e[1;1H\e[38;5;130m   72 \e[0m\e[4m                                                                      \e[24m\e[2;7HCompany A has 200 customers , \e[2;37H\e[K\e[18;67H0\e[5C\e[1m2\e[0m:0\e[1;7H\e[34h\e[?25h"
+  - delay: 28
+    content: "\e[?25l\e[19;66H~@k\e[1;7H\e[19;66H   \e[1;7H\e[1;17r\e[1;1H\e[L\e[1;19r\e[1;1H\e[38;5;130m   71 \e[0m\e[4m                                                                      \e[24m\e[2;7H\e[K\e[18;66H78\e[5C\e[1m1\e[1;7H\e[34h\e[?25h"
+  - delay: 38
+    content: "\e[?25l\e[0m\e[19;66H~@k\e[1;7H\e[19;66H   \e[1;7H\e[1;17r\e[1;1H\e[L\e[1;19r\e[1;1H\e[38;5;130m   70 \e[0m\e[4m                                                                      \e[24m\e[2;7H\e[K\e[18;67H7\e[5C\e[1m0\e[1;7H\e[34h\e[?25h"
+  - delay: 52
+    content: "\e[?25l\e[0m\e[19;66H~@k\e[1;7H\e[19;66H   \e[1;7H\e[1;17r\e[1;1H\e[L\e[1;19r\e[1;1H\e[38;5;130m   69 \e[0m\e[4mcustomers.csv is the frequency file of the existing customers         \e[24m\e[2;7H\e[K\e[18;67H6%-- \e[1m69\e[0m:1\e[1;7H\e[34h\e[?25h"
+  - delay: 21
+    content: "\e[?25l\e[19;66H~@k\e[1;7H\e[19;66H   \e[1;7H\e[1;17r\e[1;1H\e[L\e[1;19r\e[1;1H\e[38;5;130m   68 \e[0m\e[4m                                                                      \e[24m\e[2;7Hcustomers.csv is the frequency file of the existing customers\e[2;68H\e[K\e[18;67H5\e[5C\e[1m8\e[0m:0\e[1;7H\e[34h\e[?25h"
+  - delay: 44
+    content: "\e[?25l\e[19;66H~@k\e[1;7H\e[19;66H   \e[1;7H\e[1;17r\e[1;1H\e[L\e[1;19r\e[1;1H+ \e[38;5;130m 67 \e[0m\e[4m\e[31m`python3 data_\e[24m\e[0m\e[4m\e[31m\e[103manaly\e[24m\e[0m\e[4m\e[31msis.py `\e[24m\e[0m\e[4m                                           \e[24m\e[2;7H\e[K\e[18;67H4\e[5C\e[1m7\e[0m:1\e[1;7H\e[34h\e[?25h"
+  - delay: 30
+    content: "\e[?25l\e[19;66H~@k\e[1;7H\e[19;66H   \e[1;7H\e[1;17r\e[1;1H\e[L\e[1;19r\e[1;1H+ \e[38;5;130m 66 \e[0m\e[4m                                                                      \e[24m\e[2;7H\e[31m`python3 data_\e[0m\e[31m\e[103manaly\e[0m\e[31msis.py `\e[0m \e[2;35H\e[K\e[18;67H3\e[5C\e[1m6\e[0m:0\e[1;7H\e[34h\e[?25h"
+  - delay: 49
+    content: "\e[?25l\e[19;66H~@k\e[1;7H\e[19;66H   \e[1;7H\e[1;17r\e[1;1H\e[L\e[1;19r\e[1;1H+ \e[38;5;130m 65 \e[0m\e[4mexecute to \e[24m\e[4m\e[103manaly\e[24m\e[0m\e[4msis of customers                                      \e[24m\e[2;7H\e[K\e[18;67H2\e[5C\e[1m5\e[0m:1\e[1;7H\e[34h\e[?25h"
+  - delay: 247
+    content: "\e[?25l\e[19;66H~@k\e[1;7H"
+  - delay: 8
+    content: "\e[19;66H   \e[2;7H\e[1;7Hexecute to \e[103manaly\e[0msis of customers\e[1;39H\e[K\e[2;7H\e[4m                                                                      \e[24m\e[18;67H3\e[5C\e[1m6\e[0m:0\e[2;7H\e[34h\e[?25h"
+  - delay: 152
+    content: "\e[?25l\e[19;66H~@k\e[2;7H"
+  - delay: 8
+    content: "\e[19;66H   \e[3;7H\e[2;7H\e[K\e[3;7H\e[4m\e[31m`python3 data_\e[24m\e[0m\e[4m\e[31m\e[103manaly\e[24m\e[0m\e[4m\e[31msis.py `\e[24m\e[0m\e[4m                                           \e[24m\e[18;67H4\e[5C\e[1m7\e[0m:1\e[3;7H\e[34h\e[?25h"
+  - delay: 150
+    content: "\e[?25l\e[19;66H~@k\e[3;7H\e[19;66H   \e[4;7H\e[3;7H\e[31m`python3 data_\e[0m\e[31m\e[103manaly\e[0m\e[31msis.py `\e[0m \e[3;35H\e[K\e[4;7H\e[4m                                                                      \e[24m\e[18;67H5\e[5C\e[1m8\e[0m:0\e[4;7H\e[34h\e[?25h"
+  - delay: 133
+    content: "\e[?25l\e[19;66H~@k\e[4;7H\e[19;66H   \e[5;7H\e[4;7H\e[K\e[5;7H\e[4mcustomers.csv is the frequency file of the existing customers         \e[24m\e[18;67H6\e[5C\e[1m9\e[0m:1\e[5;7H\e[34h\e[?25h"
+  - delay: 124
+    content: "\e[?25l\e[19;66H~@k\e[5;7H\e[19;66H   \e[6;7H\e[5;7Hcustomers.csv is the frequency file of the existing customers\e[5;68H\e[K\e[6;7H\e[4m                                                                      \e[24m\e[18;67H7%-- \e[1m70\e[0m:0\e[6;7H\e[34h\e[?25h"
+  - delay: 126
+    content: "\e[?25l\e[19;66H~@k\e[6;7H\e[19;66H   \e[7;7H\e[6;7H\e[K\e[7;7H\e[4m                                                                      \e[24m\e[18;67H8\e[5C\e[1m1\e[7;7H\e[34h\e[?25h"
+  - delay: 654
+    content: "\e[?25l\e[0m\e[19;66Ht\e[7;7H\e[34h\e[?25h"
+  - delay: 82
+    content: "\e[?25l\e[19;67Ho\e[7;7H\a\e[19;66H  \e[7;7H\e[34h\e[?25h"
+  - delay: 132
+    content: "\e[?25l\e[19;66Hd\e[7;7H\e[34h\e[?25h"
+  - delay: 71
+    content: "\e[?25l\e[19;67Ho\e[7;7H\e[19;1H\e[97m\e[41mE99: Current buffer is not in diff mode\e[0m\e[19;66H\e[K\e[7;7H\e[34h\e[?25h"
+  - delay: 744
+    content: "\e[?25l\e[19;66Hi\e[7;7H\e[19;66H \e[7;7H\e[19;1H\e[1m-- INSERT --\e[0m\e[19;13H\e[K"
+  - delay: 33
+    content: "\e[18;1H\e[42m \e[0m\e[1m\e[42mI\e[0m\e[42m \e[0m\e[32m README.md[+]                                   mar…\e[18;56H \e[0m\e[42m 259W  --78%-- \e[0m\e[1m\e[42m71\e[0m\e[42m:1 \e[7;7H\e[34h\e[?25h"
+  - delay: 780
+    content: "\e[?25l\e[0m\e[4mt\e[24m\e[18;59H\e[42m60\e[14C2\e[7;8H\e[34h\e[?25h"
+  - delay: 133
+    content: "\e[?25l\e[0m\e[4mo\e[24m\e[18;75H\e[42m3\e[7;9H\e[34h\e[?25h"
+  - delay: 103
+    content: "\e[?25l\e[0m\e[4md\e[24m\e[18;75H\e[42m4\e[7;10H\e[34h\e[?25h"
+  - delay: 83
+    content: "\e[?25l\e[0m\e[4mo\e[24m\e[18;75H\e[42m5\e[7;11H\e[34h\e[?25h"
+  - delay: 482
+    content: "\e[?25l\e[0m\e[19;1H\e[K"
+  - delay: 35
+    content: "\e[7;7H\e[4m\e[34m>  TODO:  <16-06-19, agalan> > \e[24m\e[0m\e[18;1H \e[1mN\e[0m  README.md[+]                                   mar…\e[18;56H  264W  --78%-- \e[1m71\e[0m:3 \e[7;9H\e[34h\e[?25h\e[?25l\b\b\e[34m>  TODO:  <16-06-19, agalan> > \e[0m\e[7;38H\e[K\e[18;1H\e[41m \e[0m\e[1m\e[41mV\e[0m\e[41m \e[0m\e[31m README.md[+]                                     mar…\e[18;58H \e[0m\e[41m 0W  --78%-- \e[0m\e[1m\e[41m71\e[0m\e[41m:3 \e[7;9H\e[34h\e[?25h\e[?25l\e[0m\b\e[34m\e[47m  \e[0m\e[18;60H\e[41m1\e[14C1\e[7;7H\e[34h\e[?25h\e[?25l\e[0m\e[1C\e[34m \e[0m\e[1C\e[34m\e[47mTOD\e[0m\e[18;75H\e[41m7\e[7;13H\e[34h\e[?25h\e[?25l\e[0m\b\b\b\b\e[34m \e[0m\e[3C\e[34m\e[47mO\e[0m\e[18;75H\e[41m3\e[7;9H\e[34h\e[?25h\e[?25l\e[0m\b\e[34m\e[47m  \e[0m\e[18;60H\e[41m2\e[14C1\e[7;7H\e[34h\e[?25h\e[?25l\e[0m\e[1C\e[34m  T\e[0m\e[18;60H\e[41m1\e[14C4\e[7;10H\e[34h\e[?25h\e[?25l\e[0m\e[34m\e[47mT\e[0m\e[2C\e[34mO\e[0m\e[18;75H\e[41m7\e[7;13H\e[34h\e[?25h\e[?25l\e[0m\e[19;66H^G\e[7;13H\e[19;1H\e[1m-- SELECT --\e[0m\e[19;66H\e[K\e[19;66H4\e[7;13H\e[18;2H\e[1m\e[41mS\e[7;13H\e[34h\e[?25h"
+  - delay: 4351
+    content: "\e[?25l\e[0m\e[19;66H \e[7;10H\e[19;4H\e[1mINSER"
+  - delay: 33
+    content: "\e[0m\e[7;7H\e[4m\e[34m>  C:  <16-06-19, agalan> > \e[24m\e[0m\e[4m                                          \e[24m\e[18;1H\e[42m \e[0m\e[1m\e[42mI\e[0m\e[42m \e[0m\e[32m README.md[+]                                   mar…\e[18;56H \e[0m\e[42m 264W  --78%-- \e[0m\e[1m\e[42m71\e[0m\e[42m:5 \e[7;11H\e[34h\e[?25h"
+  - delay: 463
+    content: "\e[?25l\e[0m\e[4m\e[34mh:  <16-06-19, agalan> > \e[24m\e[0m\e[18;75H\e[42m6\e[7;12H\e[34h\e[?25h"
+  - delay: 130
+    content: "\e[?25l\e[0m\e[4m\e[34me:  <16-06-19, agalan> > \e[24m\e[0m\e[18;75H\e[42m7\e[7;13H\e[34h\e[?25h"
+  - delay: 155
+    content: "\e[?25l\e[0m\e[4m\e[34mc:  <16-06-19, agalan> > \e[24m\e[0m\e[18;75H\e[42m8\e[7;14H\e[34h\e[?25h"
+  - delay: 74
+    content: "\e[?25l\e[0m\e[4m\e[34mk:  <16-06-19, agalan> > \e[24m\e[0m\e[18;75H\e[42m9\e[7;15H\e[34h\e[?25h"
+  - delay: 160
+    content: "\e[?25l\e[0m\e[4m\e[34m :  <16-06-19, agalan> > \e[24m\e[0m\e[18;51H\e[32mmar…\e[18;55H \e[0m\e[42m 265W  --78%-- \e[0m\e[1m\e[42m71\e[0m\e[42m:10\e[7;16H\e[34h\e[?25h"
+  - delay: 4034
+    content: "\e[?25l\e[0m\e[1;1H~\r\n\r\n\r\n+ \r\n+ \r\n\r\n+ \e[13C\e[34h\e[?25h"
+  - delay: 333
+    content: "\e[?25l\e[4m\e[34mf:  <16-06-19, agalan> > \e[24m\e[0m\e[18;75H\e[42m1\e[7;17H\e[34h\e[?25h"
+  - delay: 592
+    content: "\e[?25l\e[0m\b\e[4m\e[34m:  <16-06-19, agalan> > \e[24m\e[0m\e[4m \e[24m\e[18;75H\e[42m0\e[7;16H\e[34h\e[?25h"
+  - delay: 3686
+    content: "\e[?25l\e[0m\e[4m\e[34ml:  <16-06-19, agalan> > \e[24m\e[0m\e[18;75H\e[42m1\e[7;17H\e[34h\e[?25h"
+  - delay: 74
+    content: "\e[?25l\e[0m\e[4m\e[34me:  <16-06-19, agalan> > \e[24m\e[0m\e[18;75H\e[42m2\e[7;18H\e[34h\e[?25h"
+  - delay: 152
+    content: "\e[?25l\e[0m\e[4m\e[34ma:  <16-06-19, agalan> > \e[24m\e[0m\e[18;75H\e[42m3\e[7;19H\e[34h\e[?25h"
+  - delay: 112
+    content: "\e[?25l\e[0m\e[4m\e[34md:  <16-06-19, agalan> > \e[24m\e[0m\e[18;75H\e[42m4\e[7;20H\e[34h\e[?25h"
+  - delay: 295
+    content: "\e[?25l\e[0m\e[4m\e[34ms:  <16-06-19, agalan> > \e[24m\e[0m\e[18;75H\e[42m5\e[7;21H\e[34h\e[?25h"
+  - delay: 339
+    content: "\e[?25l\e[0m\e[4m\e[34m :  <16-06-19, agalan> > \e[24m\e[0m\e[18;59H\e[42m6\e[15C6\e[7;22H\e[34h\e[?25h"
+  - delay: 212
+    content: "\e[?25l\e[0m\e[4m\e[34mi:  <16-06-19, agalan> > \e[24m\e[0m\e[18;75H\e[42m7\e[7;23H\e[34h\e[?25h"
+  - delay: 136
+    content: "\e[?25l\e[0m\e[4m\e[34mf:  <16-06-19, agalan> > \e[24m\e[0m\e[18;75H\e[42m8\e[7;24H\e[34h\e[?25h"
+  - delay: 82
+    content: "\e[?25l\e[0m\e[4m\e[34m :  <16-06-19, agalan> > \e[24m\e[0m\e[18;59H\e[42m7\e[15C9\e[7;25H\e[34h\e[?25h"
+  - delay: 403
+    content: "\e[?25l\e[0m\e[4m\e[34mt:  <16-06-19, agalan> > \e[24m\e[0m\e[18;74H\e[42m20\e[7;26H\e[34h\e[?25h"
+  - delay: 77
+    content: "\e[?25l\e[0m\e[4m\e[34mh:  <16-06-19, agalan> > \e[24m\e[0m\e[18;75H\e[42m1\e[7;27H\e[34h\e[?25h"
+  - delay: 86
+    content: "\e[?25l\e[0m\e[4m\e[34me:  <16-06-19, agalan> > \e[24m\e[0m\e[18;75H\e[42m2\e[7;28H\e[34h\e[?25h"
+  - delay: 810
+    content: "\e[?25l\e[0m\e[4m\e[34my:  <16-06-19, agalan> > \e[24m\e[0m\e[18;75H\e[42m3\e[7;29H\e[34h\e[?25h"
+  - delay: 145
+    content: "\e[?25l\e[0m\e[4m\e[34m :  <16-06-19, agalan> > \e[24m\e[0m\e[18;59H\e[42m8\e[15C4\e[7;30H\e[34h\e[?25h"
+  - delay: 142
+    content: "\e[?25l\e[0m\e[4m\e[34ma:  <16-06-19, agalan> > \e[24m\e[0m\e[18;75H\e[42m5\e[7;31H\e[34h\e[?25h"
+  - delay: 99
+    content: "\e[?25l\e[0m\e[4m\e[34mr:  <16-06-19, agalan> > \e[24m\e[0m\e[18;75H\e[42m6\e[7;32H\e[34h\e[?25h"
+  - delay: 96
+    content: "\e[?25l\e[0m\e[4m\e[34me:  <16-06-19, agalan> > \e[24m\e[0m\e[18;75H\e[42m7\e[7;33H\e[34h\e[?25h"
+  - delay: 104
+    content: "\e[?25l\e[0m\e[4m\e[34m :  <16-06-19, agalan> > \e[24m\e[0m\e[18;59H\e[42m9\e[15C8\e[7;34H\e[34h\e[?25h"
+  - delay: 165
+    content: "\e[?25l\e[0m\e[4m\e[34mi:  <16-06-19, agalan> > \e[24m\e[0m\e[18;75H\e[42m9\e[7;35H\e[34h\e[?25h"
+  - delay: 90
+    content: "\e[?25l\e[0m\e[4m\e[34mn:  <16-06-19, agalan> > \e[24m\e[0m\e[18;74H\e[42m30\e[7;36H\e[34h\e[?25h"
+  - delay: 167
+    content: "\e[?25l\e[0m\e[4m\e[34m :  <16-06-19, agalan> > \e[24m\e[0m\e[18;58H\e[42m70\e[15C1\e[7;37H\e[34h\e[?25h"
+  - delay: 2872
+    content: "\e[?25l\e[0m\e[4m\e[34mc:  <16-06-19, agalan> > \e[24m\e[0m\e[18;75H\e[42m2\e[7;38H\e[34h\e[?25h"
+  - delay: 88
+    content: "\e[?25l\e[0m\e[4m\e[34ml:  <16-06-19, agalan> > \e[24m\e[0m\e[18;75H\e[42m3\e[7;39H\e[34h\e[?25h"
+  - delay: 129
+    content: "\e[?25l\e[0m\e[4m\e[34mu:  <16-06-19, agalan> > \e[24m\e[0m\e[18;75H\e[42m4\e[7;40H\e[34h\e[?25h"
+  - delay: 486
+    content: "\e[?25l\e[0m\e[4m\e[34ms:  <16-06-19, agalan> > \e[24m\e[0m\e[18;75H\e[42m5\e[7;41H\e[34h\e[?25h"
+  - delay: 137
+    content: "\e[?25l\e[0m\e[4m\e[34mt:  <16-06-19, agalan> > \e[24m\e[0m\e[18;75H\e[42m6\e[7;42H\e[34h\e[?25h"
+  - delay: 122
+    content: "\e[?25l\e[0m\e[4m\e[34me:  <16-06-19, agalan> > \e[24m\e[0m\e[18;75H\e[42m7\e[7;43H\e[34h\e[?25h"
+  - delay: 96
+    content: "\e[?25l\e[0m\e[4m\e[34mr:  <16-06-19, agalan> > \e[24m\e[0m\e[18;75H\e[42m8\e[7;44H\e[34h\e[?25h"
+  - delay: 1111
+    content: "\e[?25l\e[0m\e[7;7H\e[34m>  Check leads if they are in cluster:  <16-06-19, agalan> > \e[0m\e[7;68H\e[K\e[8;7H\e[4m                                                                      \e[24m\e[18;51H\e[32m mar…\e[18;56H \e[0m\e[42m 270W  --80%-- \e[0m\e[1m\e[42m72\e[0m\e[42m:1\e[8;7H\e[34h\e[?25h"
+  - delay: 136
+    content: "\e[?25l\e[0m\e[8;7H\e[K\e[9;7H\e[4mCompany A has 200 customers ,                                         \e[24m\e[18;51H\e[32mmar…\e[18;55H \e[0m\e[42m 270W  --81%-- \e[0m\e[1m\e[42m73\e[0m\e[42m:3\e[9;37H\e[34h\e[?25h"
+  - delay: 436
+    content: "\e[0m\e[19;1H\e[K\e[9;36H\e[?25l\e[19;66H^[\e[9;36H\e[34h\e[?25h"
+  - delay: 1001
+    content: "\e[?25l\e[19;66H  \e[9;37H"
+  - delay: 32
+    content: "\e[18;1H \e[1mN\e[0m  README.md[+]                                  mar…\e[18;55H  270W  --81%-- \e[1m73\e[0m:30 \e[9;36H\e[34h\e[?25h"
+  - delay: 7
+    content: "\e[?25l\e[34h\e[?25h"
+  - delay: 351
+    content: "\e[?25l\e[19;66Hd\e[9;36H\e[34h\e[?25h"
+  - delay: 151
+    content: "\e[?25l\e[19;67Hd\e[9;36H\e[19;66H  \e[9;7H\e[4m                             \e[24m\e[10;7H\e[36m-\e[0m Provides us the domain of each customer in to our service\e[11;7H\e[K\e[12;7Hdomain01.org\e[13;7H\e[K\e[14;7Hdomain02.org\e[15;7H\e[K\e[16;7Hdomain03.org\e[17;7H\e[K\e[18;51H mar…\e[18;57H 264W  --82%-- \e[1m73\e[0m:\e[9;7H\e[34h\e[?25h"
+  - delay: 160
+    content: "\e[?25l\e[19;66Hd\e[9;7H\e[34h\e[?25h"
+  - delay: 159
+    content: "\e[?25l\e[19;67Hd\e[9;7H"
+  - delay: 7
+    content: "\e[19;66H  \e[9;7H\e[4m\e[36m-\e[24m\e[0m\e[1C\e[4mProvides us the domain of each customer in to our service\e[24m\e[10;7H\e[K\e[11;7Hdomain01.org\e[12;7H\e[K\e[13;7Hdomain02.org\e[14;7H\e[K\e[15;7Hdomain03.org\e[16;7H\e[K\e[17;7HProvides us some relevant keywords about their customers and products\e[18;75H1\e[9;7H\e[34h\e[?25h"
+  - delay: 161
+    content: "\e[?25l\e[19;66Hd\e[9;7H\e[34h\e[?25h"
+  - delay: 150
+    content: "\e[?25l\e[19;67Hd\e[9;7H"
+  - delay: 5
+    content: "\e[19;66H  \e[9;7H\e[4m                                                           \e[24m\e[10;7Hdomain01.org\e[11;7H\e[K\e[12;7Hdomain02.org\e[13;7H\e[K\e[14;7Hdomain03.org\e[15;7H\e[K\e[16;7HProvides us some relevant keywords about their customers and products\e[17;7H\e[K\e[18;59H52W  --83\e[7C0\e[9;7H\e[34h\e[?25h"
+  - delay: 827
+    content: "\e[?25l\e[19;66Hd\e[9;7H\e[34h\e[?25h"
+  - delay: 174
+    content: "\e[?25l\e[19;67Hd\e[9;7H"
+  - delay: 5
+    content: "\e[19;66H  \e[9;7H\e[4mdomain01.org\e[24m\e[10;7H\e[K\e[11;7Hdomain02.org\e[12;7H\e[K\e[13;7Hdomain03.org\e[14;7H\e[K\e[15;7HProvides us some relevant keywords about their customers and products\e[16;7H\e[K\e[18;67H4\e[7C1\e[9;7H\e[34h\e[?25h"
+  - delay: 171
+    content: "\e[?25l\e[19;66Hd\e[9;7H\e[34h\e[?25h"
+  - delay: 167
+    content: "\e[?25l\e[19;67Hd\e[9;7H"
+  - delay: 6
+    content: "\e[19;66H  \e[9;7H\e[4m            \e[24m\e[10;7Hdomain02.org\e[11;7H\e[K\e[12;7Hdomain03.org\e[13;7H\e[K\e[14;7HProvides us some relevant keywords about their customers and products\e[15;7H\e[K\e[17;7HHe provides a list of domains\e[18;60H1W  --85\e[7C0\e[9;7H\e[34h\e[?25h"
+  - delay: 138
+    content: "\e[?25l\e[19;66Hd\e[9;7H\e[34h\e[?25h"
+  - delay: 142
+    content: "\e[?25l\e[19;67Hd\e[9;7H"
+  - delay: 7
+    content: "\e[19;66H  \e[9;7H\e[4mdomain02.org\e[24m\e[10;7H\e[K\e[11;7Hdomain03.org\e[12;7H\e[K\e[13;7HProvides us some relevant keywords about their customers and products\e[14;7H\e[K\e[16;7HHe provides a list of domains\e[17;7H\e[K\e[18;67H6\e[7C1\e[9;7H\e[34h\e[?25h"
+  - delay: 153
+    content: "\e[?25l\e[19;66Hd\e[9;7H\e[34h\e[?25h"
+  - delay: 150
+    content: "\e[?25l\e[19;67Hd\e[9;7H"
+  - delay: 6
+    content: "\e[19;66H  \e[9;7H\e[4m            \e[24m\e[10;7Hdomain03.org\e[11;7H\e[K\e[12;7HProvides us some relevant keywords about their customers and products\e[13;7H\e[K\e[15;7HHe provides a list of domains\e[16;7H\e[K\e[17;7HWe check every domain\e[18;60H0W  --87\e[7C0\e[9;7H\e[34h\e[?25h"
+  - delay: 156
+    content: "\e[?25l\e[19;66Hd\e[9;7H\e[34h\e[?25h"
+  - delay: 132
+    content: "\e[?25l\e[19;67Hd\e[9;7H"
+  - delay: 6
+    content: "\e[19;66H  \e[9;7H\e[4mdomain03.org\e[24m\e[10;7H\e[K\e[11;7HProvides us some relevant keywords about their customers and products\e[12;7H\e[K\e[14;7HHe provides a list of domains\e[15;7H\e[K\e[16;7HWe check every domain\e[17;7H\e[K\e[18;67H9\e[7C1\e[9;7H\e[34h\e[?25h"
+  - delay: 146
+    content: "\e[?25l\e[19;66Hd\e[9;7H\e[34h\e[?25h"
+  - delay: 150
+    content: "\e[?25l\e[19;67Hd\e[9;7H"
+  - delay: 5
+    content: "\e[19;66H  \e[9;7H\e[4m            \e[24m\e[10;7HProvides us some relevant keywords about their customers and products\e[11;7H\e[K\e[13;7HHe provides a list of domains\e[14;7H\e[K\e[15;7HWe check every domain\e[16;7H\e[K\e[18;59H49W  --90\e[7C0\e[9;7H\e[34h\e[?25h"
+  - delay: 155
+    content: "\e[?25l\e[19;66Hd\e[9;7H\e[34h\e[?25h"
+  - delay: 157
+    content: "\e[?25l\e[19;67Hd\e[9;7H"
+  - delay: 7
+    content: "\e[19;66H  \e[9;7H\e[4mProvides us some relevant keywords about their customers and products\e[24m\e[10;7H\e[K\e[12;7HHe provides a list of domains\e[13;7H\e[K\e[14;7HWe check every domain\e[15;7H\e[K\e[17;3H\e[94m~                                                                         \e[0m\e[18;67H1\e[7C1\e[9;7H\e[34h\e[?25h"
+  - delay: 131
+    content: "\e[?25l\e[19;66Hd\e[9;7H\e[34h\e[?25h"
+  - delay: 150
+    content: "\e[?25l\e[19;67Hd\e[9;7H\e[19;66H  \e[9;7H\e[4m                                                                     \e[24m\e[11;7HHe provides a list of domains\e[12;7H\e[K\e[13;7HWe check every domain\e[14;7H\e[K\e[16;3H\e[94m~                                                                         \e[0m\e[18;59H3\e[7C2\e[7C0\e[9;7H\e[34h\e[?25h"
+  - delay: 156
+    content: "\e[?25l\e[19;66Hd\e[9;7H\e[34h\e[?25h"
+  - delay: 150
+    content: "\e[?25l\e[19;67Hd\e[9;7H"
+  - delay: 5
+    content: "\e[19;66H  \e[9;7H\e[10;7HHe provides a list of domains\e[11;7H\e[K\e[12;7HWe check every domain\e[13;7H\e[K\e[15;3H\e[94m~                                                                         \e[0m\e[18;67H3\e[9;7H\e[34h\e[?25h"
+  - delay: 147
+    content: "\e[?25l\e[19;66Hd\e[9;7H\e[34h\e[?25h"
+  - delay: 188
+    content: "\e[?25l\e[19;67Hd\e[9;7H\e[19;66H  \e[9;7H\e[4mHe provides a list of domains\e[24m\e[10;7H\e[K\e[11;7HWe check every domain\e[12;7H\e[K\e[14;3H\e[94m~                                                                         \e[0m\e[18;67H4\e[7C1\e[9;7H\e[34h\e[?25h"
+  - delay: 128
+    content: "\e[?25l\e[19;66Hd\e[9;7H\e[34h\e[?25h"
+  - delay: 169
+    content: "\e[?25l\e[19;67Hd\e[9;7H\e[19;66H  \e[9;7H\e[4m                             \e[24m\e[10;7HWe check every domain\e[11;7H\e[K\e[13;3H\e[94m~                                                                         \e[0m\e[18;60H3W  --96\e[7C0\e[9;7H\e[34h\e[?25h"
+  - delay: 147
+    content: "\e[?25l\e[19;66Hd\e[9;7H\e[34h\e[?25h"
+  - delay: 166
+    content: "\e[?25l\e[19;67Hd\e[9;7H\e[19;66H  \e[9;7H\e[4mWe check every domain\e[24m\e[10;7H\e[K\e[12;3H\e[94m~                                                                         \e[0m\e[18;67H7\e[7C1\e[9;7H\e[34h\e[?25h"
+  - delay: 156
+    content: "\e[?25l\e[19;66Hd\e[9;7H\e[34h\e[?25h"
+  - delay: 421
+    content: "\e[?25l\e[19;67Hd\e[9;7H\e[19;66H  \e[9;7H\e[4m                     \e[24m\e[11;3H\e[94m~                                                                         \e[0m\e[18;59H29W  --98\e[7C0\e[9;7H\e[34h\e[?25h"
+  - delay: 668
+    content: "\e[?25l\e[19;66H^[\e[9;7H\e[34h\e[?25h"
+  - delay: 297
+    content: "\e[?25l\e[19;66H  \e[9;7H\a\e[34h\e[?25h\e[?25l\e[19;66H:\e[9;7H\e[19;66H\e[K\e[19;1H:\e[34h\e[?25h"
+  - delay: 183
+    content: "w\e[?25l\e[34h\e[?25h"
+  - delay: 176
+    content: "q\e[?25l\e[34h\e[?25h"
+  - delay: 470
+    content: "\r\e[?25l\"README.md\""
+  - delay: 11
+    content: ' 74L, 1725C written'
+  - delay: 29
+    content: "\r\r\r\n\e[?1l\e>\e[34h\e[?25h\e[?1049l"
+  - delay: 66
+    content: "θ\e[31m61°\e[m\x0F \e[1m\e[34m[\e[m\x0Fagalan\e[m\x0F\e[32m:\e[m\x0F\e[1m/data … anteater\e[m\x0F\e[1m\e[34m]\e[m\x0F \e[31mmaster\e[m\x0F(\e[35m+8/-116\e[m\x0F)\e[31m*\e[31m\e[m\x0F \e[33m1m54s\e[m\x0F \e[1m±\e[m\x0F "
+  - delay: 2239
+    content: " \b\e[K \b\e[K`__fzf_history__`"
+  - delay: 23
+    content: "\e[J\e[6n\n\e[G\n\e[G\n\e[G\n\e[G\n\e[G\n\e[G\n\e[G\n\e[G\n\e[G\n\e[G\e[?1000h\e[9A\e[G\e[K\e[6n\r\e[;m                                                                            \r\e[1B\r\e[;m                                                                            \r\e[1B\r\e[;m                                                                            \r\e[1B\r\e[;m                                                                            \r\e[1B\r\e[;m                                                                            \r\e[1B\r\e[;m                                                                            \r\e[1B\r\e[;m                                                                            \r\e[1B\r\e[;m                                                                            \r\e[1B\r\e[;m                                                                            \r\e[1B\r\e[;m                                                                            \r\r\e[;m                                                                            \r\e[;1;38;5;110m> \e[m\e[;1m\e[m\e[;1m\e[m\e[1A\r\e[;m                                                                            \r\r\e[2C\e[;38;5;144m4005/4005 +S\e[m\e[1B\r\e[2C\e[1A\r\e[;m                                                                            \r\r\e[2C\e[;38;5;144m4005/4005 +S\e[m\e[8A\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3998  terminalizer record demoresults tail -f data/demo.csv\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3999  ls\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 4000  cd analysis/\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 4001  ls\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 4002  rm leads.csv \e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 4003  cd ..\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 4004  ls\e[m\e[1B\r\e[;1;38;5;161;48;5;236m>\e[m\e[;1;38;5;254;48;5;236m \e[m\e[;1;38;5;254;48;5;236m 4005  vim README.md \e[m\e[2B\r\e[2C"
+  - delay: 99
+    content: "\r\e[2C"
+  - delay: 122
+    content: "\r\e[;m                                                                            \r\e[;1;38;5;110m> \e[m\e[;1mp\e[m\e[;1m\e[m\r\e[3C"
+  - delay: 24
+    content: "\e[1A\r\e[;m                                                                            \r\r\e[2C\e[;38;5;144m1459/4005 +S\e[m\e[8A\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3963  \e[m\e[;38;5;108mp\e[m\e[;mython data_analysis.py \e[m\e[;m                             \e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3964  \e[m\e[;38;5;108mp\e[m\e[;mip install sklearn\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3965  \e[m\e[;38;5;108mp\e[m\e[;mython data_analysis.py \e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3966  \e[m\e[;38;5;108mp\e[m\e[;mython -W ignore data_analysis.py \e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3967  vim data_analysis.\e[m\e[;38;5;108mp\e[m\e[;my \e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3968  \e[m\e[;38;5;108mp\e[m\e[;mython -W ignore data_cleaner.py\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3977  \e[m\e[;38;5;108mp\e[m\e[;mip freeze > requirements.txt\e[m\e[1B\r\e[;1;38;5;161;48;5;236m>\e[m\e[;1;38;5;254;48;5;236m \e[m\e[;1;38;5;254;48;5;236m 3984  \e[m\e[;1;38;5;151;48;5;236mp\e[m\e[;1;38;5;254;48;5;236mwd\e[m\e[;m           \e[2B\r\e[3C"
+  - delay: 23
+    content: "\r\e[;m                                                                            \r\e[;1;38;5;110m> \e[m\e[;1mpu\e[m\e[;1m\e[m\r\e[4C\e[1A\r\e[;m                                                                            \r\r\e[2C\e[;38;5;144m391/4005 +S\e[m\e[8A\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 2916  docker \e[m\e[;38;5;108mp\e[m\e[;m\e[m\e[;38;5;108mu\e[m\e[;mll rabbitmq:latest\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 2995  docker \e[m\e[;38;5;108mp\e[m\e[;m\e[m\e[;38;5;108mu\e[m\e[;mll newcrawler/spider\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3119  docker \e[m\e[;38;5;108mp\e[m\e[;m\e[m\e[;38;5;108mu\e[m\e[;mll badouralix/python-scrapy\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3191  git \e[m\e[;38;5;108mp\e[m\e[;m\e[m\e[;38;5;108mu\e[m\e[;msh -u origin master\e[m\e[;m         \e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3211  git \e[m\e[;38;5;108mp\e[m\e[;m\e[m\e[;38;5;108mu\e[m\e[;msh origin master\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3216  git \e[m\e[;38;5;108mp\e[m\e[;m\e[m\e[;38;5;108mu\e[m\e[;msh origin master\e[m\e[;m          \e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3335  git \e[m\e[;38;5;108mp\e[m\e[;m\e[m\e[;38;5;108mu\e[m\e[;mll\e[m\e[;m                     \e[1B\r\e[;1;38;5;161;48;5;236m>\e[m\e[;1;38;5;254;48;5;236m \e[m\e[;1;38;5;254;48;5;236m 3336  git \e[m\e[;1;38;5;151;48;5;236mp\e[m\e[;1;38;5;254;48;5;236m\e[m\e[;1;38;5;151;48;5;236mu\e[m\e[;1;38;5;254;48;5;236mll origin master\e[m\e[2B\r\e[4C"
+  - delay: 116
+    content: "\r\e[;m                                                                            \r\e[;1;38;5;110m> \e[m\e[;1mpus\e[m\e[;1m\e[m\r\e[5C\e[1A\r\e[;m                                                                            \r\r\e[2C\e[;38;5;144m191/4005 +S\e[m\e[8A\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 2073  cd $(dirname \"motor-driver/VESC_6_\e[m\e[;38;5;108mp\e[m\e[;ml\e[m\e[;38;5;108mu\e[m\e[;m\e[m\e[;38;5;108ms\e[m\e[;m.pdf\")\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m  784  git \e[m\e[;38;5;108mp\e[m\e[;m\e[m\e[;38;5;108mu\e[m\e[;m\e[m\e[;38;5;108ms\e[m\e[;mh -u origin master\e[m\e[;m    \e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 1901  git \e[m\e[;38;5;108mp\e[m\e[;m\e[m\e[;38;5;108mu\e[m\e[;m\e[m\e[;38;5;108ms\e[m\e[;mh origin devops\e[m\e[;m              \e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 2020  git \e[m\e[;38;5;108mp\e[m\e[;m\e[m\e[;38;5;108mu\e[m\e[;m\e[m\e[;38;5;108ms\e[m\e[;mh origin devops\e[m\e[;m   \e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 2450  git \e[m\e[;38;5;108mp\e[m\e[;m\e[m\e[;38;5;108mu\e[m\e[;m\e[m\e[;38;5;108ms\e[m\e[;mh origin master \e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3191  git \e[m\e[;38;5;108mp\e[m\e[;m\e[m\e[;38;5;108mu\e[m\e[;m\e[m\e[;38;5;108ms\e[m\e[;mh -u origin master\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3211  git \e[m\e[;38;5;108mp\e[m\e[;m\e[m\e[;38;5;108mu\e[m\e[;m\e[m\e[;38;5;108ms\e[m\e[;mh origin master\e[m\e[1B\r\e[;1;38;5;161;48;5;236m>\e[m\e[;1;38;5;254;48;5;236m \e[m\e[;1;38;5;254;48;5;236m 3216  git \e[m\e[;1;38;5;151;48;5;236mp\e[m\e[;1;38;5;254;48;5;236m\e[m\e[;1;38;5;151;48;5;236mu\e[m\e[;1;38;5;254;48;5;236m\e[m\e[;1;38;5;151;48;5;236ms\e[m\e[;1;38;5;254;48;5;236mh origin master\e[m\e[2B\r\e[5C"
+  - delay: 119
+    content: "\r\e[;m                                                                            \r\e[;1;38;5;110m> \e[m\e[;1mpush\e[m\e[;1m\e[m\r\e[6C\e[1A\r\e[;m                                                                            \r\r\e[2C\e[;38;5;144m53/4005 +S\e[m\e[8A\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 2112  find ./  -name \"*\e[m\e[;38;5;108mp\e[m\e[;mdf\" -exec summ_wordclo\e[m\e[;38;5;108mu\e[m\e[;md.\e[m\e[;38;5;108ms\e[m\e[;m\e[m\e[;38;5;108mh\e[m\e[;m {} \\; \e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m  784  git \e[m\e[;38;5;108mp\e[m\e[;m\e[m\e[;38;5;108mu\e[m\e[;m\e[m\e[;38;5;108ms\e[m\e[;m\e[m\e[;38;5;108mh\e[m\e[;m -u origin master\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 1901  git \e[m\e[;38;5;108mp\e[m\e[;m\e[m\e[;38;5;108mu\e[m\e[;m\e[m\e[;38;5;108ms\e[m\e[;m\e[m\e[;38;5;108mh\e[m\e[;m origin devops\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 2020  git \e[m\e[;38;5;108mp\e[m\e[;m\e[m\e[;38;5;108mu\e[m\e[;m\e[m\e[;38;5;108ms\e[m\e[;m\e[m\e[;38;5;108mh\e[m\e[;m origin devops\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 2450  git \e[m\e[;38;5;108mp\e[m\e[;m\e[m\e[;38;5;108mu\e[m\e[;m\e[m\e[;38;5;108ms\e[m\e[;m\e[m\e[;38;5;108mh\e[m\e[;m origin master \e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3191  git \e[m\e[;38;5;108mp\e[m\e[;m\e[m\e[;38;5;108mu\e[m\e[;m\e[m\e[;38;5;108ms\e[m\e[;m\e[m\e[;38;5;108mh\e[m\e[;m -u origin master\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3211  git \e[m\e[;38;5;108mp\e[m\e[;m\e[m\e[;38;5;108mu\e[m\e[;m\e[m\e[;38;5;108ms\e[m\e[;m\e[m\e[;38;5;108mh\e[m\e[;m origin master\e[m\e[1B\r\e[;1;38;5;161;48;5;236m>\e[m\e[;1;38;5;254;48;5;236m \e[m\e[;1;38;5;254;48;5;236m 3216  git \e[m\e[;1;38;5;151;48;5;236mp\e[m\e[;1;38;5;254;48;5;236m\e[m\e[;1;38;5;151;48;5;236mu\e[m\e[;1;38;5;254;48;5;236m\e[m\e[;1;38;5;151;48;5;236ms\e[m\e[;1;38;5;254;48;5;236m\e[m\e[;1;38;5;151;48;5;236mh\e[m\e[;1;38;5;254;48;5;236m origin master\e[m\e[2B\r\e[6C"
+  - delay: 1939
+    content: "\r\e[;m                                                                            \r\e[;1;38;5;110m> \e[m\e[;1mpush\e[m\e[;1m\e[m\e[9A\r\e[A\e[J\e[?1000l"
+  - delay: 5
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\e[K\r\e[Kθ\e[31m61°\e[m\x0F \e[1m\e[34m[\e[m\x0Fagalan\e[m\x0F\e[32m:\e[m\x0F\e[1m/data … anteater\e[m\x0F\e[1m\e[34m]\e[m\x0F \e[31mmaster\e[m\x0F(\e[35m+8/-116\e[m\x0F)\e[31m*\e[31m\e[m\x0F \e[33m1m54s\e[m\x0F \e[1m±\e[m\x0F "
+  - delay: 1144
+    content: g
+  - delay: 73
+    content: i
+  - delay: 122
+    content: t
+  - delay: 120
+    content: ' '
+  - delay: 175
+    content: a
+  - delay: 144
+    content: c
+  - delay: 184
+    content: p
+  - delay: 448
+    content: ' '
+  - delay: 472
+    content: '"'
+  - delay: 672
+    content: u
+  - delay: 96
+    content: p
+  - delay: 15
+    content: d
+  - delay: 72
+    content: a
+  - delay: 153
+    content: t
+  - delay: 88
+    content: e
+  - delay: 80
+    content: ' '
+  - delay: 808
+    content: i
+  - delay: 71
+    content: 'n'
+  - delay: 25
+    content: s
+  - delay: 128
+    content: "t \r"
+  - delay: 153
+    content: r
+  - delay: 159
+    content: u
+  - delay: 624
+    content: "\b\e[K"
+  - delay: 112
+    content: "\r\e[K"
+  - delay: 96
+    content: "\eM\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[K\r\n\r\e[K\eM\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 1424
+    content: "\a"
+  - delay: 544
+    content: "\r\n> "
+  - delay: 1112
+    content: "^C\r\n"
+  - delay: 76
+    content: "θ\e[31m60°\e[m\x0F \e[1m\e[34m[\e[m\x0Fagalan\e[m\x0F\e[32m:\e[m\x0F\e[1m/data … anteater\e[m\x0F\e[1m\e[34m]\e[m\x0F \e[31mmaster\e[m\x0F(\e[35m+8/-116\e[m\x0F)\e[31m*\e[31m\e[m\x0F \e[35m130\e[m\x0F \e[1m±\e[m\x0F "
+  - delay: 331
+    content: "logout\r\n"

@@ -6,7 +6,7 @@ from sklearn.cluster import KMeans
 from mpl_toolkits.mplot3d import Axes3D
 
 
-DATA = 'test1.csv'
+DATA = 'customer.csv'
 
 # Loads and cleans data
 df = clean_data(pd.read_csv(DATA, sep=';'))
