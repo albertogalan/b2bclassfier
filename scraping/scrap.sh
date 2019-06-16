@@ -22,7 +22,6 @@ searchkeys="$4"
 keyword="$5"
 
 # activate environment
-source $dir/env/bin/python 
 
 $APPDIR/scraping/generaltests.py --file $DATABASEDIR/$testname --testname $testname --headless $headless --searchkeys "$searchkeys" --list "$list" --keyword "$keyword" 
 }

@@ -1,0 +1,199 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /data/src/test/anteater
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 76
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 19
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 637
+    content: "git alias  gst,gl,gp,gpa,gd,ga,gcl,gc,gca,gbc,gba,gco  \r\ngit fzf  gf,gb,gt,gh,gr\r\n"
+  - delay: 123
+    content: "θ\e[31m67°\e[m\x0F \e[1m\e[34m[\e[m\x0Fagalan\e[m\x0F\e[32m:\e[m\x0F\e[1m/data … anteater\e[m\x0F\e[1m\e[34m]\e[m\x0F \e[31mmaster\e[m\x0F(\e[35m+4/-393\e[m\x0F)\e[31m*\e[31m\e[m\x0F \e[1m±\e[m\x0F "
+  - delay: 608
+    content: " \b\e[K \b\e[K`__fzf_history__`"
+  - delay: 37
+    content: "\e[J\e[6n\n\e[G\n\e[G\n\e[G\n\e[G\n\e[G\n\e[G\n\e[G\n\e[G\n\e[G\n\e[G\e[?1000h\e[9A\e[G\e[K\e[6n\r\e[;m                                                                            \r\e[1B\r\e[;m                                                                            \r\e[1B\r\e[;m                                                                            \r\e[1B\r\e[;m                                                                            \r\e[1B\r\e[;m                                                                            \r\e[1B\r\e[;m                                                                            \r\e[1B\r\e[;m                                                                            \r\e[1B\r\e[;m                                                                            \r\e[1B\r\e[;m                                                                            \r\e[1B\r\e[;m                                                                            \r\r\e[;m                                                                            \r\e[;1;38;5;110m> \e[m\e[;1m\e[m\e[;1m\e[m\e[1A\r\e[;m                                                                            \r\r\e[2C\e[;38;5;144m3998/3998 +S\e[m\e[1B\r\e[2C\e[1A\r\e[;m                                                                            \r\r\e[2C\e[;38;5;144m3998/3998 +S\e[m\e[8A\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3991  rm  data/demo.csv & touch data/demo.csv\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3992  ./demo.sh \e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3993  sudo service selenium restart\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3994  ./demo.sh \e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3995  tail -f data/demo.csv\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3996  terminalizer record demoresults\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3997  rm  data/demo.csv & touch data/demo.csv\e[m\e[1B\r\e[;1;38;5;161;48;5;236m>\e[m\e[;1;38;5;254;48;5;236m \e[m\e[;1;38;5;254;48;5;236m 3998  rm -rf .tmp\e[m\e[2B\r\e[2C"
+  - delay: 100
+    content: "\r\e[2C"
+  - delay: 434
+    content: "\r\e[;m                                                                            \r\e[;1;38;5;110m> \e[m\e[;1mt\e[m\e[;1m\e[m\r\e[3C"
+  - delay: 28
+    content: "\e[1A\r\e[;m                                                                            \r\r\e[2C\e[;38;5;144m1636/3998 +S\e[m\e[8A\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3988  rm -rf .\e[m\e[;38;5;108mt\e[m\e[;mmp\e[m\e[;m                            \e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3989  \e[m\e[;38;5;108mt\e[m\e[;mail -f data/demo.csv\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3990  \e[m\e[;38;5;108mt\e[m\e[;merminalizer record demoresults\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3991  rm  data/demo.csv & \e[m\e[;38;5;108mt\e[m\e[;mouch data/demo.csv\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3995  \e[m\e[;38;5;108mt\e[m\e[;mail -f data/demo.csv\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3996  \e[m\e[;38;5;108mt\e[m\e[;merminalizer record demoresults\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3997  rm  data/demo.csv & \e[m\e[;38;5;108mt\e[m\e[;mouch data/demo.csv\e[m\e[1B\r\e[;1;38;5;161;48;5;236m>\e[m\e[;1;38;5;254;48;5;236m \e[m\e[;1;38;5;254;48;5;236m 3998  rm -rf .\e[m\e[;1;38;5;151;48;5;236mt\e[m\e[;1;38;5;254;48;5;236mmp\e[m\e[2B\r\e[3C"
+  - delay: 148
+    content: "\r\e[;m                                                                            \r\e[;1;38;5;110m> \e[m\e[;1mta\e[m\e[;1m\e[m\r\e[4C\e[1A\r\e[;m                                                                            \r\r\e[2C\e[;38;5;144m917/3998 +S\e[m\e[8A\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3923  terminalizer record demoresults \e[m\e[;38;5;108mt\e[m\e[;m\e[m\e[;38;5;108ma\e[m\e[;mil -f data/demo.csv\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3935  terminalizer record demoresults && \e[m\e[;38;5;108mt\e[m\e[;m\e[m\e[;38;5;108ma\e[m\e[;mil -f data/demo.csv\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3959  \e[m\e[;38;5;108mt\e[m\e[;m\e[m\e[;38;5;108ma\e[m\e[;mil -f data/demo.csv\e[m\e[;m          \e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3961  \e[m\e[;38;5;108mt\e[m\e[;m\e[m\e[;38;5;108ma\e[m\e[;mil -f data/demo.csv\e[m\e[;m                  \e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3968  \e[m\e[;38;5;108mt\e[m\e[;m\e[m\e[;38;5;108ma\e[m\e[;mil -f data/demo.csv\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3971  \e[m\e[;38;5;108mt\e[m\e[;m\e[m\e[;38;5;108ma\e[m\e[;mil -f data/demo.csv\e[m\e[;m          \e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3989  \e[m\e[;38;5;108mt\e[m\e[;m\e[m\e[;38;5;108ma\e[m\e[;mil -f data/demo.csv\e[m\e[;m                  \e[1B\r\e[;1;38;5;161;48;5;236m>\e[m\e[;1;38;5;254;48;5;236m \e[m\e[;1;38;5;254;48;5;236m 3995  \e[m\e[;1;38;5;151;48;5;236mt\e[m\e[;1;38;5;254;48;5;236m\e[m\e[;1;38;5;151;48;5;236ma\e[m\e[;1;38;5;254;48;5;236mil -f data/demo.csv\e[m\e[2B\r\e[4C"
+  - delay: 83
+    content: "\r\e[;m                                                                            \r\e[;1;38;5;110m> \e[m\e[;1mtai\e[m\e[;1m\e[m\r\e[5C\e[1A\r\e[;m                                                                            \r\r\e[2C\e[;38;5;144m297/3998 +S\e[m\e[8A\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3923  terminalizer record demoresults \e[m\e[;38;5;108mt\e[m\e[;m\e[m\e[;38;5;108ma\e[m\e[;m\e[m\e[;38;5;108mi\e[m\e[;ml -f data/demo.csv\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3935  terminalizer record demoresults && \e[m\e[;38;5;108mt\e[m\e[;m\e[m\e[;38;5;108ma\e[m\e[;m\e[m\e[;38;5;108mi\e[m\e[;ml -f data/demo.csv\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3959  \e[m\e[;38;5;108mt\e[m\e[;m\e[m\e[;38;5;108ma\e[m\e[;m\e[m\e[;38;5;108mi\e[m\e[;ml -f data/demo.csv\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3961  \e[m\e[;38;5;108mt\e[m\e[;m\e[m\e[;38;5;108ma\e[m\e[;m\e[m\e[;38;5;108mi\e[m\e[;ml -f data/demo.csv\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3968  \e[m\e[;38;5;108mt\e[m\e[;m\e[m\e[;38;5;108ma\e[m\e[;m\e[m\e[;38;5;108mi\e[m\e[;ml -f data/demo.csv\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3971  \e[m\e[;38;5;108mt\e[m\e[;m\e[m\e[;38;5;108ma\e[m\e[;m\e[m\e[;38;5;108mi\e[m\e[;ml -f data/demo.csv\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3989  \e[m\e[;38;5;108mt\e[m\e[;m\e[m\e[;38;5;108ma\e[m\e[;m\e[m\e[;38;5;108mi\e[m\e[;ml -f data/demo.csv\e[m\e[1B\r\e[;1;38;5;161;48;5;236m>\e[m\e[;1;38;5;254;48;5;236m \e[m\e[;1;38;5;254;48;5;236m 3995  \e[m\e[;1;38;5;151;48;5;236mt\e[m\e[;1;38;5;254;48;5;236m\e[m\e[;1;38;5;151;48;5;236ma\e[m\e[;1;38;5;254;48;5;236m\e[m\e[;1;38;5;151;48;5;236mi\e[m\e[;1;38;5;254;48;5;236ml -f data/demo.csv\e[m\e[2B\r\e[5C"
+  - delay: 168
+    content: "\r\e[;m                                                                            \r\e[;1;38;5;110m> \e[m\e[;1mtail\e[m\e[;1m\e[m\r\e[6C\e[1A\r\e[;m                                                                            \r\r\e[2C\e[;38;5;144m124/3998 +S\e[m\e[8A\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3923  terminalizer record demoresults \e[m\e[;38;5;108mt\e[m\e[;m\e[m\e[;38;5;108ma\e[m\e[;m\e[m\e[;38;5;108mi\e[m\e[;m\e[m\e[;38;5;108ml\e[m\e[;m -f data/demo.csv\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3935  terminalizer record demoresults && \e[m\e[;38;5;108mt\e[m\e[;m\e[m\e[;38;5;108ma\e[m\e[;m\e[m\e[;38;5;108mi\e[m\e[;m\e[m\e[;38;5;108ml\e[m\e[;m -f data/demo.csv\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3959  \e[m\e[;38;5;108mt\e[m\e[;m\e[m\e[;38;5;108ma\e[m\e[;m\e[m\e[;38;5;108mi\e[m\e[;m\e[m\e[;38;5;108ml\e[m\e[;m -f data/demo.csv\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3961  \e[m\e[;38;5;108mt\e[m\e[;m\e[m\e[;38;5;108ma\e[m\e[;m\e[m\e[;38;5;108mi\e[m\e[;m\e[m\e[;38;5;108ml\e[m\e[;m -f data/demo.csv\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3968  \e[m\e[;38;5;108mt\e[m\e[;m\e[m\e[;38;5;108ma\e[m\e[;m\e[m\e[;38;5;108mi\e[m\e[;m\e[m\e[;38;5;108ml\e[m\e[;m -f data/demo.csv\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3971  \e[m\e[;38;5;108mt\e[m\e[;m\e[m\e[;38;5;108ma\e[m\e[;m\e[m\e[;38;5;108mi\e[m\e[;m\e[m\e[;38;5;108ml\e[m\e[;m -f data/demo.csv\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3989  \e[m\e[;38;5;108mt\e[m\e[;m\e[m\e[;38;5;108ma\e[m\e[;m\e[m\e[;38;5;108mi\e[m\e[;m\e[m\e[;38;5;108ml\e[m\e[;m -f data/demo.csv\e[m\e[1B\r\e[;1;38;5;161;48;5;236m>\e[m\e[;1;38;5;254;48;5;236m \e[m\e[;1;38;5;254;48;5;236m 3995  \e[m\e[;1;38;5;151;48;5;236mt\e[m\e[;1;38;5;254;48;5;236m\e[m\e[;1;38;5;151;48;5;236ma\e[m\e[;1;38;5;254;48;5;236m\e[m\e[;1;38;5;151;48;5;236mi\e[m\e[;1;38;5;254;48;5;236m\e[m\e[;1;38;5;151;48;5;236ml\e[m\e[;1;38;5;254;48;5;236m -f data/demo.csv\e[m\e[2B\r\e[6C"
+  - delay: 560
+    content: "\r\e[;m                                                                            \r\e[;1;38;5;110m> \e[m\e[;1mtail\e[m\e[;1m\e[m\e[9A\r\e[A\e[J\e[?1000l"
+  - delay: 5
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b!3995\e[K\r\e[Kθ\e[31m67°\e[m\x0F \e[1m\e[34m[\e[m\x0Fagalan\e[m\x0F\e[32m:\e[m\x0F\e[1m/data … anteater\e[m\x0F\e[1m\e[34m]\e[m\x0F \e[31mmaster\e[m\x0F(\e[35m+4/-393\e[m\x0F)\e[31m*\e[31m\e[m\x0F \e[1m±\e[m\x0F !3995\b\b\b\b\btail -f data/demo.csv"
+  - delay: 122
+    content: "\r\n"
+  - delay: 17237
+    content: "site:www.tecnalia.com ;site:www.tecnalia.com;0;0;0;2;2;6;0;0;0;0;0;0\r\n"
+  - delay: 8849
+    content: "site:www.inmr.com ;site:www.inmr.com;0;0;0;0;0;6;0;0;0;0;0;0\r\n"
+  - delay: 8477
+    content: "site:www.precise.co.th ;site:www.precise.co.th;0;0;0;0;0;1;0;0;0;0;0;0\r\n"
+  - delay: 8247
+    content: "site:www.vangem.com ;site:www.vangem.com;0;0;0;0;0;0;0;0;0;0;0;0\r\n"
+  - delay: 8386
+    content: "site:www.jsdgme.com ;site:www.jsdgme.com;0;0;0;0;0;0;0;0;0;1;0;0\r\n"
+  - delay: 8121
+    content: "site:www.lzdcrs.com ;site:www.lzdcrs.com;0;0;0;0;0;0;0;0;0;0;0;0\r\n"
+  - delay: 8304
+    content: "site:kingbow.com ;site:kingbow.com;0;0;0;0;0;0;0;0;0;0;0;0\r\n"
+  - delay: 8791
+    content: "site:www.crcc.org.cn ;site:www.crcc.org.cn;0;0;0;0;0;0;0;0;0;10;0;0\r\n"
+  - delay: 7899
+    content: "site:xdblq.xd.com.cn ;site:xdblq.xd.com.cn;0;0;0;0;0;0;0;0;0;1;0;0\r\n"
+  - delay: 8581
+    content: "site:ee.xjtu.edu.cn ;site:ee.xjtu.edu.cn;0;0;0;0;0;0;0;0;0;6;0;0\r\n"
+  - delay: 8127
+    content: "site:www.dikai.com.cn ;site:www.dikai.com.cn;0;0;0;0;0;0;0;0;0;7;0;0\r\n"
+  - delay: 8040
+    content: "site:www.shbst.com ;site:www.shbst.com;0;0;0;0;0;1;0;0;0;0;0;0\r\n"
+  - delay: 7658
+    content: "site:www.rstchina.com ;site:www.rstchina.com;0;0;0;0;0;0;0;0;0;0;0;0\r\n"
+  - delay: 8206
+    content: "site:rstchina.com ;site:rstchina.com;0;0;0;0;0;0;0;0;0;0;0;0\r\n"
+  - delay: 8188
+    content: "site:www.rogy.cn ;site:www.rogy.cn;0;0;0;0;0;0;0;0;0;1;0;0\r\n"
+  - delay: 7982
+    content: "site:www.airborne-em.com ;site:www.airborne-em.com;0;0;0;0;0;1;0;0;0;6;2;2\r\n"
+  - delay: 8365
+    content: "site:ahspd.com ;site:ahspd.com;0;0;0;0;0;0;0;0;0;1;0;0\r\n"
+  - delay: 8225
+    content: "site:cn.sungrowpower.com ;site:cn.sungrowpower.com;0;0;0;0;0;0;0;0;0;6;0;0\r\n"
+  - delay: 7907
+    content: "site:www.cqscdqc.com ;site:www.cqscdqc.com;0;0;0;0;0;0;0;0;0;0;0;0\r\n"
+  - delay: 7813
+    content: "site:www.lyspd.com ;site:www.lyspd.com;0;0;0;0;0;0;0;0;0;0;0;0\r\n"
+  - delay: 8032
+    content: "site:bjxh.crsc.cn ;site:bjxh.crsc.cn;0;0;0;0;0;0;0;0;0;2;0;0\r\n"
+  - delay: 7809
+    content: "site:www.dehn.cn ;site:www.dehn.cn;0;0;0;0;1;1;0;0;0;9;1;1\r\n"
+  - delay: 7957
+    content: "site:www.xihari.com ;site:www.xihari.com;0;0;0;0;0;0;0;0;0;10;0;0\r\n"
+  - delay: 8195
+    content: "site:www.spd-th.com ;site:www.spd-th.com;0;0;0;0;0;0;0;0;0;6;0;2\r\n"
+  - delay: 7835
+    content: "site:www.chint.net ;site:www.chint.net;0;0;0;0;0;2;0;0;0;8;0;0\r\n"
+  - delay: 7797
+    content: "site:www.yz-telecom.com ;site:www.yz-telecom.com;0;0;0;0;0;0;0;0;0;9;0;0\r\n"
+  - delay: 18189
+    content: ^C
+  - delay: 11
+    content: "\r\n"
+  - delay: 66
+    content: "θ\e[1m\e[31m79°\e[m\x0F \e[1m\e[34m[\e[m\x0Fagalan\e[m\x0F\e[32m:\e[m\x0F\e[1m/data … anteater\e[m\x0F\e[1m\e[34m]\e[m\x0F \e[31mmaster\e[m\x0F(\e[35m+4/-367\e[m\x0F)\e[31m*\e[31m\e[m\x0F \e[33m3m59s\e[m\x0F \e[35m130\e[m\x0F \e[1m±\e[m\x0F "
+  - delay: 1167
+    content: "logout\r\n"

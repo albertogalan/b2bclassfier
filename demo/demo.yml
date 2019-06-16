@@ -9,7 +9,7 @@ config:
   
   # Specify the current working directory path
   # the default is the current working directory path
-  cwd: /data/src/test/anteater/demo
+  cwd: /data/src/test/anteater
   
   # Export additional ENV variables
   env:
@@ -111,255 +111,147 @@ config:
   
 # Records, feel free to edit them
 records:
-  - delay: 717
+  - delay: 676
     content: "git alias  gst,gl,gp,gpa,gd,ga,gcl,gc,gca,gbc,gba,gco  \r\ngit fzf  gf,gb,gt,gh,gr\r\n"
-  - delay: 164
-    content: "θ\e[31m61°\e[m\x0F \e[1m\e[34m[\e[m\x0Fagalan\e[m\x0F\e[32m:\e[m\x0F\e[1m/data … demo\e[m\x0F\e[1m\e[34m]\e[m\x0F \e[31mmaster\e[m\x0F(\e[35m+100/-13\e[m\x0F)\e[31m*\e[31m\e[m\x0F \e[1m±\e[m\x0F "
-  - delay: 592
-    content: cd demo
-  - delay: 202
-    content: "\b\b\b\b\b\b\b\e[3@mkdir\e[C\e[C\e[C\e[C\e[C"
-  - delay: 375
-    content: "\b\b\b\b\b\b\b\b\b\brm -rf dmo"
-  - delay: 313
-    content: "\b\b\b\b\b\b\b\b\b\b\e[1Pmkdir\e[C\e[C\e[C\e[C"
-  - delay: 320
-    content: "\b\b\b\b\b\b\b\b\b\e[6Ppwd"
-  - delay: 320
-    content: "\b\b\b\e[1Pls"
-  - delay: 328
-    content: "\b\bterminalizer render demo"
-  - delay: 800
-    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bcd aa\e[K"
-  - delay: 384
-    content: "\b\b\b\b\b\e[3@mkdir\e[C\e[C\e[C"
-  - delay: 388
-    content: "\b\b\b\b\b\b\b\br\e[K"
-  - delay: 331
-    content: "\bls"
-  - delay: 337
-    content: "\b\bterminalizer render demo"
-  - delay: 585
-    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\e[11Pcd Downloads/"
-  - delay: 319
-    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\e[4Pmkdir tmp"
-  - delay: 241
-    content: "\b\b\b\b\b\b\b\b\bterminalizer render demo"
-  - delay: 577
-    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bvim ~/.config/terminalizer/dem\rmo.yml "
-  - delay: 202
-    content: "\eM\rθ\e[31m61°\e[m\x0F \e[1m\e[34m[\e[m\x0Fagalan\e[m\x0F\e[32m:\e[m\x0F\e[1m/data … demo\e[m\x0F\e[1m\e[34m]\e[m\x0F \e[31mmaster\e[m\x0F(\e[35m+100/-13\e[m\x0F)\e[31m*\e[31m\e[m\x0F \e[1m±\e[m\x0F r\e[K\r\n\r\e[K\eM\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
-  - delay: 466
-    content: "\bvim ~/.config/terminalizer/dem\rmo.yml "
-  - delay: 989
-    content: "\eM\rθ\e[31m61°\e[m\x0F \e[1m\e[34m[\e[m\x0Fagalan\e[m\x0F\e[32m:\e[m\x0F\e[1m/data … demo\e[m\x0F\e[1m\e[34m]\e[m\x0F \e[31mmaster\e[m\x0F(\e[35m+100/-13\e[m\x0F)\e[31m*\e[31m\e[m\x0F \e[1m±\e[m\x0F \e[5Pterminalizer render demo\r\n\r\e[K\eM\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
-  - delay: 152
-    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\e[15Pmkdir tmp"
-  - delay: 159
-    content: "\b\b\b\b\b\b\b\b\bcd Downloads/"
+  - delay: 68
+    content: "θ\e[31m68°\e[m\x0F \e[1m\e[34m[\e[m\x0Fagalan\e[m\x0F\e[32m:\e[m\x0F\e[1m/data … anteater\e[m\x0F\e[1m\e[34m]\e[m\x0F [\e[36menv2\e[m\x0F] \e[31mmaster\e[m\x0F(\e[35m+4/-393\e[m\x0F)\e[31m*\e[31m\e[m\x0F \e[1m±\e[m\x0F "
+  - delay: 1105
+    content: .
+  - delay: 95
+    content: /
   - delay: 136
-    content: "\b\b\b\b\b\b\b\b\b\b\b\b\bterminalizer render demo"
-  - delay: 135
-    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bls\e[K"
-  - delay: 120
-    content: "\b\b\e[1Pr"
-  - delay: 135
-    content: "\bmkdir aa"
-  - delay: 343
-    content: "\b\b\b\b\b\b\b\b\e[3Pcd\e[C\e[C\e[C"
-  - delay: 152
-    content: "\b\b\b\b\bterminalizer render demo"
-  - delay: 660
-    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bls\e[K"
-  - delay: 40
-    content: "\b\bpwd"
-  - delay: 44
-    content: "\b\b\bmkdir dmo"
-  - delay: 36
-    content: "\b\b\b\b\b\b\b\b\b\e[1@rm -rf\e[C\e[C\e[C\e[C"
-  - delay: 42
-    content: "\b\b\b\b\b\b\b\b\b\bmkdir demo"
-  - delay: 39
-    content: "\b\b\b\b\b\b\b\b\b\b\e[3Pcd\e[C\e[C\e[C\e[C\e[C"
-  - delay: 38
-    content: "\b\b\b\b\b\b\b\e[K"
-  - delay: 39
-    content: "\a"
-  - delay: 40
-    content: "\a"
-  - delay: 43
-    content: "\a"
-  - delay: 37
-    content: "\a"
-  - delay: 40
-    content: "\a"
-  - delay: 40
-    content: "\a"
-  - delay: 40
-    content: "\a"
-  - delay: 41
-    content: "\a"
-  - delay: 41
-    content: "\a"
-  - delay: 43
-    content: "\a"
-  - delay: 36
-    content: "\a"
-  - delay: 40
-    content: "\a"
-  - delay: 438
-    content: " \b\e[K \b\e[K`__fzf_history__`"
-  - delay: 25
-    content: "\e[J\e[6n\n\e[G\n\e[G\n\e[G\n\e[G\n\e[G\n\e[G\n\e[G\n\e[G\n\e[G\n\e[G\e[?1000h\e[9A\e[G\e[K\e[6n\r\e[;m                                                                            \r\e[1B\r\e[;m                                                                            \r\e[1B\r\e[;m                                                                            \r\e[1B\r\e[;m                                                                            \r\e[1B\r\e[;m                                                                            \r\e[1B\r\e[;m                                                                            \r\e[1B\r\e[;m                                                                            \r\e[1B\r\e[;m                                                                            \r\e[1B\r\e[;m                                                                            \r\e[1B\r\e[;m                                                                            \r\r\e[;m                                                                            \r\e[;1;38;5;110m> \e[m\e[;1m\e[m\e[;1m\e[m\e[1A\r\e[;m                                                                            \r\r\e[2C\e[;38;5;144m3998/3998 +S\e[m\e[1B\r\e[2C\e[1A\r\e[;m                                                                            \r\r\e[2C\e[;38;5;144m3998/3998 +S\e[m\e[8A\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3991  cd aa\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3992  terminalizer render demo\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3993  ls\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3994  pwd\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3995  mkdir dmo\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3996  rm -rf dmo\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3997  mkdir demo\e[m\e[1B\r\e[;1;38;5;161;48;5;236m>\e[m\e[;1;38;5;254;48;5;236m \e[m\e[;1;38;5;254;48;5;236m 3998  cd demo\e[m\e[2B\r\e[2C"
-  - delay: 99
-    content: "\r\e[2C"
-  - delay: 1347
-    content: "\r\e[;m                                                                            \r\e[;1;38;5;110m> \e[m\e[;1ms\e[m\e[;1m\e[m\r\e[3C"
-  - delay: 23
-    content: "\e[1A\r\e[;m                                                                            \r\r\e[2C\e[;38;5;144m2643/3998 +S\e[m\e[8A\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3945  ./demo.\e[m\e[;38;5;108ms\e[m\e[;mh \e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3946  vim ./demo.\e[m\e[;38;5;108ms\e[m\e[;mh \e[m\e[;m          \e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3947  ./demo.\e[m\e[;38;5;108ms\e[m\e[;mh \e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3959  terminalizer record demo -\e[m\e[;38;5;108ms\e[m\e[;m 2 \e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3960  terminalizer -\e[m\e[;38;5;108ms\e[m\e[;m 2 record demo\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3962  terminalizer --\e[m\e[;38;5;108ms\e[m\e[;mpeed-factor 2 record demo\e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3964  terminalizer --\e[m\e[;38;5;108ms\e[m\e[;mpeed-factor 0.2 record demo\e[m\e[1B\r\e[;1;38;5;161;48;5;236m>\e[m\e[;1;38;5;254;48;5;236m \e[m\e[;1;38;5;254;48;5;236m 3966  terminalizer  --real-timing true  --\e[m\e[;1;38;5;151;48;5;236ms\e[m\e[;1;38;5;254;48;5;236mpeed-factor 0.2 record demo\e[m\e[2B\r\e[3C"
-  - delay: 75
-    content: "\r\e[;m                                                                            \r\e[;1;38;5;110m> \e[m\e[;1msh\e[m\e[;1m\e[m\r\e[4C\e[1A\r\e[;m                                                                            \r\r\e[2C\e[;38;5;144m534/3998 +S\e[m\e[8A\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3932  ./demo.\e[m\e[;38;5;108ms\e[m\e[;m\e[m\e[;38;5;108mh\e[m\e[;m \e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3937  ./demo.\e[m\e[;38;5;108ms\e[m\e[;m\e[m\e[;38;5;108mh\e[m\e[;m \e[m\e[;m    \e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3938  vim demo.\e[m\e[;38;5;108ms\e[m\e[;m\e[m\e[;38;5;108mh\e[m\e[;m \e[m\e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3943  ./demo.\e[m\e[;38;5;108ms\e[m\e[;m\e[m\e[;38;5;108mh\e[m\e[;m \e[m\e[;m                    \e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3944  vim ./demo.\e[m\e[;38;5;108ms\e[m\e[;m\e[m\e[;38;5;108mh\e[m\e[;m \e[m\e[;m               \e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3945  ./demo.\e[m\e[;38;5;108ms\e[m\e[;m\e[m\e[;38;5;108mh\e[m\e[;m \e[m\e[;m                               \e[1B\r\e[;1;38;5;161;48;5;236m \e[m\e[;m \e[;m 3946  vim ./demo.\e[m\e[;38;5;108ms\e[m\e[;m\e[m\e[;38;5;108mh\e[m\e[;m \e[m\e[;m                             \e[1B\r\e[;1;38;5;161;48;5;236m>\e[m\e[;1;38;5;254;48;5;236m \e[m\e[;1;38;5;254;48;5;236m 3947  ./demo.\e[m\e[;1;38;5;151;48;5;236ms\e[m\e[;1;38;5;254;48;5;236m\e[m\e[;1;38;5;151;48;5;236mh\e[m\e[;1;38;5;254;48;5;236m \e[m\e[;m                                                      \e[2B\r\e[4C"
-  - delay: 1001
-    content: "\r\e[;m                                                                            \r\e[;1;38;5;110m> \e[m\e[;1msh\e[m\e[;1m\e[m\e[9A\r\e[A\e[J\e[?1000l"
-  - delay: 12
-    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b!3947\e[K\r\e[Kθ\e[31m61°\e[m\x0F \e[1m\e[34m[\e[m\x0Fagalan\e[m\x0F\e[32m:\e[m\x0F\e[1m/data … demo\e[m\x0F\e[1m\e[34m]\e[m\x0F \e[31mmaster\e[m\x0F(\e[35m+100/-13\e[m\x0F)\e[31m*\e[31m\e[m\x0F \e[1m±\e[m\x0F !3947\b\b\b\b\b./demo.sh "
-  - delay: 544
-    content: "\r\nbash: ./demo.sh: No such file or directory\r\n"
-  - delay: 193
-    content: "\e[1m\e[34m[\e[m\x0Fagalan\e[m\x0F\e[32m:\e[m\x0F\e[1m/data … demo\e[m\x0F\e[1m\e[34m]\e[m\x0F \e[31mmaster\e[m\x0F(\e[35m+100/-13\e[m\x0F)\e[31m*\e[31m\e[m\x0F \e[35m127\e[m\x0F \e[1m±\e[m\x0F "
-  - delay: 1313
-    content: c
-  - delay: 139
+    content: t
+  - delay: 136
+    content: e
+  - delay: 696
+    content: "\b\e[K"
+  - delay: 232
+    content: "\b\e[K"
+  - delay: 118
     content: d
-  - delay: 106
-    content: ' '
-  - delay: 170
-    content: .
-  - delay: 134
-    content: .
-  - delay: 209
-    content: "\r\n"
-  - delay: 251
-    content: "\e[1m\e[34m[\e[m\x0Fagalan\e[m\x0F\e[32m:\e[m\x0F\e[1m/data … anteater\e[m\x0F\e[1m\e[34m]\e[m\x0F \e[31mmaster\e[m\x0F(\e[35m+100/-13\e[m\x0F)\e[31m*\e[31m\e[m\x0F \e[1m±\e[m\x0F "
-  - delay: 467
-    content: cd ..
-  - delay: 225
-    content: "\b\b\b\b\b./demo.sh "
-  - delay: 852
+  - delay: 167
+    content: e
+  - delay: 784
+    content: m
+  - delay: 548
+    content: 'o.sh '
+  - delay: 991
     content: "\r\n"
   - delay: 5
     content: "SCRAPPING CUSTOMERS\r\n....\r\n....\r\n"
-  - delay: 86
-    content: "./scraping/scrap.sh: line 25: source: /data/src/test/anteater/env/bin/python: cannot execute binary file\r\n"
-  - delay: 219
-    content: "   \r\n   \r\nScraping ...  site:www.tecnalia.com\r\n..   \r\nhigh voltage;laboratory;test\r\n"
-  - delay: 33
-    content: "高压;实验室;测试\r\n"
-  - delay: 25
-    content: "   \r\n   \r\nScraping ...  site:www.inmr.com\r\n..   \r\nhigh voltage;laboratory;test\r\n"
-  - delay: 29
-    content: "高压;实验室;测试\r\n"
-  - delay: 18
-    content: "   \r\n   \r\nScraping ...  site:www.precise.co.th\r\n..   \r\nhigh voltage;laboratory;test\r\n"
-  - delay: 30
-    content: "高压;实验室;测试\r\n"
-  - delay: 20
-    content: "   \r\n   \r\nScraping ...  site:www.vangem.com\r\n..   \r\nhigh voltage;laboratory;test\r\n"
-  - delay: 27
-    content: "高压;实验室;测试\r\n"
-  - delay: 19
-    content: "   \r\n   \r\nScraping ...  site:www.jsdgme.com\r\n..   \r\nhigh voltage;laboratory;test\r\n"
-  - delay: 30
-    content: "高压;实验室;测试\r\n"
-  - delay: 30
-    content: "   \r\n   \r\nScraping ...  site:www.lzdcrs.com\r\n..   \r\nhigh voltage;laboratory;test\r\n"
-  - delay: 16
-    content: "高压;实验室;测试\r\n"
-  - delay: 17
-    content: "   \r\n   \r\nScraping ...  site:kingbow.com\r\n..   \r\nhigh voltage;laboratory;test\r\n"
-  - delay: 25
-    content: "高压;实验室;测试\r\n"
-  - delay: 18
-    content: "   \r\n   \r\nScraping ...  site:www.crcc.org.cn\r\n..   \r\nhigh voltage;laboratory;test\r\n"
-  - delay: 25
-    content: "高压;实验室;测试\r\n"
-  - delay: 35
-    content: "   \r\n   \r\nScraping ...  site:xdblq.xd.com.cn\r\n..   \r\nhigh voltage;laboratory;test\r\n"
-  - delay: 20
-    content: "高压;实验室;测试\r\n"
-  - delay: 51
+  - delay: 249
+    content: "   \r\n   \r\nScraping ...  site:www.tecnalia.com\r\n..   \r\nhigh voltage;laboratory;test\r\nloading..\r\n"
+  - delay: 4750
+    content: "高压;实验室;测试\r\nloading..\r\n"
+  - delay: 4270
+    content: "   \r\n   \r\nScraping ...  site:www.inmr.com\r\n..   \r\nhigh voltage;laboratory;test\r\nloading..\r\n"
+  - delay: 4664
+    content: "高压;实验室;测试\r\nloading..\r\n"
+  - delay: 4184
+    content: "   \r\n   \r\nScraping ...  site:www.precise.co.th\r\n..   \r\nhigh voltage;laboratory;test\r\nloading..\r\n"
+  - delay: 4294
+    content: "高压;实验室;测试\r\nloading..\r\n"
+  - delay: 4183
+    content: "   \r\n   \r\nScraping ...  site:www.vangem.com\r\n..   \r\nhigh voltage;laboratory;test\r\nloading..\r\n"
+  - delay: 4184
+    content: "高压;实验室;测试\r\nloading..\r\n"
+  - delay: 4062
+    content: "   \r\n   \r\nScraping ...  site:www.jsdgme.com\r\n..   \r\nhigh voltage;laboratory;test\r\nloading..\r\n"
+  - delay: 4283
+    content: "高压;实验室;测试\r\nloading..\r\n"
+  - delay: 4103
+    content: "   \r\n   \r\nScraping ...  site:www.lzdcrs.com\r\n..   \r\nhigh voltage;laboratory;test\r\nloading..\r\n"
+  - delay: 4207
+    content: "高压;实验室;测试\r\nloading..\r\n"
+  - delay: 3914
+    content: "   \r\n   \r\nScraping ...  site:kingbow.com\r\n..   \r\nhigh voltage;laboratory;test\r\nloading..\r\n"
+  - delay: 4191
+    content: "高压;实验室;测试\r\nloading..\r\n"
+  - delay: 4112
+    content: "   \r\n   \r\nScraping ...  site:www.crcc.org.cn\r\n..   \r\nhigh voltage;laboratory;test\r\nloading..\r\n"
+  - delay: 4168
+    content: "高压;实验室;测试\r\nloading..\r\n"
+  - delay: 4624
+    content: "   \r\n   \r\nScraping ...  site:xdblq.xd.com.cn\r\n..   \r\nhigh voltage;laboratory;test\r\nloading..\r\n"
+  - delay: 3839
+    content: "高压;实验室;测试\r\nloading..\r\n"
+  - delay: 4093
     content: "SCRAPPING LEADS\r\n....\r\n"
-  - delay: 60
-    content: "./scraping/scrap.sh: line 25: source: /data/src/test/anteater/env/bin/python: cannot execute binary file\r\n"
-  - delay: 221
-    content: "   \r\n   \r\nScraping ...  site:ee.xjtu.edu.cn\r\n..   \r\nhigh voltage;laboratory;test\r\n"
-  - delay: 32
-    content: "高压;实验室;测试\r\n"
-  - delay: 31
-    content: "   \r\n   \r\nScraping ...  site:www.dikai.com.cn\r\n..   \r\nhigh voltage;laboratory;test\r\n"
-  - delay: 16
-    content: "高压;实验室;测试\r\n"
-  - delay: 41
-    content: "   \r\n   \r\nScraping ...  site:www.shbst.com\r\n..   \r\nhigh voltage;laboratory;test\r\n"
-  - delay: 20
-    content: "高压;实验室;测试\r\n"
-  - delay: 18
-    content: "   \r\n   \r\nScraping ...  site:www.rstchina.com\r\n..   \r\nhigh voltage;laboratory;test\r\n"
-  - delay: 18
-    content: "高压;实验室;测试\r\n"
-  - delay: 19
-    content: "   \r\n   \r\nScraping ...  site:rstchina.com\r\n..   \r\nhigh voltage;laboratory;test\r\n"
-  - delay: 16
-    content: "高压;实验室;测试\r\n"
-  - delay: 20
-    content: "   \r\n   \r\nScraping ...  site:www.rogy.cn\r\n..   \r\nhigh voltage;laboratory;test\r\n"
-  - delay: 30
-    content: "高压;实验室;测试\r\n"
-  - delay: 18
-    content: "   \r\n   \r\nScraping ...  site:www.airborne-em.com\r\n..   \r\nhigh voltage;laboratory;test\r\n"
-  - delay: 18
-    content: "高压;实验室;测试\r\n"
-  - delay: 27
-    content: "   \r\n   \r\nScraping ...  site:ahspd.com\r\n..   \r\nhigh voltage;laboratory;test\r\n"
-  - delay: 16
-    content: "高压;实验室;测试\r\n"
-  - delay: 19
-    content: "   \r\n   \r\nScraping ...  site:cn.sungrowpower.com\r\n..   \r\nhigh voltage;laboratory;test\r\n"
-  - delay: 17
-    content: "高压;实验室;测试\r\n"
-  - delay: 27
-    content: "   \r\n   \r\nScraping ...  site:www.cqscdqc.com\r\n..   \r\nhigh voltage;laboratory;test\r\n"
-  - delay: 16
-    content: "高压;实验室;测试\r\n"
-  - delay: 18
-    content: "   \r\n   \r\nScraping ...  site:www.lyspd.com\r\n..   \r\nhigh voltage;laboratory;test\r\n"
-  - delay: 18
-    content: "高压;实验室;测试\r\n"
-  - delay: 17
-    content: "   \r\n   \r\nScraping ...  site:bjxh.crsc.cn\r\n..   \r\nhigh voltage;laboratory;test\r\n"
-  - delay: 17
-    content: "高压;实验室;测试\r\n"
-  - delay: 31
-    content: "   \r\n   \r\nScraping ...  site:www.dehn.cn\r\n..   \r\nhigh voltage;laboratory;test\r\n"
-  - delay: 36
-    content: "高压;实验室;测试\r\n"
-  - delay: 31
-    content: "   \r\n   \r\nScraping ...  site:www.xihari.com\r\n..   \r\nhigh voltage;laboratory;test\r\n"
-  - delay: 28
-    content: "高压;实验室;测试\r\n"
-  - delay: 29
-    content: "   \r\n   \r\nScraping ...  site:www.spd-th.com\r\n..   \r\nhigh voltage;laboratory;test\r\n"
-  - delay: 20
-    content: "高压;实验室;测试\r\n"
-  - delay: 33
-    content: "   \r\n   \r\nScraping ...  site:www.chint.net\r\n..   \r\nhigh voltage;laboratory;test\r\n"
-  - delay: 29
-    content: "高压;实验室;测试\r\n"
-  - delay: 37
-    content: "   \r\n   \r\nScraping ...  site:www.yz-telecom.com\r\n..   \r\nhigh voltage;laboratory;test\r\n"
-  - delay: 19
-    content: "高压;实验室;测试\r\n"
-  - delay: 212
-    content: "θ\e[31m63°\e[m\x0F \e[1m\e[34m[\e[m\x0Fagalan\e[m\x0F\e[32m:\e[m\x0F\e[1m/data … anteater\e[m\x0F\e[1m\e[34m]\e[m\x0F \e[31mmaster\e[m\x0F(\e[35m+100/-13\e[m\x0F)\e[31m*\e[31m\e[m\x0F \e[33m2s\e[m\x0F \e[1m±\e[m\x0F "
-  - delay: 2950
+  - delay: 228
+    content: "   \r\n   \r\nScraping ...  site:ee.xjtu.edu.cn\r\n..   \r\nhigh voltage;laboratory;test\r\nloading..\r\n"
+  - delay: 4242
+    content: "高压;实验室;测试\r\nloading..\r\n"
+  - delay: 4077
+    content: "   \r\n   \r\nScraping ...  site:www.dikai.com.cn\r\n..   \r\nhigh voltage;laboratory;test\r\nloading..\r\n"
+  - delay: 4060
+    content: "高压;实验室;测试\r\nloading..\r\n"
+  - delay: 4067
+    content: "   \r\n   \r\nScraping ...  site:www.shbst.com\r\n..   \r\nhigh voltage;laboratory;test\r\nloading..\r\n"
+  - delay: 3737
+    content: "高压;实验室;测试\r\nloading..\r\n"
+  - delay: 4308
+    content: "   \r\n   \r\nScraping ...  site:www.rstchina.com\r\n..   \r\nhigh voltage;laboratory;test\r\nloading..\r\n"
+  - delay: 3956
+    content: "高压;实验室;测试\r\nloading..\r\n"
+  - delay: 3697
+    content: "   \r\n   \r\nScraping ...  site:rstchina.com\r\n..   \r\nhigh voltage;laboratory;test\r\nloading..\r\n"
+  - delay: 4008
+    content: "高压;实验室;测试\r\nloading..\r\n"
+  - delay: 4199
+    content: "   \r\n   \r\nScraping ...  site:www.rogy.cn\r\n..   \r\nhigh voltage;laboratory;test\r\nloading..\r\n"
+  - delay: 4336
+    content: "高压;实验室;测试\r\nloading..\r\n"
+  - delay: 3852
+    content: "   \r\n   \r\nScraping ...  site:www.airborne-em.com\r\n..   \r\nhigh voltage;laboratory;test\r\nloading..\r\n"
+  - delay: 3974
+    content: "高压;实验室;测试\r\nloading..\r\n"
+  - delay: 4007
+    content: "   \r\n   \r\nScraping ...  site:ahspd.com\r\n..   \r\nhigh voltage;laboratory;test\r\nloading..\r\n"
+  - delay: 4226
+    content: "高压;实验室;测试\r\nloading..\r\n"
+  - delay: 4138
+    content: "   \r\n   \r\nScraping ...  site:cn.sungrowpower.com\r\n..   \r\nhigh voltage;laboratory;test\r\nloading..\r\n"
+  - delay: 4187
+    content: "高压;实验室;测试\r\nloading..\r\n"
+  - delay: 4039
+    content: "   \r\n   \r\nScraping ...  site:www.cqscdqc.com\r\n..   \r\nhigh voltage;laboratory;test\r\nloading..\r\n"
+  - delay: 3759
+    content: "高压;实验室;测试\r\nloading..\r\n"
+  - delay: 4147
+    content: "   \r\n   \r\nScraping ...  site:www.lyspd.com\r\n..   \r\nhigh voltage;laboratory;test\r\nloading..\r\n"
+  - delay: 4125
+    content: "高压;实验室;测试\r\nloading..\r\n"
+  - delay: 3688
+    content: "   \r\n   \r\nScraping ...  site:bjxh.crsc.cn\r\n..   \r\nhigh voltage;laboratory;test\r\nloading..\r\n"
+  - delay: 3996
+    content: "高压;实验室;测试\r\nloading..\r\n"
+  - delay: 4036
+    content: "   \r\n   \r\nScraping ...  site:www.dehn.cn\r\n..   \r\nhigh voltage;laboratory;test\r\nloading..\r\n"
+  - delay: 3822
+    content: "高压;实验室;测试\r\nloading..\r\n"
+  - delay: 3986
+    content: "   \r\n   \r\nScraping ...  site:www.xihari.com\r\n..   \r\nhigh voltage;laboratory;test\r\nloading..\r\n"
+  - delay: 4141
+    content: "高压;实验室;测试\r\nloading..\r\n"
+  - delay: 3815
+    content: "   \r\n   \r\nScraping ...  site:www.spd-th.com\r\n..   \r\nhigh voltage;laboratory;test\r\nloading..\r\n"
+  - delay: 3911
+    content: "高压;实验室;测试\r\nloading..\r\n"
+  - delay: 4285
+    content: "   \r\n   \r\nScraping ...  site:www.chint.net\r\n..   \r\nhigh voltage;laboratory;test\r\nloading..\r\n"
+  - delay: 4130
+    content: "高压;实验室;测试\r\nloading..\r\n"
+  - delay: 3704
+    content: "   \r\n   \r\nScraping ...  site:www.yz-telecom.com\r\n..   \r\nhigh voltage;laboratory;test\r\nloading..\r\n"
+  - delay: 4126
+    content: "高压;实验室;测试\r\nloading..\r\n"
+  - delay: 3696
+    content: "DOING ANALYSIS OF LEADS\r\n....\r\n"
+  - delay: 61111
+    content: "θ\e[1m\e[31m78°\e[m\x0F \e[1m\e[34m[\e[m\x0Fagalan\e[m\x0F\e[32m:\e[m\x0F\e[1m/data … anteater\e[m\x0F\e[1m\e[34m]\e[m\x0F [\e[36menv2\e[m\x0F] \e[31mmaster\e[m\x0F(\e[35m+4/-367\e[m\x0F)\e[31m*\e[31m\e[m\x0F \e[33m4m34s\e[m\x0F \e[1m±\e[m\x0F "
+  - delay: 2212
+    content: "\r\n"
+  - delay: 80
+    content: "θ\e[1m\e[31m73°\e[m\x0F \e[1m\e[34m[\e[m\x0Fagalan\e[m\x0F\e[32m:\e[m\x0F\e[1m/data … anteater\e[m\x0F\e[1m\e[34m]\e[m\x0F [\e[36menv2\e[m\x0F] \e[31mmaster\e[m\x0F(\e[35m+4/-367\e[m\x0F)\e[31m*\e[31m\e[m\x0F \e[1m±\e[m\x0F "
+  - delay: 1294
     content: "logout\r\n"

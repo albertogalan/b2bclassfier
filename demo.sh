@@ -1,5 +1,6 @@
 #!/bin/bash 
 echo "SCRAPPING CUSTOMERS"
+
 echo "...."
 echo "...."
 ./scraping/scrap.sh ./data/democompany.txt
@@ -9,4 +10,6 @@ echo "...."
 
 echo "DOING ANALYSIS OF LEADS"
 echo "...."
-python -W ignore ./analysis/data_analysis.py
+cd analysis
+python -W ignore ./data_analysis.py
+cd ..
