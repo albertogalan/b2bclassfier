@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-DATA = 'test1.csv'
+DATA = 'customer.csv'
 
 df = pd.read_csv(DATA, sep=';')
 
