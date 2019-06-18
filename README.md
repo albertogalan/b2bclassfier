@@ -2,7 +2,7 @@
 
 ## A Massive Lead Classification 
 
-- Validation potential customers base on the domain
+- Validation of potential customers base on the domain
 - We use Web scraping and NLP classification techniques to resolve the problem massively
 
 ## Features
