@@ -1,4 +1,9 @@
 .tmp
 env
-log
+generic/generic/logs
+generic/generic/data
+generic/generic/images
+generic/generic/result
+generic/generic/crawls
 
+__pycache__
